@@ -1638,24 +1638,8 @@ a[href*='mailto'] {
     position: relative;
 }
 
-@media (min-width: 992px) {
-    .intro-box {
-        padding: 78px 29px 77px 59px;
-        text-align: left;
-    }
-}
-
 .intro-box>* {
     position: relative;
-}
-
-.intro-box:before {
-    content: ' ';
-    z-index: -1;
-    display: block;
-    position: absolute;
-    background-size: cover;
-    opacity: 0.5;
 }
 
 .intro-box .subtitle {
@@ -1670,27 +1654,27 @@ a[href*='mailto'] {
     color: #346bae;
 }
 
-.intro-box *+.button-group {
-    padding-top: 20px;
-    justify-content: center;
-}
-
-@media (min-width: 1200px) {
-    .intro-box *+.button-group {
-        padding-top: 50px;
-    }
-}
-
 .intro-box .button-group {
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-top: -20px;
-    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .intro-box .button-group>* {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 10px;
+}
+
+@media (max-width: 576px) {
+    .intro-box {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro-box {
+        padding: 40px;
+        text-align: left;
+    }
 }
 
 .icon-box-creative {
