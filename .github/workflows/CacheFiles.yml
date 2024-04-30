@@ -1,5 +1,0 @@
-- name: Terraform Cache
-  # You may pin to the exact commit or the version.
-  # uses: terraform-cache/terraform-cache@4dc1a74d4ac53de01740fd8d87e7d91dfed5ad4c
-  uses: terraform-cache/terraform-cache@v1.0.0
-          
