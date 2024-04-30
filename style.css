@@ -1572,18 +1572,11 @@ a[href*='mailto'] {
 }
 
 .intro-box {
-    padding: 30px;
+    padding: 20px; /* Adjusted padding for smaller screens */
     text-align: center;
     background-color: rgba(255, 255, 255, 0.85);
     border-radius: 12px;
     position: relative;
-}
-
-@media (min-width: 992px) {
-    .intro-box {
-        padding: 78px 29px 77px 59px;
-        text-align: left;
-    }
 }
 
 .intro-box>* {
@@ -1600,9 +1593,9 @@ a[href*='mailto'] {
 }
 
 .intro-box .subtitle {
-    font-size: 18px;
+    font-size: 16px; /* Adjusted font size for smaller screens */
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 10px; /* Adjusted margin for smaller screens */
     letter-spacing: -.01em;
 }
 
@@ -1612,26 +1605,20 @@ a[href*='mailto'] {
 }
 
 .intro-box *+.button-group {
-    padding-top: 20px;
+    padding-top: 15px; /* Adjusted padding for smaller screens */
     justify-content: center;
-}
-
-@media (min-width: 1200px) {
-    .intro-box *+.button-group {
-        padding-top: 50px;
-    }
 }
 
 .intro-box .button-group {
     display: inline-flex;
     flex-wrap: wrap;
-    margin-top: -20px;
-    margin-left: -20px;
+    margin-top: -15px; /* Adjusted margin for smaller screens */
+    margin-left: -15px; /* Adjusted margin for smaller screens */
 }
 
 .intro-box .button-group>* {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 15px; /* Adjusted margin for smaller screens */
+    margin-left: 15px; /* Adjusted margin for smaller screens */
 }
 
 .icon-box-creative {
