@@ -1,0 +1,21 @@
+name: Run Script
+
+on:
+  push:
+    branches:
+      - master  # You can change this to match your branch name
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run Script
+        run: |
+          wget -O clipboard.min.js https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js
+          # You can replace the above line with any other command needed to obtain the script
+
+      # Add additional steps here as needed
