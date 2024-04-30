@@ -1630,68 +1630,6 @@ a[href*='mailto'] {
     background: #ffffff;
 }
 
-.intro-box {
-    padding: 30px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 12px;
-    position: relative;
-}
-
-@media (min-width: 992px) {
-    .intro-box {
-        padding: 78px 29px 77px 59px;
-        text-align: left;
-    }
-}
-
-.intro-box>* {
-    position: relative;
-}
-
-.intro-box:before {
-    content: ' ';
-    z-index: -1;
-    display: block;
-    position: absolute;
-    background-size: cover;
-    opacity: 0.5;
-}
-
-.intro-box .subtitle {
-    font-size: 18px;
-    display: block;
-    margin-bottom: 15px;
-    letter-spacing: -.01em;
-}
-
-.intro-box>h1,
-.intro-box span {
-    color: #346bae;
-}
-
-.intro-box *+.button-group {
-    padding-top: 20px;
-    justify-content: center;
-}
-
-@media (min-width: 1200px) {
-    .intro-box *+.button-group {
-        padding-top: 50px;
-    }
-}
-
-.intro-box .button-group {
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-top: -20px;
-    margin-left: -20px;
-}
-
-.intro-box .button-group>* {
-    margin-top: 20px;
-    margin-left: 20px;
-}
 
 .icon-box-creative {
     position: relative;
