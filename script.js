@@ -1247,7 +1247,7 @@
         }
 
         // WOW
-        if ($html.hasClass("wow-animation") && plugins.wow.length && !isNoviBuilder && isDesktop) {
+        if ($html.hasClass("wow-animation") && plugins.wow.length && !isNoviBuilder && isDesktop && isMobile ) {
             new WOW().init();
         }
 
