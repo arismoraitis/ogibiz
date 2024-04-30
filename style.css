@@ -1597,7 +1597,6 @@ a[href*='mailto'] {
 
 .intro-box .button-group {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
 }
@@ -1606,28 +1605,16 @@ a[href*='mailto'] {
     margin: 10px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .intro-box {
-        padding: 50px;
+        padding: 20px;
     }
 }
 
 @media (min-width: 768px) {
     .intro-box {
-        padding: 70px;
+        padding: 40px;
         text-align: left;
-    }
-}
-
-@media (min-width: 992px) {
-    .intro-box {
-        padding: 78px 29px 77px 59px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .intro-box {
-        padding: 100px;
     }
 }
 
