@@ -1630,52 +1630,7 @@ a[href*='mailto'] {
     background: #ffffff;
 }
 
-.intro-box {
-    padding: 30px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 12px;
-    position: relative;
-}
 
-.intro-box>* {
-    position: relative;
-}
-
-.intro-box .subtitle {
-    font-size: 18px;
-    display: block;
-    margin-bottom: 15px;
-    letter-spacing: -.01em;
-}
-
-.intro-box>h1,
-.intro-box span {
-    color: #346bae;
-}
-
-.intro-box .button-group {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.intro-box .button-group>* {
-    margin: 10px;
-}
-
-@media (max-width: 576px) {
-    .intro-box {
-        padding: 20px;
-    }
-}
-
-@media (min-width: 768px) {
-    .intro-box {
-        padding: 40px;
-        text-align: left;
-    }
-}
 
 .icon-box-creative {
     position: relative;
