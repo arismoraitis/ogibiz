@@ -1,4 +1,65 @@
 @charset "UTF-8";
+/**
+ * [Table of contents]
+ *   1 Base
+ *     1.1 Reset Styles
+ *     1.2 Context Styles
+ *     1.3 Page layout
+ *     1.4 Offsets
+ *   2 Utilities
+ *     2.1 Text styling
+ *     2.2 Row spacing
+ *     2.3 Sections
+ *     2.4 Grid modules
+ *     2.5 Backgrounds
+ *     2.6 Utilities custom
+ *   3 Components
+ *     3.1 Typography
+ *     3.2 Brand
+ *     3.3 Links
+ *     3.4 Blocks
+ *     3.5 Boxes
+ *     3.6 Groups
+ *     3.7 Responsive units
+ *     3.8 Lists
+ *     3.9 Images
+ *     3.10 Icons
+ *     3.11 Tables custom
+ *     3.12 Dividers
+ *     3.13 Buttons
+ *     3.14 Forms
+ *     3.15 Posts
+ *     3.16 Quotes
+ *     3.17 Thumbnails
+ *     3.18 Breadcrumbs
+ *     3.19 Pagination custom
+ *     3.20 Snackbars
+ *     3.21 Footers
+ *   4 Plugins
+ *     4.1 Animate
+ *     4.2 Preloader
+ *     4.3 ToTop
+ *     4.4 RD Navbar
+ *     4.5 Swiper
+ *     4.6 Google Map
+ *     4.7 Search Results
+ *     4.8 Isotope
+ *     4.9 Nav custom
+ *     4.10 Panel custom
+ *     4.11 Tooltop Custom
+ *     4.12 Counter
+ *     4.13 Progress Bars
+ *     4.14 Progress Circle
+ *     4.15 Countdown
+ *     4.16 Owl Carousel
+ *     4.17 Lightgallery
+ *     4.18 Material Parallax
+ *     4.19 Bootstrap Modal
+ */
+
+/** @group Base */
+
+/** @section Reset Styles*/
 
 a:focus,
 button:focus {
@@ -1569,6 +1630,68 @@ a[href*='mailto'] {
     background: #ffffff;
 }
 
+.intro-box {
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .intro-box {
+        padding: 78px 29px 77px 59px;
+        text-align: left;
+    }
+}
+
+.intro-box>* {
+    position: relative;
+}
+
+.intro-box:before {
+    content: ' ';
+    z-index: -1;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.intro-box .subtitle {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: -.01em;
+}
+
+.intro-box>h1,
+.intro-box span {
+    color: #346bae;
+}
+
+.intro-box *+.button-group {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .intro-box *+.button-group {
+        padding-top: 50px;
+    }
+}
+
+.intro-box .button-group {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.intro-box .button-group>* {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 .icon-box-creative {
     position: relative;
@@ -12371,4 +12494,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
         display: inline-block;
         width: 100%;
     }
+}
+
+#appointment .login-form {
+    display: none;
 }
