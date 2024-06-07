@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/**
+ * Columns Template 1
+<div class="reveal fade-left"><!-- Team Classic-->
+<article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/191582/line1.jpg" alt="" width="420" height="424" /></a>
+<div class="team-classic-caption">
+<h4 class="team-classic-name"><a href="#">Mary Lee</a></h4>
+<p class="team-classic-status">Software Developer</p>
+</div>
+</article>
+</div>
+ */
+
+.team-classic {
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+	max-width: 370px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.team-classic-2 .team-classic-status {
+	color: #7796ff;
+}
+
+.team-classic-figure {
+	display: block;
+}
+
+.team-classic-figure img {
+	width: 100%;
+	filter: grayscale(0%);
+	transition: all .3s ease;
+}
+
+.team-classic-caption {
+	position: absolute;
+	overflow: hidden;
+	bottom: 27px;
+	width: 80%;
+	min-width: 300px;
+	padding: 15px 20px 15px 50px;
+	transition: all .3s ease;
+	z-index: 1;
+}
+
+.team-classic-caption::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(17, 17, 17, 0.5);
+	transform: skew(10deg);
+	transform-origin: 50% 100%;
+	z-index: -1;
+}
+
+.team-classic-name {
+	color: #ffffff;
+}
+
+.team-classic-name a, .team-classic-name a:focus, .team-classic-name a:active {
+	color: inherit;
+}
+
+.team-classic-name a:hover {
+	color: #a3b8ff;
+}
+
+.team-classic-status {
+	line-height: 1.5;
+	color: #ffffff;
+	letter-spacing: .025em;
+	font-weight: 400;
+}
+
+* + .team-classic-status {
+	margin-top: 0;
+}
+
+@media (min-width: 576px) {
+	.team-classic-lg {
+		max-width: 420px;
+	}
+	.team-classic-lg .team-classic-caption {
+		bottom: 44px;
+		margin-left: -30px;
+		padding: 15px 20px 15px 85px;
+	}
+}
+
+@media (min-width: 992px) {
+	.desktop .team-classic:hover .team-classic-figure img {
+		filter: grayscale(0);
+	}
+	.desktop .team-classic:hover .team-classic-caption {
+		margin-left: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.team-classic-lg .team-classic-caption {
+		bottom: 10%;
+		padding: 15px 6% 15px 18%;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.team-classic-lg .team-classic-caption {
+		min-width: 260px;
+	}
+}
