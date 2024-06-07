@@ -67,8 +67,8 @@
         border-bottom-right-radius: 5px;
     }
     .schedule2 .schedule2-item .schedule2-item-body {
-        max-height: 250px;
-        height: 250px;
+        max-height: 300px;
+        height: 300px;
     }
     .schedule2 .schedule2-item:hover .schedule2-item-body {
         border-bottom-left-radius: 0 !important;
