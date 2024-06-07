@@ -91,7 +91,7 @@ body {
 
 .intro-box>h1,
 .intro-box span {
-    color: #346bae;
+    color: #F9B50C;
 }
 
 .intro-box *+.button-group {
@@ -120,27 +120,27 @@ body {
 .button-heroimage2,
 .button-heroimage2:focus {
     color: #ffffff;
-    background-color: #346BAE;
-    border-color: #346BAE;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .button-heroimage2:hover,
 .button-heroimage2:active,
 .button-heroimage2.active {
     color: #ffffff;
-    background-color: #346bae;
-    border-color: #346bae;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .button-heroimage2.button-ujarak::before {
-    background: #346bae;
+    background: #F9B50C;
 }
 
 .footer-classic .button-heroimage2,
 .footer-classic .button-heroimage2:focus {
     color: #ffffff;
-    background-color: #346BAE;
-    border-color: #346BAE;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .footer-classic .button-heroimage2:hover,
@@ -202,19 +202,19 @@ button-image2 {
 
 .button-secondary-outline-hero2,
 .button-secondary-outline-hero2:focus {
-    color: #346bae;
+    color: #F9B50C;
     background-color: transparent;
-    border-color: #346bae;
+    border-color: #F9B50C;
 }
 
 .button-secondary-outline-hero2:hover,
 .button-secondary-outline-hero2:active,
 .button-secondary-outline-hero2.active {
     color: #ffffff;
-    background-color: #346bae;
-    border-color: #346bae;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .button-secondary-outline-hero2.button-ujarak::before {
-    background: #346bae;
+    background: #F9B50C;
 }
