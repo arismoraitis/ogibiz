@@ -292,7 +292,7 @@
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    background: #346BAE;
+    background: #F9B50C;
     font-size: 30px;
     line-height: 2.45em;
 }
@@ -384,7 +384,7 @@
 }
 
 .blurb-minimal:hover {
-    background-color: #346BAE;
+    background-color: #F9B50C;
 }
 
 .blurb-minimal:hover .unit-body>p:last-of-type,
@@ -399,7 +399,7 @@
 
 .blurb-minimal__icon .icon {
     font-size: 30px;
-    color: #346BAE;
+    color: #F9B50C;
 }
 
 .blurb-minimal.blurb-minimal_black,
