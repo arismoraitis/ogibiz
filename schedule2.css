@@ -1,0 +1,464 @@
+
+/** @section schedule2 */
+
+
+.sch-sm-4 {
+    width: 100% !important;
+}
+
+.sch-sm-7 {
+    width: 100% !important;
+}
+
+.schedule2 {
+    color: #ffffff;
+}
+
+.schedule2 .schedule2-item-body {
+    padding: 24px 30px 40px;
+    transition: .2s ease-in-out;
+}
+
+.schedule2 .btn {
+    padding: 16px 37px;
+}
+
+.schedule2 hr {
+    margin-top: 13px;
+    background: #5d79b8;
+    opacity: .2;
+}
+
+.schedule2 .schedule2-more {
+    width: 100%;
+    transition: .2s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .schedule2 .schedule2-more {
+        position: absolute;
+        bottom: 0;
+        pointer-events: none;
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+.schedule2 .schedule2-item-body {
+    background: #F9B50C;
+}
+
+.schedule2 .schedule2-item {
+    position: relative;
+}
+
+.schedule2 .schedule2-item.light .schedule2-item-body {
+    background: #F9B50B;
+}
+
+@media (min-width: 768px) {
+    .schedule2 .schedule2-item.first .schedule2-item-body {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .schedule2 .schedule2-item.last .schedule2-item-body {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .schedule2 .schedule2-item .schedule2-item-body {
+        max-height: 250px;
+        height: 250px;
+    }
+    .schedule2 .schedule2-item:hover .schedule2-item-body {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    .schedule2 .schedule2-item:hover .schedule2-more {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        pointer-events: all;
+        opacity: 1;
+    }
+    .schedule2 .schedule2-item:hover .schedule2-item-body {
+        -webkit-transform: translateY(-60px);
+        transform: translateY(-60px);
+    }
+}
+
+.tablet .schedule2-item-body,
+.mobile .schedule2-item-body {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.tablet .schedule2-more,
+.mobile .schedule2-more {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    pointer-events: all;
+    opacity: 1;
+}
+
+.tablet .schedule2-item-body,
+.mobile .schedule2-item-body {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+
+
+.bg-default-liac {
+    background-color: #F1F3F9;
+}
+
+.bg-default-liac:not([style*="background-"])+.bg-default-liac:not([style*="background-"]) {
+    padding-top: 0;
+}
+
+    .section-lg-top-85 {
+        padding-top: 85px;
+    }
+
+.section-top-50 {
+    padding-top: 50px;
+}
+
+    .row-lg-70 {
+        margin-bottom: -70px;
+    }
+    .row-lg-70:empty {
+        margin-bottom: 0;
+    }
+    .row-lg-70>* {
+        margin-bottom: 70px;
+    }
+
+.row-30 {
+    margin-bottom: -30px;
+}
+
+.row-30:empty {
+    margin-bottom: 0;
+}
+
+.row-30>* {
+    margin-bottom: 30px;
+}
+
+[data-isotope-layout] .row.g-0 {
+    margin-bottom: 0;
+}
+
+[data-isotope-layout] .row.g-0>[class*="col-"] {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 768px) {
+    .div-lg-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    *+.offset-lg-top-0 {
+        margin-top: 0;
+    }
+    *+.offset-lg-top-34 {
+        margin-top: 34px;
+    }
+    *+.offset-lg-top-60 {
+        margin-top: 60px;
+    }
+    *+.offset-lg-top-66 {
+        margin-top: 66px;
+    }
+}
+
+*+.offset-top-0 {
+    margin-top: 0;
+}
+
+*+.offset-top-8 {
+    margin-top: 8px;
+}
+
+*+.offset-top-4 {
+    margin-top: 4px;
+}
+
+*+.offset-top-10 {
+    margin-top: 10px;
+}
+
+*+.offset-top-14 {
+    margin-top: 14px;
+}
+
+*+.offset-top-16 {
+    margin-top: 16px;
+}
+
+*+.offset-top-18 {
+    margin-top: 18px;
+}
+
+*+.offset-top-20 {
+    margin-top: 20px;
+}
+
+*+.offset-top-24 {
+    margin-top: 24px;
+}
+
+*+.offset-top-30 {
+    margin-top: 30px;
+}
+
+*+.offset-top-34 {
+    margin-top: 34px;
+}
+
+*+.offset-top-41 {
+    margin-top: 41px;
+}
+
+*+.offset-top-50 {
+    margin-top: 50px;
+}
+
+*+.offset-top-55 {
+    margin-top: 55px;
+}
+
+*+.offset-top-60 {
+    margin-top: 60px;
+}
+
+*+.offset-top-66 {
+    margin-top: 66px;
+}
+
+*+.offset-top-90 {
+    margin-top: 90px;
+}
+
+*+.offset-top-98 {
+    margin-top: 98px;
+}
+
+*+.offset-top-110 {
+    margin-top: 110px;
+}
+
+*+.offset-top-124 {
+    margin-top: 124px;
+}
+
+*+.offset-top-130 {
+    margin-top: 130px;
+}
+
+@media (min-width: 1200px) {
+    html .page .offset-lg-top-34-negative {
+        margin-top: -34px;
+    }
+}
+
+@media (min-width: 480px) {
+    .section-sm-top-34 {
+        padding-top: 34px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .section-xxl-top-34 {
+        padding-top: 34px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-lg-top-34 {
+        padding-top: 34px;
+    }
+}
+  
+.d-inline-block {
+    display: inline-block !important;
+}
+
+
+@media (min-width: 480px) {
+    *+.offset-sm-top-0 {
+        margin-top: 0;
+    }
+    *+.offset-sm-top-8 {
+        margin-top: 8px;
+    }
+    *+.offset-sm-top-10 {
+        margin-top: 10px;
+    }
+    *+.offset-sm-top-24 {
+        margin-top: 24px;
+    }
+    *+.offset-sm-top-30 {
+        margin-top: 30px;
+    }
+    *+.offset-sm-top-60 {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    *+.offset-sm-top-0 {
+        margin-top: 0;
+    }
+    *+.offset-sm-top-8 {
+        margin-top: 8px;
+    }
+    *+.offset-sm-top-10 {
+        margin-top: 10px;
+    }
+    *+.offset-sm-top-24 {
+        margin-top: 24px;
+    }
+    *+.offset-sm-top-30 {
+        margin-top: 30px;
+    }
+    *+.offset-sm-top-60 {
+        margin-top: 60px;
+    }
+}
+
+.btn-java {
+    color: #ffffff;
+    background-color: #23D5AE;
+    border-color: #23D5AE;
+}
+
+.btn-java.focus,
+.btn-java:focus,
+.btn-java:hover,
+.btn-java:active,
+.btn-java.active,
+.open>.btn-java.dropdown-toggle {
+    color: #ffffff !important;
+    background-color: #294481;
+    border-color: #294481;
+}
+
+.btn-java.active,
+.open>.btn-java.dropdown-toggle {
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-java.active:focus,
+.btn-java.active.focus,
+.open>.btn-java.dropdown-toggle:focus,
+.open>.btn-java.dropdown-toggle.focus {
+    color: #ffffff;
+    background-color: #294481;
+    border-color: #294481;
+}
+
+.btn-java.disabled,
+.btn-java[disabled],
+fieldset[disabled] .btn-java {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.btn-java .badge {
+    color: #23D5AE;
+    background-color: #ffffff;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-rect {
+    border-radius: 0;
+}
+
+a.btn.btn-java.btn-block.btn-rect {
+    text-transform: uppercase;
+}
+
+/** To column ID allazei kathe fora */
+
+@media (max-width: 1199px) {
+div#column_2950177 {
+    margin-top: -50px;
+}
+}
+
+@media (min-width: 1200px) {
+div#column_2950177 {
+    margin-top: -150px;
+}
+}
+
+/** <section>
+<div class="container pt-xl-0 section-lg-top-85 section-top-50">
+<div class="row g-0 justify-content-sm-center justify-content-xl-start offset-lg-top-34-negative schedule2 text-sm-start to-front row-30 row-lg-70">
+<div class="schedule2-item first">
+<div class="schedule2-item-body">
+<h6 class="d-inline-block inset-left-10 text-white"><span style="font-size: 14pt;">&Lambda;&epsilon;&iota;&tau;&omicron;&upsilon;&rho;&gamma;ί&alpha; &Iota;&alpha;&tau;&rho;&epsilon;ί&omicron;&upsilon;</span></h6>
+<hr />
+<div class="row offset-top-24 justify-content-sm-between text-gray-light">
+<div class="sch-sm-4"><span style="font-size: 12pt;">&Kappa;&alpha;&theta;&eta;&mu;&epsilon;&rho;&iota;&nu;ά</span></div>
+<div class="sch-sm-7 offset-top-10 offset-sm-top-0 text-sm-end"><span style="font-size: 12pt;">10:00 &pi;.&mu;.&ndash;2:00 &mu;.&mu;</span></div>
+<div class="sch-sm-4 offset-top-30 offset-sm-top-10"><span style="font-size: 12pt;">&Alpha;&pi;ό&gamma;&epsilon;&upsilon;&mu;&alpha;</span></div>
+<div class="sch-sm-7 offset-top-10 text-sm-end"><span style="font-size: 12pt;">06:00 &mu;.&mu;.&ndash;10:00 &mu;.&mu;</span></div>
+<div class="sch-sm-4 offset-top-30 offset-sm-top-10"><span style="font-size: 12pt;">&Sigma;ά&beta;&beta;&alpha;&tau;&omicron; - &Kappa;&upsilon;&rho;&iota;&alpha;&kappa;ή</span></div>
+<div class="sch-sm-7 offset-top-10 text-sm-end"><span style="font-size: 12pt;">&Kappa;&lambda;&epsilon;&iota;&sigma;&tau;ά</span></div>
+</div>
+</div>
+<div class="schedule2-more"><span style="font-size: 12pt;"><a class="btn btn-java btn-block btn-rect" href="timetable.html">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</a></span></div>
+</div>
+</div>
+</div>
+</section>*/
+
+/**  <section>
+<div class="container pt-xl-0 section-lg-top-85 section-top-50">
+<div class="row g-0 justify-content-sm-center justify-content-xl-start offset-lg-top-34-negative schedule2 text-sm-start to-front row-30 row-lg-70">
+<div class="schedule2-item light last">
+<div class="schedule2-item-body">
+<h6 class="d-inline-block inset-left-10 text-white"><span style="font-size: 14pt;">&Epsilon;&xi;&epsilon;&iota;&delta;&iota;&kappa;&epsilon;ύ&sigma;&epsilon;&iota;&sigmaf;</span></h6>
+<hr />
+<div class="offset-top-24 text-gray-light">
+<p><span style="color: #ffffff; font-size: 13pt;">✔ &Kappa;&alpha;&rho;&delta;&iota;&alpha;&kappa;ή &alpha;&nu;&epsilon;&pi;ά&rho;&kappa;&epsilon;&iota;&alpha;<br /></span></p>
+<p><span style="color: #ffffff; font-size: 13pt;">✔ &Eta;&lambda;&epsilon;&kappa;&tau;&rho;&omicron;&kappa;&alpha;&rho;&delta;&iota;&omicron;&gamma;&rho;ά&phi;&eta;&mu;&alpha;</span></p>
+<p><span style="color: #ffffff; font-size: 13pt;">✔ Triplex &Kappa;&alpha;&rho;&delta;&iota;ά&sigmaf;</span></p>
+</div>
+</div>
+<div class="schedule2-more"><span style="font-size: 12pt;"><a class="btn btn-java btn-block btn-rect" href="timetable.html">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</a></span></div>
+</div>
+</div>
+</div>
+</section>  */
+
+/** <section>
+<div class="container pt-xl-0 section-lg-top-85 section-top-50">
+<div class="row g-0 justify-content-sm-center justify-content-xl-start offset-lg-top-34-negative schedule2 text-sm-start to-front row-30 row-lg-70">
+<div class="schedule2-item first">
+<div class="schedule2-item-body">
+<h6 class="d-inline-block inset-left-10 text-white"><span style="font-size: 14pt;">&Tau;&eta;&lambda;έ&phi;&omega;&nu;&omicron; Έ&kappa;&tau;&alpha;&kappa;&tau;&eta;&sigmaf; &Alpha;&nu;ά&gamma;&kappa;&eta;&sigmaf;</span></h6>
+<hr />
+<div class="offset-top-24">
+<h5 class="fw-bold"><strong><span style="font-size: 18pt; color: #ffffff;"><a class="text-white" style="color: #ffffff;" href="tel:#">210 491 3293</a></span></strong></h5>
+<p class="text-gray-light"><span style="color: #ffffff; font-size: 13pt;"><br />&Sigma;&epsilon; &pi;&epsilon;&rho;ί&pi;&tau;&omega;&sigma;&eta; έ&kappa;&tau;&alpha;&kappa;&tau;&eta;&sigmaf; &alpha;&nu;ά&gamma;&kappa;&eta;&sigmaf;, &mu;&eta; &delta;&iota;&sigma;&tau;ά&sigma;&epsilon;&tau;&epsilon; &nu;&alpha; &epsilon;&pi;&iota;&kappa;&omicron;&iota;&nu;&omega;&nu;ή&sigma;&epsilon;&tau;&epsilon; &alpha;&mu;έ&sigma;&omega;&sigmaf; &mu;&epsilon; &tau;&omicron;&nu; &iota;&alpha;&tau;&rho;ό!</span></p>
+</div>
+</div>
+<div class="schedule2-more"><span style="font-size: 12pt;"><a class="btn btn-java btn-block btn-rect" href="timetable.html">&Kappa;&Alpha;&Lambda;&Epsilon;&Sigma;&Tau;&Epsilon;</a></span></div>
+</div>
+</div>
+</div>
+</section> */
