@@ -64,9 +64,7 @@
         height: 400px;
     }
 }
-
-@media (min-width: 768px) {
-
+@media screen and (max-width: 1109px) and (min-width: 768px) {
     .schedule .schedule-item .schedule-item-body {
         max-height: 600px;
         height: 600px;
