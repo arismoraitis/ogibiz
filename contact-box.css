@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/* Hero Image Template 2 */
+
+/* <div class="intro-box wow fadeInLeft" data-wow-dalay=".2s"><span class="subtitle">Welcome to MedCare Clinic</span>
+<h1 style="text-align: left;">The best specialists of the city expect you</h1>
+<div class="button-group" style="text-align: left;"><a class="button-heroimage2 button-image2 button-md-hero2" href="#">Make an appointment</a><a class="button-secondary-outline-hero2 button-image2" href="departments.html">Departments</a></div>
+</div> */
+
+body {
+      font-family: 'Titillium Web', sans-serif;
+}
+
+.contact-box {
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%, 0%) !important;
+    }
+
+.intro-contact-box p {
+    line-height: 35px;
+}
+
+@media (min-width: 769px) {
+
+      div#banner_2950820 {
+      display: none;
+      }
+}
+
+
+@media (max-width: 768px) {
+
+      div#banner_2950839 {
+      display: none;
+      }
+}
+@media (max-width: 991px) {
+
+.contact-box {
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%, 0%) !important;
+        max-width: 150% !important;
+        width: 150% !important;
+    }
+      .intro-box.wow.fadeInLeft h1 {
+    font-size: 28px;
+}
+}
+
+.intro-contact-box {
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    position: relative !important;
+}
+
+@media (min-width: 992px) {
+    .intro-contact-box {
+        padding: 78px 29px 77px 59px;
+        text-align: left;
+    }
+}
+
+
+.intro-contact-box:before {
+    content: ' ';
+    z-index: -1;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.intro-contact-box .subtitle {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: -.01em;
+}
+
+.intro-contact-box>h1,
+.intro-contact-box span {
+    color: #346bae;
+}
+
+.intro-contact-box *+.button-group {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .intro-contact-box *+.button-group {
+        padding-top: 50px;
+    }
+}
+
+.intro-contact-box .button-group {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.intro-contact-box .button-group>* {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.button-contact-box,
+.button-contact-box:focus {
+    color: #ffffff;
+    background-color: #346BAE;
+    border-color: #346BAE;
+}
+
+.button-contact-box:hover,
+.button-contact-box:active,
+.button-contact-box.active {
+    color: #ffffff;
+    background-color: #346bae;
+    border-color: #346bae;
+}
+
+.button-contact-box.button-ujarak::before {
+    background: #346bae;
+}
+
+.footer-classic .button-contact-box,
+.footer-classic .button-contact-box:focus {
+    color: #ffffff;
+    background-color: #346BAE;
+    border-color: #346BAE;
+}
+
+.footer-classic .button-contact-box:hover,
+.footer-classic .button-contact-box:active,
+.footer-classic .button-contact-box.active {
+    color: #ffffff;
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.footer-classic .button-contact-box.button-ujarak::before {
+    background: #333333;
+}
+
+.button-md-contact-box {
+    padding: 20px 35px;
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+.button-contact-box {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 21px 34px;
+    font-size: 14px;
+    line-height: 1.25;
+    border: 1px solid;
+    font-family: "Asap", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+a:focus,
+button-contact-box:focus {
+    outline: none !important;
+}
+
+button-contact-box::-moz-focus-inner {
+    border: 0;
+}
+
+button-contact-box {
+    outline: none;
+}
+
+*+.button-contact-box {
+    margin-top: 30px;
+}
+
+.button-secondary-outline-contact-box,
+.button-secondary-outline-contact-box:focus {
+    color: #346bae;
+    background-color: transparent;
+    border-color: #346bae;
+}
+
+.button-secondary-outline-contact-box:hover,
+.button-secondary-outline-contact-box:active,
+.button-secondary-outline-contact-box.active {
+    color: #ffffff;
+    background-color: #346bae;
+    border-color: #346bae;
+}
+
+.button-secondary-outline-contact-box.button-ujarak::before {
+    background: #346bae;
+}
