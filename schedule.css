@@ -57,6 +57,22 @@
     background: #F9B50B;
 }
 
+@media (min-width: 1110px) {
+
+    .schedule .schedule-item .schedule-item-body {
+        max-height: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .schedule .schedule-item .schedule-item-body {
+        max-height: 600px;
+        height: 600px;
+    }
+}
+
 @media (min-width: 768px) {
     .schedule .schedule-item.first .schedule-item-body {
         border-top-left-radius: 5px;
@@ -65,10 +81,6 @@
     .schedule .schedule-item.last .schedule-item-body {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-    }
-    .schedule .schedule-item .schedule-item-body {
-        max-height: 400px;
-        height: 400px;
     }
     .schedule .schedule-item:hover .schedule-item-body {
         border-bottom-left-radius: 0 !important;
