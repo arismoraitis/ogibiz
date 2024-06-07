@@ -83,7 +83,7 @@ body {
 
 .intro-contact-box>h1,
 .intro-contact-box span {
-    color: #346bae;
+    color: #F9B50C;
 }
 
 .intro-contact-box *+.button-group {
@@ -112,27 +112,27 @@ body {
 .button-contact-box,
 .button-contact-box:focus {
     color: #ffffff;
-    background-color: #346BAE;
-    border-color: #346BAE;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .button-contact-box:hover,
 .button-contact-box:active,
 .button-contact-box.active {
     color: #ffffff;
-    background-color: #346bae;
-    border-color: #346bae;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .button-contact-box.button-ujarak::before {
-    background: #346bae;
+    background: #F9B50C;
 }
 
 .footer-classic .button-contact-box,
 .footer-classic .button-contact-box:focus {
     color: #ffffff;
-    background-color: #346BAE;
-    border-color: #346BAE;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .footer-classic .button-contact-box:hover,
@@ -194,19 +194,19 @@ button-contact-box {
 
 .button-secondary-outline-contact-box,
 .button-secondary-outline-contact-box:focus {
-    color: #346bae;
+    color: #F9B50C;
     background-color: transparent;
-    border-color: #346bae;
+    border-color: #F9B50C;
 }
 
 .button-secondary-outline-contact-box:hover,
 .button-secondary-outline-contact-box:active,
 .button-secondary-outline-contact-box.active {
     color: #ffffff;
-    background-color: #346bae;
-    border-color: #346bae;
+    background-color: #F9B50C;
+    border-color: #F9B50C;
 }
 
 .button-secondary-outline-contact-box.button-ujarak::before {
-    background: #346bae;
+    background: #F9B50C;
 }
