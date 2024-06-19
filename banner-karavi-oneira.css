@@ -32,7 +32,7 @@ body {
       display: none;
       }
 }
-@media (max-width: 991px) {
+@media (max-width: 1115px) {
 
 .hero-content {
         position: relative !important;
