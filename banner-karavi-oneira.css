@@ -41,6 +41,9 @@ body {
         max-width: 150% !important;
         width: 150% !important;
     }
+      .intro-box {
+       text-align: center !important;
+      }
       .intro-box.wow.fadeInLeft h1 {
     font-size: 28px;
     text-align: center !important;
@@ -69,7 +72,6 @@ body {
 @media (min-width: 992px) {
     .intro-box {
         padding: 78px 29px 77px 59px;
-        text-align: left;
     }
 }
 
