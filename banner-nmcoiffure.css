@@ -14,7 +14,7 @@ body {
 .hero-content {
         position: relative !important;
         left: 50% !important;
-        transform: translate(-50%, 0%) !important;
+        transform: translate(-100%, 0%) !important;
     }
 
 
@@ -78,7 +78,7 @@ body {
 @media (min-width: 1116px) {
     .intro-box {
         padding: 78px 29px 77px 59px;
-        text-align: center !important;
+        text-align: left !important;
     }
 }
 
