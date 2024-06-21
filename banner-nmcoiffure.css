@@ -32,7 +32,7 @@ body {
       display: none;
       }
 }
-@media (max-width: 1115px) {
+@media (min-width: 769px) {
 
 .hero-content {
         position: relative !important;
@@ -73,13 +73,6 @@ body {
 .intro-box {
     background-color: rgba(255, 255, 255, 0.90);
 }
-}
-
-@media (min-width: 1116px) {
-    .intro-box {
-        padding: 78px 29px 77px 59px;
-        text-align: center !important;
-    }
 }
 
 
