@@ -14,13 +14,13 @@ body {
 .hero-content {
         position: relative !important;
         left: 50% !important;
-        transform: translate(-100%, 0%) !important;
+        transform: translate(-50%, 0%) !important;
     }
 
 
 @media (min-width: 769px) {
 
-      div#banner_2950175 {
+      div#banner_2955093 {
       display: none;
       }
 }
@@ -28,7 +28,7 @@ body {
 
 @media (max-width: 768px) {
 
-      div#banner_2950425 {
+      div#banner_2955092 {
       display: none;
       }
 }
@@ -78,7 +78,7 @@ body {
 @media (min-width: 1116px) {
     .intro-box {
         padding: 78px 29px 77px 59px;
-        text-align: left !important;
+        text-align: center !important;
     }
 }
 
