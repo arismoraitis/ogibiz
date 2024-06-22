@@ -196,6 +196,10 @@
     color: #fff;
 }
 
+.bg-accent .blurb-minimal .blurb-minimal__icon2 .icon {
+    color: #fff;
+}
+
 .bg-black .blurb__title {
     color: #fff;
 }
@@ -377,6 +381,10 @@
     font-size: 55px;
 }
 
+.blurb-minimal .unit .blurb-minimal__icon2 .icon {
+    font-size: 55px;
+}
+
 .blurb-minimal,
 .blurb-minimal .unit-body>p:last-of-type,
 .blurb-minimal .icon {
@@ -402,6 +410,11 @@
     color: #F9B50C;
 }
 
+.blurb-minimal__icon2 .icon {
+    font-size: 30px;
+    color: #F9B50C;
+}
+
 .blurb-minimal.blurb-minimal_black,
 .blurb-minimal.blurb-minimal_black .blurb-minimal__icon .icon {
     color: #000;
@@ -411,10 +424,17 @@
     .blurb-minimal__icon .icon {
         font-size: 36px;
     }
+
+        .blurb-minimal__icon2 .icon {
+        font-size: 36px;
+    }
 }
 
 @media (min-width: 1400px) {
     .blurb-minimal__icon .icon {
+        font-size: 44px;
+    }
+        .blurb-minimal__icon2 .icon {
         font-size: 44px;
     }
 }
