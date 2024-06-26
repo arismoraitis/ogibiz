@@ -23,8 +23,8 @@ body {
         position: relative !important;
         left: 50% !important;
         transform: translate(-50%, 0) !important;
-        max-width: 150% !important;
-        width: 150% !important;
+        max-width: 200% !important;
+        width: 200% !important;
         text-align: center !important;
     }
       .intro-box.wow.fadeInLeft h1 {
@@ -52,7 +52,7 @@ div#line_2954415 a.button-heroimage2.button-image2.button-md-hero2 {
 .intro-box {
     padding: 30px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 12px;
     position: relative !important;
 }
