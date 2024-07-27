@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/* Hero Image Template 2 */
+
+/* <div class="intro-box wow fadeInLeft" data-wow-dalay=".2s"><span class="subtitle">Welcome to MedCare Clinic</span>
+<h1 style="text-align: left;">The best specialists of the city expect you</h1>
+<div class="button-group" style="text-align: left;"><a class="button-heroimage2 button-image2 button-md-hero2" href="#">Make an appointment</a><a class="button-secondary-outline-hero2 button-image2" href="departments.html">Departments</a></div>
+</div> */
+
+body {
+      font-family: 'Titillium Web', sans-serif;
+}
+
+.hero-content {
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-100%, 0%) !important;
+    }
+
+@media (max-width: 991px) {
+
+.hero-content {
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%, 0) !important;
+        max-width: 200% !important;
+        width: 200% !important;
+        text-align: center !important;
+    }
+      .intro-box.wow.fadeInLeft h1 {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 768px) {
+
+.hero-content {
+        position: relative !important;
+        left: 50% !important;
+        transform: translate(-50%, 20%) !important;
+        max-width: 150% !important;
+        width: 150% !important;
+    }
+div#line_2954414 a.button-heroimage2.button-image2.button-md-hero2 {
+    width: 100%;
+}
+div#line_2954415 a.button-heroimage2.button-image2.button-md-hero2 {
+    width: 100%;
+}
+}
+
+.intro-box {
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    position: relative !important;
+}
+
+@media (min-width: 992px) {
+    .intro-box {
+        padding: 78px 59px 77px 59px;
+        text-align: center;
+    }
+}
+
+
+.intro-box:before {
+    content: ' ';
+    z-index: -1;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.intro-box .subtitle {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;
+    letter-spacing: -.01em;
+}
+
+.intro-box>h1,
+.intro-box span {
+    color: #E31D42;
+}
+
+.intro-box *+.button-group {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .intro-box *+.button-group {
+        padding-top: 50px;
+    }
+}
+
+.intro-box .button-group {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.intro-box .button-group>* {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.button-heroimage2,
+.button-heroimage2:focus {
+    color: #ffffff;
+    background-color: #E31D42;
+    border-color: #E31D42;
+}
+
+.button-heroimage2:hover,
+.button-heroimage2:active,
+.button-heroimage2.active {
+    color: #ffffff;
+    background-color: #E31D42;
+    border-color: #E31D42;
+}
+
+.button-heroimage2.button-ujarak::before {
+    background: #E31D42;
+}
+
+.footer-classic .button-heroimage2,
+.footer-classic .button-heroimage2:focus {
+    color: #ffffff;
+    background-color: #E31D42;
+    border-color: #E31D42;
+}
+
+.footer-classic .button-heroimage2:hover,
+.footer-classic .button-heroimage2:active,
+.footer-classic .button-heroimage2.active {
+    color: #ffffff;
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.footer-classic .button-heroimage2.button-ujarak::before {
+    background: #333333;
+}
+
+.button-md-hero2 {
+    padding: 20px 35px;
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+.button-image2 {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 21px 34px;
+    font-size: 14px;
+    line-height: 1.25;
+    border: 1px solid;
+    font-family: "Asap", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+a:focus,
+button-image2:focus {
+    outline: none !important;
+}
+
+button-image2::-moz-focus-inner {
+    border: 0;
+}
+
+button-image2 {
+    outline: none;
+}
+
+*+.button-image2 {
+    margin-top: 30px;
+}
+
+.button-secondary-outline-hero2,
+.button-secondary-outline-hero2:focus {
+    color: #E31D42;
+    background-color: transparent;
+    border-color: #E31D42;
+}
+
+.button-secondary-outline-hero2:hover,
+.button-secondary-outline-hero2:active,
+.button-secondary-outline-hero2.active {
+    color: #ffffff;
+    background-color: #E31D42;
+    border-color: #E31D42;
+}
+
+.button-secondary-outline-hero2.button-ujarak::before {
+    background: #E31D42;
+}
