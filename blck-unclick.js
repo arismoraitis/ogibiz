@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     // Disable all click event listeners on the specified elements
-    const buttons = document.querySelectorAll('.button-heroimage2');
+    const buttons = document.querySelectorAll('.hero-content');
     buttons.forEach(button => {
         button.addEventListener('click', (e) => {
             e.stopImmediatePropagation();
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 document.addEventListener('DOMContentLoaded', (event) => {
     // Remove existing click event listeners on .button-heroimage2 elements
-    const buttons = document.querySelectorAll('.button-heroimage2');
+    const buttons = document.querySelectorAll('.hero-content');
     buttons.forEach(button => {
         // Clone the button to remove event listeners
         const newButton = button.cloneNode(true);
@@ -20,8 +20,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Ensure buttons are clickable
     const buttonStyles = document.createElement('style');
     buttonStyles.innerHTML = `
-        .button-heroimage2 {
+        .hero-content {
             pointer-events: auto !important;
+            z-index: 9999 !important;
         }
     `;
     document.head.appendChild(buttonStyles);
