@@ -1,10 +1,9 @@
-function removeMouseOverListener() {
-    // Select the element with the ID 'slider-home-0'
-    var element = document.getElementById("slider-home-0");
-    
-    // Check if the element exists
-    if (element) {
-        // Remove the 'mouseover' event listener from the element
-        element.removeEventListener("mouseover", removeMouseOver, false);
+$('#slider-home-0').on('click', 'a', function(event) {
+    // Check if the target is a link
+    if ($(event.target).is('a')) {
+        return true; // Allow the link to be followed
     }
-}
+
+    // Other conditions where you want to prevent the default action
+    event.preventDefault();
+});
