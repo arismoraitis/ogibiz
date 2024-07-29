@@ -1,11 +1,18 @@
-function removeScript(src) {
-  const scripts = document.getElementsByTagName('script');
-  for (let i = 0; i < scripts.length; i++) {
-    if (scripts[i].src.includes(src)) {
-      scripts[i].parentNode.removeChild(scripts[i]);
-    }
-  }
-}
+        // Define the event listener function
+        function onMouseOver() {
+            console.log('Mouse is over the element!');
+        }
 
-// Remove the polyfills script
-removeScript('polyfills.d49af079a931b085d446.js');
+        // Select the element
+        const element = document.querySelector('#slider-home-0.carousel.bs-slider.slide.control-round.indicators-line');
+
+        // Check if the element exists before adding/removing an event listener
+        if (element) {
+            // Add the mouseover event listener
+            element.addEventListener('mouseover', onMouseOver, true);
+
+            // Remove the mouseover event listener
+            element.removeEventListener('mouseover', onMouseOver, true);
+        } else {
+            console.log('Element not found');
+        }
