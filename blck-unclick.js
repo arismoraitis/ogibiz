@@ -1,33 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Function to remove all event listeners from an element
-    function removeAllEventListeners(element) {
-        let newElement = element.cloneNode(true);
-        element.parentNode.replaceChild(newElement, element);
-        return newElement;
+function removeScript(src) {
+  const scripts = document.getElementsByTagName('script');
+  for (let i = 0; i < scripts.length; i++) {
+    if (scripts[i].src.includes(src)) {
+      scripts[i].parentNode.removeChild(scripts[i]);
     }
+  }
+}
 
-    // Ensure pointer events are enabled
-    function ensurePointerEvents(element) {
-        element.style.pointerEvents = 'auto';
-        let children = element.querySelectorAll('*');
-        children.forEach(child => {
-            child.style.pointerEvents = 'auto';
-        });
-    }
-
-    // Select the banner element
-    let banner = document.querySelector('.banner');
-    if (banner) {
-        // Remove all event listeners
-        banner = removeAllEventListeners(banner);
-        // Ensure pointer events
-        ensurePointerEvents(banner);
-    }
-
-    // Additionally, handle specific buttons if needed
-    let buttons = document.querySelectorAll('.button-heroimage2');
-    buttons.forEach(button => {
-        button = removeAllEventListeners(button);
-        ensurePointerEvents(button);
-    });
-});
+// Remove the polyfills script
+removeScript('polyfills.d49af079a931b085d446.js');
