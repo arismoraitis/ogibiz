@@ -1,60 +1,33 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Disable all click event listeners on the specified elements
-    const buttons = document.querySelectorAll('.banner');
+document.addEventListener('DOMContentLoaded', () => {
+    // Function to remove all event listeners from an element
+    function removeAllEventListeners(element) {
+        let newElement = element.cloneNode(true);
+        element.parentNode.replaceChild(newElement, element);
+        return newElement;
+    }
+
+    // Ensure pointer events are enabled
+    function ensurePointerEvents(element) {
+        element.style.pointerEvents = 'auto';
+        let children = element.querySelectorAll('*');
+        children.forEach(child => {
+            child.style.pointerEvents = 'auto';
+        });
+    }
+
+    // Select the banner element
+    let banner = document.querySelector('.banner');
+    if (banner) {
+        // Remove all event listeners
+        banner = removeAllEventListeners(banner);
+        // Ensure pointer events
+        ensurePointerEvents(banner);
+    }
+
+    // Additionally, handle specific buttons if needed
+    let buttons = document.querySelectorAll('.button-heroimage2');
     buttons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            e.stopImmediatePropagation();
-        }, true);
+        button = removeAllEventListeners(button);
+        ensurePointerEvents(button);
     });
-});
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Remove existing click event listeners on .button-heroimage2 elements
-    const buttons = document.querySelectorAll('.banner');
-    buttons.forEach(button => {
-        // Clone the button to remove event listeners
-        const newButton = button.cloneNode(true);
-        button.parentNode.replaceChild(newButton, button);
-    });
-
-    // Ensure buttons are clickable
-    const buttonStyles = document.createElement('style');
-    buttonStyles.innerHTML = `
-        .banner {
-            pointer-events: auto !important;
-            z-index: 9999 !important;
-        }
-    `;
-    document.head.appendChild(buttonStyles);
-});
-
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Disable all click event listeners on the specified elements
-    const buttons = document.querySelectorAll('.hero-content');
-    buttons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            e.stopImmediatePropagation();
-        }, true);
-    });
-});
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Remove existing click event listeners on .button-heroimage2 elements
-    const buttons = document.querySelectorAll('.hero-content');
-    buttons.forEach(button => {
-        // Clone the button to remove event listeners
-        const newButton = button.cloneNode(true);
-        button.parentNode.replaceChild(newButton, button);
-    });
-
-    // Ensure buttons are clickable
-    const buttonStyles = document.createElement('style');
-    buttonStyles.innerHTML = `
-        .hero-content {
-            pointer-events: auto !important;
-            z-index: 9999 !important;
-        }
-    `;
-    document.head.appendChild(buttonStyles);
 });
