@@ -1,13 +1,18 @@
 /*
 Για να λειτουργήσει σωστά το js πρέπει να μπει στο css ο παρακάτω κώδικας
-.content-block {
+@media (min-width: 769px) {
+ .textfitimg {
+    height: -webkit-fill-available;
+}
+}
+.content-block .textfitimg {
  background-color: #f6f2e8 !important;
- padding: 50px;
- display: flex !important;
- flex-direction: column !important;
- justify-content: center !important;
- box-sizing: border-box !important; Για να συμπεριληφθούν τα padding και το border στο ύψος
- margin: 0 !important; Εξάλειψη των περιθωρίων για πιο ακριβή μέτρηση
+padding: 50px;
+display: flex !important;
+flex-direction: column !important;
+justify-content: center !important;
+box-sizing: border-box !important; Για να συμπεριληφθούν τα padding και το border στο ύψος
+  margin: 0 !important; Εξάλειψη των περιθωρίων για πιο ακριβή μέτρηση
 }
 */
 // Temporarily set the container height to auto to calculate its natural height
