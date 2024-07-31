@@ -1,10 +1,5 @@
 /*
 Για να λειτουργήσει σωστά το js πρέπει να μπει στο css ο παρακάτω κώδικας
-@media (min-width: 769px) {
- .textfitimg {
-    height: -webkit-fill-available;
-}
-}
 .content-block .textfitimg {
  background-color: #f6f2e8 !important;
 padding: 50px;
