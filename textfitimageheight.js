@@ -19,7 +19,7 @@ box-sizing: border-box !important; Για να συμπεριληφθούν τα
 function adjustTextHeight() {
     if (window.innerWidth > 769) {
         var imageContainers = document.querySelectorAll('.content-block-new img');
-        var textContainers = document.querySelectorAll('.content-block');
+        var textContainers = document.querySelectorAll('.content-block .textfitimg');
 
         imageContainers.forEach(function(img, index) {
             if (index < textContainers.length) {
