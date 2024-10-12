@@ -336,8 +336,8 @@
 
 .btn-java {
     color: #ffffff;
-    background-color: #908787;
-    border-color: #908787;
+    background-color: #BFD3D6;
+    border-color: #BFD3D6;
 }
 
 .btn-java.focus,
@@ -347,8 +347,8 @@
 .btn-java.active,
 .open>.btn-java.dropdown-toggle {
     color: #ffffff !important;
-    background-color: #908787;
-    border-color: #908787;
+    background-color: #23d5ae;
+    border-color: #23d5ae;
 }
 
 .btn-java.active,
