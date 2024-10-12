@@ -46,7 +46,7 @@
 }
 
 .schedule .schedule-item-body {
-    background: #908787;
+    background: #BFD3D6;
 }
 
 .schedule .schedule-item {
@@ -54,7 +54,7 @@
 }
 
 .schedule .schedule-item.light .schedule-item-body {
-    background: #908787;
+    background: #BFD3D6;
 }
 
 @media (min-width: 768px) {
@@ -361,8 +361,8 @@
 .open>.btn-java.dropdown-toggle:focus,
 .open>.btn-java.dropdown-toggle.focus {
     color: #ffffff;
-    background-color: #908787;
-    border-color: #908787;
+    background-color: #BFD3D6;
+    border-color: #BFD3D6;
 }
 
 .btn-java.disabled,
@@ -373,7 +373,7 @@ fieldset[disabled] .btn-java {
 }
 
 .btn-java .badge {
-    color: #908787;
+    color: #BFD3D6;
     background-color: #ffffff;
 }
 
