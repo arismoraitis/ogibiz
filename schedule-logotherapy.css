@@ -361,8 +361,8 @@
 .open>.btn-java.dropdown-toggle:focus,
 .open>.btn-java.dropdown-toggle.focus {
     color: #ffffff;
-    background-color: #BFD3D6;
-    border-color: #BFD3D6;
+    background-color: #908787;
+    border-color: #908787;
 }
 
 .btn-java.disabled,
