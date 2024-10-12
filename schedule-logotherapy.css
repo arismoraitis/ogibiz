@@ -46,7 +46,7 @@
 }
 
 .schedule .schedule-item-body {
-    background: #BFD3D6;
+    background: #908787;
 }
 
 .schedule .schedule-item {
@@ -54,7 +54,7 @@
 }
 
 .schedule .schedule-item.light .schedule-item-body {
-    background: #3b61b9;
+    background: #908787;
 }
 
 @media (min-width: 768px) {
