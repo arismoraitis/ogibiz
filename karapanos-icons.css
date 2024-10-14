@@ -391,9 +391,9 @@
     transition: .33s all ease;
 }
 
-.blurb-minimal:hover {
+/* .blurb-minimal:hover {
     background-color: #ffc20c;
-}
+} */
 
 .blurb-minimal:hover .unit-body>p:last-of-type,
 .blurb-minimal:hover a,
