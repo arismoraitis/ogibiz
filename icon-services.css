@@ -1,0 +1,420 @@
+@charset "UTF-8";
+/*
+*
+* Trunk version 2.0.0
+<div><!-- Blurb circle-->
+<article class="blurb blurb-minimal">
+<div class="unit flex-row unit-spacing-md">
+<div class="unit-left">
+<div class="blurb-minimal__icon"><span class="icon mdi mdi-heart-pulse">&nbsp;</span></div>
+</div>
+<div class="unit-body">
+<p class="blurb__title heading-6"><a href="single-service.html">Interior Design</a></p>
+<p>We develop and implement better interior design concepts for you so that you and all your guests could enjoy the unique atmosphere of your home.</p>
+</div>
+</div>
+</article>
+</div>
+<div>&nbsp;</div>
+*
+*/
+
+@media (max-width: 1199px) {
+    .rd-navbar-static .rd-navbar-nav-wrap .rd-navbar-nav-wrap__element+.rd-navbar-nav {
+        margin-right: 15px;
+    }
+    .rd-navbar-static .rd-navbar-top-panel__content-bottom .list-bordered .unit .unit-left {
+        display: none;
+    }
+    .rd-navbar-static .rd-navbar-top-panel__content-bottom .list-bordered .unit .unit-body {
+        padding-left: 0;
+    }
+}
+
+.rd-navbar-fixed .rd-navbar-top-panel__content .list-bordered .unit .unit__left {
+    display: none;
+}
+
+.rd-navbar-fixed .rd-navbar-top-panel__content .list-bordered .unit .unit__body {
+    padding-left: 0;
+}
+
+.blurb__title.heading-6 a:hover {
+    color: white !important;
+}
+
+/*
+*
+* Responsive unit
+* --------------------------------------------------
+*/
+
+.unit {
+    display: flex;
+    flex: 0 1 100%;
+}
+
+.unit:empty {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.unit__body {
+    flex: 1 1 auto;
+}
+
+.unit__left,
+.unit__right {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+.unit {
+    margin-bottom: -30px;
+    margin-left: -20px;
+}
+
+.unit>* {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+@media (min-width: 576px) {
+    .unit-sm {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+    .unit-sm>* {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .unit-md {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+    .unit-md>* {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .unit-lg {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+    .unit-lg>* {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .unit-xl {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+    .unit-xl>* {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .unit-xxl {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+    .unit-xxl>* {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+}
+
+.unit-spacing-xs {
+    margin-bottom: -5px;
+    margin-left: -5px;
+}
+
+.unit-spacing-xs>* {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.unit-spacing-sm {
+    margin-bottom: -20px;
+    margin-left: -15px;
+}
+
+.unit-spacing-sm>* {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.unit-spacing-md {
+    margin-bottom: -30px;
+    margin-left: -15px;
+}
+
+.unit-spacing-md>* {
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.unit-spacing-lg {
+    margin-bottom: -45px;
+    margin-left: -25px;
+}
+
+.unit-spacing-lg>* {
+    margin-bottom: 45px;
+    margin-left: 25px;
+}
+
+@media (max-width: 767px) {
+    .unit.unit-horizontal.unit-spacing-md .unit-body {
+        padding-left: 18px;
+    }
+}
+
+
+.box-comment .unit__body>* {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+.box-comment__product .unit-body {
+    width: 100%;
+}
+}
+
+.bg-accent .blurb-minimal,
+.bg-accent .blurb-minimal .blurb-minimal__icon .icon {
+    color: #fff;
+}
+
+.bg-black .blurb__title {
+    color: #fff;
+}
+
+*+.blurb-minimal {
+    margin-top: 40px;
+}
+
+.blurb-minimal+.blurb-minimal {
+    margin-top: 35px;
+}
+
+
+
+.context-dark .blurb__title,
+.bg-accent .blurb__title,
+.bg-gray-dark .blurb__title,
+.bg-black .blurb__title,
+.bg-gray-darker .blurb__title,
+.bg-gray-darkest .blurb__title,
+.bg-image-4 .blurb__title,
+.bg-image-6 .blurb__title,
+.bg-image-7 .blurb__title,
+.bg-image-8 .blurb__title {
+    color: #fff;
+}
+
+.context-dark .blurb-circle,
+.bg-accent .blurb-circle,
+.bg-gray-dark .blurb-circle,
+.bg-black .blurb-circle,
+.bg-gray-darker .blurb-circle,
+.bg-gray-darkest .blurb-circle,
+.bg-image-4 .blurb-circle,
+.bg-image-6 .blurb-circle,
+.bg-image-7 .blurb-circle,
+.bg-image-8 .blurb-circle,
+.context-dark .blurb-circle .blurb-circle__icon .icon,
+.bg-accent .blurb-circle .blurb-circle__icon .icon,
+.bg-gray-dark .blurb-circle .blurb-circle__icon .icon,
+.bg-black .blurb-circle .blurb-circle__icon .icon,
+.bg-gray-darker .blurb-circle .blurb-circle__icon .icon,
+.bg-gray-darkest .blurb-circle .blurb-circle__icon .icon,
+.bg-image-4 .blurb-circle .blurb-circle__icon .icon,
+.bg-image-6 .blurb-circle .blurb-circle__icon .icon,
+.bg-image-7 .blurb-circle .blurb-circle__icon .icon,
+.bg-image-8 .blurb-circle .blurb-circle__icon .icon {
+    color: #fff;
+}
+
+.context-dark .blurb-minimal,
+.bg-accent .blurb-minimal,
+.bg-gray-dark .blurb-minimal,
+.bg-black .blurb-minimal,
+.bg-gray-darker .blurb-minimal,
+.bg-gray-darkest .blurb-minimal,
+.bg-image-4 .blurb-minimal,
+.bg-image-6 .blurb-minimal,
+.bg-image-7 .blurb-minimal,
+.bg-image-8 .blurb-minimal {
+    color: #333;
+}
+
+.blurb img {
+    width: auto;
+}
+
+.blurb__title {
+    color: #000;
+}
+
+*+.blurb__title {
+    margin-top: 16px;
+}
+
+@media (min-width: 1200px) {
+    *+.blurb__title {
+        margin-top: 45px;
+    }
+}
+
+.blurb-circle {
+    text-align: center;
+}
+
+.blurb-circle .unit .blurb-circle__icon {
+    position: relative;
+    top: 3px;
+}
+
+.blurb-circle__icon .icon {
+    width: 2.4em;
+    height: 2.4em;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background: #2e3093;
+    font-size: 30px;
+    line-height: 2.45em;
+}
+
+.blurb-circle__icon .icon::before {
+    line-height: inherit;
+}
+
+.blurb-circle+.blurb-circle {
+    margin-top: 40px;
+}
+
+@media (min-width: 576px) {
+    .blurb-circle {
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .desktop .blurb-circle .blurb-circle__icon .icon {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .desktop .blurb-circle .blurb-circle__icon .icon::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        left: -1px;
+        right: -1px;
+        top: -1px;
+        bottom: -1px;
+        transition: .3s;
+        z-index: -1;
+        transform: translateX(-100%);
+        border-radius: 50%;
+        background: #151515;
+    }
+    .desktop .blurb-circle:hover .blurb-circle__icon .icon::after {
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 1200px) {
+    .blurb-circle__icon .icon {
+        font-size: 36px;
+    }
+    .blurb-circle+.blurb-circle {
+        margin-top: 55px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .blurb-circle__icon .icon {
+        font-size: 44px;
+    }
+}
+
+.blurb-circle.blurb-circle_centered {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .blurb-circle {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.blurb-minimal {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.blurb-minimal .unit .blurb-minimal__icon .icon {
+    font-size: 55px;
+}
+
+.blurb-minimal,
+.blurb-minimal .unit-body>p:last-of-type,
+.blurb-minimal .icon {
+    transition: .33s all ease;
+}
+
+.blurb-minimal:hover {
+    background-color: #2e3093;
+}
+
+.blurb-minimal:hover .unit-body>p:last-of-type,
+.blurb-minimal:hover a,
+.blurb-minimal:hover .icon {
+    color: #fff;
+}
+
+.blurb-minimal:hover a:hover {
+    color: #333;
+}
+
+.blurb-minimal__icon .icon {
+    font-size: 30px;
+    color: #2e3093;
+}
+
+.blurb-minimal.blurb-minimal_black,
+.blurb-minimal.blurb-minimal_black .blurb-minimal__icon .icon {
+    color: #000;
+}
+
+@media (min-width: 1200px) {
+    .blurb-minimal__icon .icon {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .blurb-minimal__icon .icon {
+        font-size: 44px;
+    }
+}
