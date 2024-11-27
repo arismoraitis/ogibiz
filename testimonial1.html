@@ -3,235 +3,151 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
   <script type="module">
-$(document).ready(function() {
-
-            var owl = $("#owl-demo1");
-
-            owl.owlCarousel({
-				 loop:false,
-                 margin:10,
-                 nav:true,
-	             autoplay:false,
-                 dots:false,
-				 items: 3, //10 items above 1000px browser width
-                  responsiveClass:true,
-                responsive:{
-                0:{
-                items:1,
-                nav:false,
-                },
-               600:{
-               items:2,
-            nav:false,
-        },
-        1000:{
-            items:4,
-            nav:false,
-            loop:false,
-        }
-    }
-})
-
-                   });
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[980,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
   </script>
   <style>
-    /* display none until init */
-.owl-carousel{
-	display: none;
-	position: relative;
-	width: 100%;
-	-ms-touch-action: pan-y;
-  
+.demo{ background: #f8f8f8; }
+.testimonial{
+    margin: 0 20px 40px;
 }
-.owl-carousel .owl-wrapper{
-	display: none;
-	position: relative;
-	-webkit-transform: translate3d(0px, 0px, 0px);
-  
+.testimonial .testimonial-content{
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 35px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    position: relative;
 }
-.owl-carousel .owl-wrapper-outer{
-	overflow: hidden;
-	position: relative;
-	width: 100%;
+.testimonial .testimonial-content:after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 22px;
+    transform: rotate(45deg);
 }
-.owl-carousel .owl-item img{
-    width: 45px;
-    padding:7px!important;
-    background-color:#f6f5ff;
-		margin-left:0px!important;
-    border-radius:15px;
+.testimonial-content .testimonial-icon{
+    width: 50px;
+    height: 45px;
+    background: #ff4242;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
 }
-.owl-carousel .allitem {
-  padding: 25px;
-	border-radius:0px;
+.testimonial-content .testimonial-icon:before{
+    content: "";
+    border-bottom: 16px solid #e41212;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
 }
-.owl-carousel .owl-item{
-	float: left;
-	border-radius:5px;
-  border:1px solid rgba(87,59,255,0.21);
+.testimonial .description{
+    font-size: 15px;
+    font-style: italic;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
 }
-.owl-controls .owl-page,
-.owl-controls .owl-buttons div{
-	cursor: pointer;
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
 }
-.owl-controls {
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 50);
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #ff4242;
 }
-
-/* mouse grab icon */
-.grabbing { 
-    cursor:url(grabbing.png) 8 8, move;
+.owl-theme .owl-controls{
+    margin-top: 20px;
 }
-
-/* fix */
-.owl-carousel  .owl-wrapper,
-.owl-carousel  .owl-item{
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
-  -webkit-transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-}
-
-
-.user-blog {
-    background: #0000;
-    padding: 0px 0px 0px;
-}
-
-div#owl-demo1 .item {
-    padding: 0 5px;
-}
-.blog-allof {
-  background: #fff;
-  border-radius: 10px;
-  margin-left:30px!important;
-}
-
-.discretion-blog {
-    padding: 0px;
-	align-items:left;
-}
-
-.discretion-blog p {
-   font-size: 16px;
-   color:#595665;
-	 padding-bottom:15px !important;
-	 margin-top:0px;
-   line-height: 26px;
-   font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
-}
-
-.discretion-blog h3 {
-  color: #1F2D3D;
-  font-size: 20px;
-  font-weight: 700;
-	margin-top:0px;
-	margin-bottom:10px;
-  line-height: 26px;
-  font-family: 'DM Sans', Helvetica, Arial, Lucida, sans-serif;
-  margin-top: 25px !important;
-  margin-bottom: 20px !important;
-}
-
-.et_pb_module.et_pb_text_align_center {
-    text-align: left;
-}
-
-
-
-
-.user-blog .owl-theme .owl-controls .owl-page span {
-    width: 17px;
-    height: 17px;
-    background: #454343;
+.owl-theme .owl-controls .owl-page span{
+    background: #ccc;
     opacity: 1;
+    transition: all 0.4s ease 0s;
 }
-.user-blog .owl-theme .owl-controls .owl-page.active span, .user-blog .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: #82b53f;
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #ff4242;
 }
 </style>
 </head>
 <body>
-<div class="container">
- </div>
-   
- <div id="owl-demo1" class="owl-carousel">
-  
-   
-          <div class="allitem">
-  <div class="blog-allof">
-  <div class="img-date">
-  <img src="https://d8f5e3t5.rocketcdn.me/wp-content/uploads/2022/03/icon1.svg">
-                                  
-                                </div>
-    <div class="discretion-blog">
-      
-      <h3>Make the most of your platform</h3>
-       <p>Reduce operational costs with no compromise on how you run your business.</p>      
-                                </div>
+<div class="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
                             </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
                         </div>
-<div class="allitem">
-<div class="blog-allof">
-<div class="img-date">
-<img src="https://cdn.glitch.global/dd8103f7-7d84-405a-b89a-0b33a3c4212f/icon2.png?v=1719399041953">
-
-</div>
-   <div class="discretion-blog">
-      
-    
-                                    <h3>Boost agent productivity</h3>
-     <p>Deliver a personalized customer experience with the right context.</p>
-    
-                                </div>
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
                             </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
                         </div>
-   <div class="allitem">
-    <div class="blog-allof">
-     <div class="img-date">
-     <img src="https://d8f5e3t5.rocketcdn.me/wp-content/uploads/2022/03/icon4.svg">
-                                   
-                                </div>
-   <div class="discretion-blog">
-    
-    <h3>User-friendly cloud contact solutions</h3>
-              <p>Designed with the users in mind and can be set up in minutes.</p>
-         
-                                </div>
-                                </div>
-   </div>
-     <!--END OF CAROSEL-->
-                              
-     <div class="allitem">
-  <div class="blog-allof">
-  <div class="img-date">
-  <img src="https://d8f5e3t5.rocketcdn.me/wp-content/uploads/2022/04/icon3-1.svg">
-                                  
-                                </div>
-    <div class="discretion-blog">
-      
-    <h3>Scales with your business</h3>
-     <p>Upgrade your platform and access more benefits as your business grows.</p>
-   
-   
-                                </div>
+                        <h3 class="title">Kristina</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">
+                                <i class="fa fa-quote-left"></i>
                             </div>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                            </p>
                         </div>
-
-                              
-                   <!--END OF CAROSEL-->              
-                      
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>         
 </body>
 </html>
