@@ -1,29 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>ogimarketingsystem.com/</title>
-
-        <!-- Σύνδεση με το Bootstrap CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="">
+        <meta name="author" content=""><title>ogimarketingsystem.com/</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Στυλ για το frontend της εφαρμογής -->
         <link href="https://ogimarketingsystem.com/css/frontend/search/style-v2.min.css?v=1.0.0" rel="stylesheet">
-
-        <!-- Σύνδεση με τα CSS αρχεία -->
-        <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/vendors.min1.css">
-        <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/icon.min1.css">
-        <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/style1.css">
-        <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/responsive1.css">
-
-        <!-- Use a single version of jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     </head>
     <body>
-<section id="ogi-contact2" class="position-relative bg-very-light-gray">
+        <section id="ogi-contact2" class="position-relative bg-very-light-gray">
     <div class="container appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
         <div class="row mb-3">
             <div class="col text-center">
@@ -33,12 +19,16 @@
         <div class="row align-items-center justify-content-center position-relative z-index-1">
             <div class="col-xl-10 col-lg-12">
                 <!-- Ενσωματωμένη φόρμα -->
-                <form id="appointment-form" class="row contact-form-style-02" action="https://ogimarketingsystem.com/contactlists/addguestfromother" method="post">
+                <form id="appointment-form" class="row contact-form-style-02 form_sec" action="https://ogimarketingsystem.com/contactlists/addguestfromother" method="post">
+                            <input type="hidden" name="data[returnType]" value="json" />
+                            <input type="hidden" name="data[Guest][addlist]" value="27989" />
+                            <input type="hidden" name="data[Guest][reg_form]" value="960" />
+                            <input type="hidden" name="data[email_notification]" value="1" />
                     <div class="col-md-6 mb-30px">
                         <input class="input-name border-radius-4px border-color-white box-shadow-double-large form-control required is-invalid" name="data[Guest][name]" type="text" placeholder="Patient's full name*" />
                     </div>
                     <div class="col-md-6 mb-30px">
-                        <input class="border-radius-4px border-color-white box-shadow-double-large form-control required" name="data[Guest][email]" type="email" placeholder="Patient's email*" />
+                        <input class="border-radius-4px border-color-white box-shadow-double-large form-control email required" name="data[Guest][email]" type="email" placeholder="Patient's email*" />
                     </div>
                     <div class="col-md-6 mb-30px">
                         <div class="date-time row gutter-small">
@@ -84,77 +74,106 @@
             </div>
         </div>
     </div>
+                                    <div class="error" id="error-message"></div>
+                        <div class="success" id="success-message"></div>
 </section>
-
-<!-- Σύνδεση με το Bootstrap JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<script>
-    var requiredFields = ['data[Guest][email]', 'data[Guest][name]'];
-    var urlRedirect = "https://elenikonsta.gr";
-    var validationErrorMessage = "Please fill all required fields";
-    var successMessage = "You have subscribed successfully";
-
-    function showError(message = null) {
-        if (message === null) {
-            $('#error-message').text('').hide();
-        } else {
-            $('#error-message').text(message).show();
-        }
-    }
-
-    function showSuccess(message) {
-        showError();
-        $('#success-message').text(message).show();
-    }
-
-    $("#appointment-form").submit(function(e){
-        e.preventDefault();
-        console.log("Form submitted"); // Debugging to check if this is being triggered
-
-        // Validate email
-        var filterEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-        var emailField = $("input[name='data[Guest][email]']").val();
-        if (!filterEmail.test(emailField)) {
-            showError(validationErrorMessage);
-            return false;
-        }
-
-        // Validate required fields
-        for (var i = 0; i < requiredFields.length; i++) {
-            var fieldName = requiredFields[i];
-            var fieldValue = $("input[name='" + fieldName + "'], textarea[name='" + fieldName + "'], select[name='" + fieldName + "']").val();
-            if (!fieldValue.trim()) {
-                showError(validationErrorMessage);
-                return false;
+        <script src="https://ogimarketingsystem.com/css/frontend/search/jquery-1.10.2.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+            var requiredFields = ['email'];
+            var urlRedirect = "https://elenikonsta.gr";
+            var validationErrorMessage = "Please fill all required fields";
+            if (!validationErrorMessage) {
+                validationErrorMessage = "Please fill all required fields";
             }
-        }
-
-        // Submit the form via AJAX
-        var url = "https://ogimarketingsystem.com/contactlists/addguestfromother";
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: $("#appointment-form").serialize(),
-            async: true,
-            crossDomain: true,
-            dataType: "json",
-            success: function(data) {
-                if (data.status == true) {
-                    showSuccess(data.message);
-                    $("#appointment-form")[0].reset();
-                    if (urlRedirect != "") {
-                        setTimeout(function(){
-                            window.location.href = urlRedirect;
-                        }, 1000);
-                    }
+            var successMessage = "&Eta; &epsilon;&gamma;&gamma;&rho;&alpha;&phi;ή &sigma;&alpha;&sigmaf; &omicron;&lambda;&omicron;&kappa;&lambda;&eta;&rho;ώ&theta;&eta;&kappa;&epsilon;!";
+            if (!successMessage) {
+                successMessage = "You have subscribed successfully";
+            }
+            function showError(message = null) {
+                if (message === null) {
+                    $('#error-message').text('').hide();
                 } else {
-                    showError(data.message);
+                    $('#error-message').text(message).show();
                 }
             }
-        });
-    });
-</script>
+            function showSuccess(message) {
+                showError();
+                $('#success-message').text(message).show();
+            }
+            $(".subregform").click(function(e){
+                e.preventDefault();
 
-</body>
+                var filterEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                if (!filterEmail.test($("#email").val())) {
+                    showError(validationErrorMessage);
+                    return false;
+                }
+                if (requiredFields.indexOf('name') !== -1 && $("#name").val() == "") {
+                    showError(validationErrorMessage);
+                    return false;
+                }
+                if (requiredFields.indexOf('first_name') !== -1 && $("#first_name").val() == "") {
+                    showError(validationErrorMessage);
+                    return false;
+                }
+                if (requiredFields.indexOf('last_name') !== -1 && $("#last_name").val() == "") {
+                    showError(validationErrorMessage);
+                    return false;
+                }
+                if (requiredFields.indexOf('street_address') !== -1 && $("#street_address").val() == "") {
+                    showError(validationErrorMessage);
+                    return false;
+                }
+                if (requiredFields.indexOf('phone_number') !== -1 && $("#phone_number").val() == "") {
+                    showError(validationErrorMessage);
+                    return false;
+                }
+                if (requiredFields.indexOf('comment') !== -1 && $("#comment").val() == "") {
+                    showError(validationErrorMessage);
+                    return false;
+                }
+
+                var url = "https://ogimarketingsystem.com/contactlists/addguestfromother";
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: $(".form_sec").serialize(),
+                    async: true,
+                    crossDomain: true,
+                    dataType: "json",
+                    success: function(data) {
+                        if (data.status == true) {
+                            showSuccess(data.message);
+                            $(".form_sec")[0].reset();
+                            if (urlRedirect != "") {
+                                setTimeout(function(){
+                                    window.parent.location.href = urlRedirect;
+                                }, 1000);
+                            }
+                        } else {
+                            showError(data.message);
+                        }
+                    }
+                });
+            });
+            var url2 = "https://ogimarketingsystem.com/templates/checkstat";
+            var url3 = "https://ogimarketingsystem.com/unavailablepage";
+            $(document).ready(function(){
+                $.ajax({
+                    type: "POST",
+                    url: url2,
+                    data: {
+                        user_id: 6450                    },
+                    async: true,
+                    crossDomain: true,
+                    success: function(data) {
+                        if (data == 1) {
+                            window.parent.location.href = url3;
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
 </html>
