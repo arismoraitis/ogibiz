@@ -122,7 +122,7 @@ $(".subregform").click(function(e){
     }
 
     // Validate required fields
-    var requiredFields = ['data[Guest][email]', 'data[Guest][name]', 'data[Guest][message]'];
+    var requiredFields = ['data[Guest][email]', 'data[Guest][name]'];
     for (var i = 0; i < requiredFields.length; i++) {
         var fieldName = requiredFields[i];
         var fieldValue = $("input[name='" + fieldName + "'], textarea[name='" + fieldName + "'], select[name='" + fieldName + "']").val();
