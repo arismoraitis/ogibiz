@@ -10814,6 +10814,11 @@ blockquote footer {
   background-position: right center;
   color: var(--white);
 }
+.btn-gradient-blue-green {
+  background-image: linear-gradient(to right, #247a97, #ace4ec, #70c8d9);
+  background-size: 200% auto;
+  color: var(--white);
+}
 .btn-gradient-purple-pink {
   background-image: linear-gradient(to right, #8b14b1, #d53d6e, #8b14b1);
   background-size: 200% auto;
