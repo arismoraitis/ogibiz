@@ -1,10 +1,10 @@
-/* General OGIBIZ Settings*/
+/* General OGIBIZ Settings */
 
 @media all and (max-width: 768px) {
   body:before {
     background: #f8f8f8 !important;
   }
-
+}
   p.title6 {
     line-height: 40px !important;
   }
