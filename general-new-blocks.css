@@ -1,18 +1,4 @@
 /* NEW BLOCKS GENERAL SETTINGS */
-html {
-  font-size: 16px !important;
-}
-
-body {
-  font-family: var(--primary-font) !important;
-  font-size: 16px !important;
-  line-height: 30px !important;
-  font-weight: 400 !important;
-  color: var(--medium-gray) !important;
-  -moz-osx-font-smoothing: grayscale !important;
-  word-break: break-word !important;
-  -webkit-font-smoothing: antialiased !important;
-}
 
 /* Παραμετροποιήσεις για Full width */
 
