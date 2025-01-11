@@ -1,0 +1,112 @@
+  	/* General OGIBIZ Settings*/
+	
+  @media all and (max-width: 768px) {
+  
+  body:before {
+  background: #f8f8f8 !important;
+  }
+
+  p.title6 {
+  line-height: 40px !important;
+  }
+  .title6{
+    text-align: center;
+    color:#222; 
+    font-size:30px; 
+    font-weight:400;
+    word-spacing: 1px; 
+    letter-spacing:2px; 
+  }
+  
+  .title6 div{
+    line-height:1em; 
+    padding-bottom:15px;
+    text-transform: none;
+    font-size:.7em;
+    font-weight: normal;
+    font-style: italic;
+    color:#333; 
+    letter-spacing:-0.005em; 
+    word-spacing:1px;
+    letter-spacing:none;
+    text-shadow: 0 0 1px var(--color5);
+  }
+  .title6:after, .title6:before{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 45px;
+    height: 3px;
+    content: "";
+    right: 45px; 
+    margin:auto;
+    background-color: var(--color1);
+  }
+  .title6:before{
+    background-color:var(--color1);
+    left:45px; 
+    width:90px;
+  }
+  
+  .mycolumn6 {
+    padding: 20px;
+    margin: 10px;
+    background:  var(--color3),0.5;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%), 0px 4px 8px rgb(0 0 0 / 15%), 0px 8px 16px rgb(0 0 0 / 15%), 0px 16px 32px rgb(0 0 0 / 15%);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-radius: 10px;
+border-left: 4px solid var(--color1);
+  }
+  
+  @media all and (max-width: 767px) {
+    .mycolumn6 {
+      height: initial!important;
+      margin: 10px;
+    }
+  }
+  
+   button#contactSubmit {
+  width: 100%;
+  }
+  
+  .btn-primary:hover {
+  
+  background-color: var(--color-btn-hover) !important;
+  border-color: var(--color-btn-hover) !important;
+  
+  }
+  
+ @media all and (max-width: 768px) {
+
+.button-group {
+text-align: center !important;
+}
+}
+
+td {
+    white-space: break-spaces;
+}
+
+	/* ΚΩΔΙΚΑΣ ΓΙΑ SERVICES ME KEIMENO ΠΑΝΩ ΣΤΗΝ ΕΙΚΟΝΑ */
+
+@media (min-width: 576px) {
+    .team-classic-lg {
+        max-width: 100% !important;
+    }
+}
+
+.team-classic-name a:hover {
+    color: white;
+}
+
+  .team-classic-caption::before {
+  background-color: var(--color1);
+  opacity: 0.8 !important;
+  }
+  
+	/* END ΚΩΔΙΚΑΣ ΓΙΑ SERVICES ME KEIMENO ΠΑΝΩ ΣΤΗΝ ΕΙΚΟΝΑ */
+
+ /* END General OGIBIZ Settings*/
