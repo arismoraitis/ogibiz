@@ -109,4 +109,43 @@ td {
   
 	/* END ΚΩΔΙΚΑΣ ΓΙΑ SERVICES ME KEIMENO ΠΑΝΩ ΣΤΗΝ ΕΙΚΟΝΑ */
 
+
+/* Menu Settings */
+
+.navbar-brand img {
+    max-height: 130px !important;
+}
+  
+@media (min-width: 1200px) {
+  div#menu .col-lg-2 {
+      width: 20% !important;
+  }
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: inline-end !important;
+    }
+}
+
+  .custom-menu li a:hover, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a {
+  border-radius: 20px;
+  }
+  
+  ul.nav.navbar-nav.navbar-right.custom-menu a {
+    font-size: 20px !important;
+    padding: 10px;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background: var(--color1) !important;
+color: white !important;
+}
+
+.dropdown li a:hover {
+text-decoration: underline !important;
+}
+
+	/* END Menu Settings */
+	  
  /* END General OGIBIZ Settings*/
