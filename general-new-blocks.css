@@ -408,4 +408,80 @@ section#ogi-about4 {
 
 /* END OGI About 4 */
 
+
+/* OGI Testimonials 2 */
+
+.shadow-effect-testimonials2 {
+    background: #fff !important;
+    padding: 20px !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    border: 1px solid #ECECEC !important;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10) !important, 0 15px 12px rgba(0,0,0,0.02) !important;
+}
+#customers-testimonials2 .shadow-effect-testimonials2 p {
+    font-family: inherit !important;
+    font-size: 17px !important;
+    line-height: 1.5 !important;
+    margin: 0 0 17px 0 !important;
+    font-weight: 300 !important;
+}
+.testimonials2-name {
+    margin: -17px auto 0 !important;
+    display: table !important;
+    width: auto !important;
+    background: #3190E7 !important;
+    padding: 9px 35px !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    color: #fff !important;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.12) !important, 0 5px 7px rgba(0,0,0,0.05) !important;
+}
+#customers-testimonials2 .item {
+    text-align: center !important;
+    padding: 50px !important;
+    margin-bottom: 80px !important;
+    opacity: .2 !important;
+    -webkit-transform: scale3d(0.8, 0.8, 1) !important;
+    transform: scale3d(0.8, 0.8, 1) !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
+#customers-testimonials2 .owl-item.active.center .item {
+    opacity: 1 !important;
+    -webkit-transform: scale3d(1.0, 1.0, 1) !important;
+    transform: scale3d(1.0, 1.0, 1) !important;
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d !important;
+    max-width: 90px !important;
+    margin: 0 auto 17px !important;
+}
+#customers-testimonials2.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials2.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #3190E7 !important;
+    transform: translate3d(0px, -50%, 0px) scale(0.7) !important;
+}
+#customers-testimonials2.owl-carousel .owl-dots {
+    display: inline-block !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+#customers-testimonials2.owl-carousel .owl-dots .owl-dot {
+    display: inline-block !important;
+}
+#customers-testimonials2.owl-carousel .owl-dots .owl-dot span {
+    background: #3190E7 !important;
+    display: inline-block !important;
+    height: 20px !important;
+    margin: 0 2px 5px !important;
+    transform: translate3d(0px, -50%, 0px) scale(0.3) !important;
+    transform-origin: 50% 50% 0 !important;
+    transition: all 250ms ease-out 0s !important;
+    width: 20px !important;
+}
+/* END OGI Testimonials 2 */
+
+
 /* END NEW BLOCKS */
