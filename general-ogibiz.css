@@ -1,151 +1,149 @@
-  	/* General OGIBIZ Settings*/
-	
-  @media all and (max-width: 768px) {
-  
+/* General OGIBIZ Settings*/
+
+@media all and (max-width: 768px) {
   body:before {
-  background: #f8f8f8 !important;
+    background: #f8f8f8 !important;
   }
 
   p.title6 {
-  line-height: 40px !important;
+    line-height: 40px !important;
   }
-  .title6{
-    text-align: center;
-    color:#222; 
-    font-size:30px; 
-    font-weight:400;
-    word-spacing: 1px; 
-    letter-spacing:2px; 
+
+  .title6 {
+    text-align: center !important;
+    color: #222 !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    word-spacing: 1px !important;
+    letter-spacing: 2px !important;
   }
-  
-  .title6 div{
-    line-height:1em; 
-    padding-bottom:15px;
-    text-transform: none;
-    font-size:.7em;
-    font-weight: normal;
-    font-style: italic;
-    color:#333; 
-    letter-spacing:-0.005em; 
-    word-spacing:1px;
-    letter-spacing:none;
-    text-shadow: 0 0 1px var(--color5);
+
+  .title6 div {
+    line-height: 1em !important;
+    padding-bottom: 15px !important;
+    text-transform: none !important;
+    font-size: 0.7em !important;
+    font-weight: normal !important;
+    font-style: italic !important;
+    color: #333 !important;
+    letter-spacing: -0.005em !important;
+    word-spacing: 1px !important;
+    letter-spacing: none !important;
+    text-shadow: 0 0 1px var(--color5) !important;
   }
-  .title6:after, .title6:before{
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    width: 45px;
-    height: 3px;
-    content: "";
-    right: 45px; 
-    margin:auto;
-    background-color: var(--color1);
+
+  .title6:after, .title6:before {
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0px !important;
+    width: 45px !important;
+    height: 3px !important;
+    content: "" !important;
+    right: 45px !important;
+    margin: auto !important;
+    background-color: var(--color1) !important;
   }
-  .title6:before{
-    background-color:var(--color1);
-    left:45px; 
-    width:90px;
+
+  .title6:before {
+    background-color: var(--color1) !important;
+    left: 45px !important;
+    width: 90px !important;
   }
-  
+
   .mycolumn6 {
-    padding: 20px;
-    margin: 10px;
-    background:  var(--color3),0.5;
-    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%), 0px 4px 8px rgb(0 0 0 / 15%), 0px 8px 16px rgb(0 0 0 / 15%), 0px 16px 32px rgb(0 0 0 / 15%);
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    border-radius: 10px;
-border-left: 4px solid var(--color1);
+    padding: 20px !important;
+    margin: 10px !important;
+    background: var(--color3), 0.5 !important;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 15%) !important, 0px 4px 8px rgb(0 0 0 / 15%) !important, 0px 8px 16px rgb(0 0 0 / 15%) !important, 0px 16px 32px rgb(0 0 0 / 15%) !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: space-between !important;
+    border-radius: 10px !important;
+    border-left: 4px solid var(--color1) !important;
   }
-  
+
   @media all and (max-width: 767px) {
     .mycolumn6 {
-      height: initial!important;
-      margin: 10px;
+      height: initial !important;
+      margin: 10px !important;
     }
   }
-  
-   button#contactSubmit {
-  width: 100%;
+
+  button#contactSubmit {
+    width: 100% !important;
   }
-  
+
   .btn-primary:hover {
-  
-  background-color: var(--color-btn-hover) !important;
-  border-color: var(--color-btn-hover) !important;
-  
+    background-color: var(--color-btn-hover) !important;
+    border-color: var(--color-btn-hover) !important;
   }
-  
- @media all and (max-width: 768px) {
 
-.button-group {
-text-align: center !important;
-}
-}
-
-td {
-    white-space: break-spaces;
-}
-
-	/* ΚΩΔΙΚΑΣ ΓΙΑ SERVICES ME KEIMENO ΠΑΝΩ ΣΤΗΝ ΕΙΚΟΝΑ */
-
-@media (min-width: 576px) {
-    .team-classic-lg {
-        max-width: 100% !important;
+  @media all and (max-width: 768px) {
+    .button-group {
+      text-align: center !important;
     }
-}
+  }
 
-.team-classic-name a:hover {
-    color: white;
-}
+  td {
+    white-space: break-spaces !important;
+  }
+
+  /* ΚΩΔΙΚΑΣ ΓΙΑ SERVICES ME KEIMENO ΠΑΝΩ ΣΤΗΝ ΕΙΚΟΝΑ */
+
+  @media (min-width: 576px) {
+    .team-classic-lg {
+      max-width: 100% !important;
+    }
+  }
+
+  .team-classic-name a:hover {
+    color: white !important;
+  }
 
   .team-classic-caption::before {
-  background-color: var(--color1);
-  opacity: 0.8 !important;
+    background-color: var(--color1) !important;
+    opacity: 0.8 !important;
   }
-  
-	/* END ΚΩΔΙΚΑΣ ΓΙΑ SERVICES ME KEIMENO ΠΑΝΩ ΣΤΗΝ ΕΙΚΟΝΑ */
 
+  /* END ΚΩΔΙΚΑΣ ΓΙΑ SERVICES ME KEIMENO ΠΑΝΩ ΣΤΗΝ ΕΙΚΟΝΑ */
 
-/* Menu Settings */
+  /* Menu Settings */
 
-.navbar-brand img {
+  .navbar-brand img {
     max-height: 130px !important;
-}
-  
-@media (min-width: 1200px) {
-  div#menu .col-lg-2 {
-      width: 20% !important;
   }
-}
 
-@media (min-width: 768px) {
-    .navbar-header {
-        float: inline-end !important;
+  @media (min-width: 1200px) {
+    div#menu .col-lg-2 {
+      width: 20% !important;
     }
-}
+  }
+
+  @media (min-width: 768px) {
+    .navbar-header {
+      float: inline-end !important;
+    }
+  }
 
   .custom-menu li a:hover, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a {
-  border-radius: 20px;
+    border-radius: 20px !important;
   }
-  
+
   ul.nav.navbar-nav.navbar-right.custom-menu a {
     font-size: 20px !important;
-    padding: 10px;
-}
+    padding: 10px !important;
+  }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background: var(--color1) !important;
-color: white !important;
-}
+    color: white !important;
+  }
 
-.dropdown li a:hover {
-text-decoration: underline !important;
-}
+  .dropdown li a:hover {
+    text-decoration: underline !important;
+  }
 
-	/* END Menu Settings */
-	  
- /* END General OGIBIZ Settings*/
+  /* END Menu Settings */
+
+  /* END General OGIBIZ Settings */
