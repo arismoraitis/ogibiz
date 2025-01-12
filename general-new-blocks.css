@@ -518,6 +518,53 @@ section#ogi-about4 {
 /* END OGI About 4 */
 
 
+/* OGI Testimonials 1 */
+
+#testimonials1 em {
+    font-size: 25px !important;
+    color: white !important;
+    background-color: var(--color1) !important;
+    height: 40px !important;
+    padding-top: 5px !important;
+    padding-left: 7px !important;
+}
+
+@media (min-width: 809px) {
+
+#testimonials1 {
+padding-left: 20px !important;
+padding-right: 20px !important;
+}
+
+#testimonials1 em {
+    margin-left: 75px !important;
+    margin-top: 20px !important;
+}
+.testimonials1-border {
+border-radius: 100px !important;
+}
+.testimonials1-text {
+padding-left: 40px !important;
+}
+}
+
+@media (max-width: 808px) {
+#testimonials1 {
+padding-left: 20px !important;
+padding-right: 20px !important;
+}
+#testimonials1 em {
+margin-left: -25px !important;
+    margin-top: 10px !important;
+}
+
+.testimonials1-border{
+border-radius: 0 !important;
+}
+}
+
+/* END OGI Testimonials 1 */
+
 /* OGI Testimonials 2 */
 
 .shadow-effect-testimonials2 {
