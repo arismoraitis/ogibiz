@@ -592,23 +592,4 @@ section#ogi-about4 {
 }
 /* END OGI Testimonials 2 */
 
-/* OGI Testimonials 1 */
-
-#testimonials1 em {
-    font-size: 25px !important;
-    color: white !important;
-    background-color: var(--color1) !important;
-    height: 40px !important;
-    padding-top: 5px !important;
-    padding-left: 7px !important;
-}
-
-@media (max-width: 768px) {
-#testimonials1 em {
-    margin-left: 55% !important;
-    margin-top: -2% !important;
-}
-}
-/* END OGI Testimonials 1 */
-
 /* END NEW BLOCKS */
