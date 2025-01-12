@@ -381,13 +381,13 @@ gallery-container2 h1 {
     }
 }
 
-/* Accordion 1 */
+/* Accordion 2 */
 
-.accordion1-header a {
+.accordion-header a {
     text-decoration: none !important;
 }
 
-#ogi-accordion1 .icon-small, span.fa-solid.fa-angle-down.icon-small {
+#ogi-accordion2 .icon-small, span.fa-solid.fa-angle-down.icon-small {
     padding: 5px !important;
 }
 
@@ -397,11 +397,11 @@ span.fa-solid.icon-small.fa-angle-right {
 
 @media (min-width: 769px) {
 
-    #ogi-accordion1 .col-12 {
+    #ogi-accordion2 .col-12 {
         padding: 7% !important;
     }
 }
-/* END Accordion 1 */
+/* END Accordion 2 */
 
 
 /*  OGI About 1 */
