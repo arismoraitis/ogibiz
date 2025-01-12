@@ -601,6 +601,15 @@ section#ogi-about4 {
     height: 40px !important;
     padding-top: 5px !important;
     padding-left: 7px !important;
+    margin-left: 55% !important;
+    margin-top: -2% !important;
+}
+
+@media (max-width: 768px) {
+#testimonials1 em {
+    margin-left: 55% !important;
+    margin-top: -2% !important;
+}
 }
 /* END OGI Testimonials 1 */
 
