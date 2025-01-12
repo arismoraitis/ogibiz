@@ -381,7 +381,16 @@ gallery-container2 h1 {
     }
 }
 
-/* Accordion 2 */
+/* OGI Accordion 1 */
+
+@media (max-width: 808px) {
+#accordion-gap {
+margin-top: 20px !important;
+}
+}
+/* END OGI Accordion 1 */
+
+/* OGI Accordion 2 */
 
 .accordion-header a {
     text-decoration: none !important;
@@ -401,7 +410,7 @@ span.fa-solid.icon-small.fa-angle-right {
         padding: 7% !important;
     }
 }
-/* END Accordion 2 */
+/* END OGI Accordion 2 */
 
 
 /*  OGI About 1 */
