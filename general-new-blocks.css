@@ -388,6 +388,14 @@ gallery-container2 h1 {
 margin-top: 20px !important;
 }
 }
+
+@media (min-width: 809px) {
+#ogi-accordion1 { {
+padding-left: 30px !important;
+padding-right: 30px !important;
+}
+}
+
 /* END OGI Accordion 1 */
 
 /* OGI Accordion 2 */
