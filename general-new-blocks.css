@@ -197,11 +197,11 @@ gallery-container2 h1 {
 .gallery3-item {
     flex-basis: 32.7%;
     margin-bottom: 6px;
-    opacity: .85;
+    opacity: 1;
     cursor: pointer;
 }
 .gallery3-item:hover {
-    opacity: 1;
+    opacity: .85;
 }
 .gallery3-item img {
     width: 100%;
