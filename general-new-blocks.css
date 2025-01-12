@@ -190,7 +190,7 @@ gallery-container2 h1 {
     justify-content: space-between;
     background-color: #fff;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 10px;
 }
@@ -221,6 +221,7 @@ gallery-container2 h1 {
     overflow: auto;
     top: 0;
     left: 0;
+    z-index: 99;
 }
 .lightbox-content {
     position: relative;
@@ -893,5 +894,14 @@ border-radius: 0 !important;
 /* ------testimonial  close-------*/
 
 /* END OGI Testimonials 4 */
+
+/* START OGI Services Carousel */
+
+@media (min-width: 809px) {
+#ogi-services-carousel h3 {
+padding-left: 60px;
+}
+}
+/* END OGI Services Carousel */
 
 /* END NEW BLOCKS */
