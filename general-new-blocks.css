@@ -390,9 +390,9 @@ margin-top: 20px !important;
 }
 
 @media (min-width: 809px) {
-#ogi-accordion1 { {
-padding-left: 30px !important;
-padding-right: 30px !important;
+#ogi-accordion1 { 
+margin-left: 30px !important;
+margin-right: 30px !important;
 }
 }
 
