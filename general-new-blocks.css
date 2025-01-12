@@ -586,7 +586,7 @@ border-radius: 0 !important;
     margin: -17px auto 0 !important;
     display: table !important;
     width: auto !important;
-    background: #3190E7 !important;
+    background: var(--color1) !important;
     padding: 9px 35px !important;
     border-radius: 12px !important;
     text-align: center !important;
@@ -616,7 +616,7 @@ border-radius: 0 !important;
 }
 #customers-testimonials2.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials2.owl-carousel .owl-dots .owl-dot:hover span {
-    background: #3190E7 !important;
+    background: var(--color1) !important;
     transform: translate3d(0px, -50%, 0px) scale(0.7) !important;
 }
 #customers-testimonials2.owl-carousel .owl-dots {
@@ -628,7 +628,7 @@ border-radius: 0 !important;
     display: inline-block !important;
 }
 #customers-testimonials2.owl-carousel .owl-dots .owl-dot span {
-    background: #3190E7 !important;
+    background: var(--color1) !important;
     display: inline-block !important;
     height: 20px !important;
     margin: 0 2px 5px !important;
