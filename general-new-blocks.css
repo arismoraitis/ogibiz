@@ -65,12 +65,6 @@ a.d-flex.align-items-center.pe-20px.text-dark-gray.fw-600.alt-font.collapsed {
     padding-bottom: 14% !important;
 }
 
-@media (min-width: 1200px) {
-    .col-lg-10 {
-        width: 70% !important;
-    }
-}
-
 .home-service-section {
     padding-bottom: 0 !important;
 }
