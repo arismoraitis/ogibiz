@@ -120,6 +120,12 @@
     }
   }
 
+@media (min-width: 1200px) {
+    .col-lg-10 {
+        width: 70% !important;
+    }
+}
+
   @media (min-width: 768px) {
     .navbar-header {
       float: inline-end !important;
