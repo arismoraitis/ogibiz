@@ -483,13 +483,13 @@ section#ogi-phone-banner1 .col-12 {
     min-height: 900px !important;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 809px) {
     .phone-display {
         display: none !important;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 808px) {
     .desktop-display {
         display: none !important;
     }
@@ -506,6 +506,12 @@ section#ogi-banner1 a:hover {
 @media (min-width: 809px) {
     #ogi-slider-banner1 .col-lg-8 {
         width: 50% !important;
+    }
+}
+
+@media (max-width: 808px) {
+    #ogi-slider-banner1 .col-lg-8 {
+        width: 100% !important;
     }
 }
 
