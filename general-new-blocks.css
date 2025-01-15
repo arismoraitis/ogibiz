@@ -503,13 +503,13 @@ section#ogi-banner1 a:hover {
 
 /* OGI Slider Banner 1 */
 
-@media (min-width: 809px) {
+@media (min-width: 992px) {
     #ogi-slider-banner1 .col-lg-8 {
         width: 50% !important;
     }
 }
 
-@media (max-width: 808px) {
+@media (max-width: 991px) {
     #ogi-slider-banner1 .col-lg-8 {
         width: 100% !important;
     }
