@@ -306,7 +306,7 @@ gallery-container2 h1 {
     background: #000 !important;
     position: relative !important;
     width: 100% !important;
-    height: 600px !important;
+    height: 800px !important;
     margin: 0 auto !important;
     z-index: 1 !important;
     overflow: hidden !important;
@@ -343,7 +343,7 @@ gallery-container2 h1 {
     position: absolute !important;
     z-index: 2 !important;
     top: 0% !important;
-    transform: translate(0%, 10%) !important;
+    transform: translate(0%, 30%) !important;
 }
 
 @media (max-width: 768px) {
@@ -480,13 +480,13 @@ section#ogi-phone-banner1 .col-12 {
 }
 
 @media (min-width: 769px) {
-    section#ogi-phone-banner1 {
+    .phone-display {
         display: none !important;
     }
 }
 
 @media (max-width: 768px) {
-    section#ogi-banner1 {
+    .desktop-display {
         display: none !important;
     }
 }
