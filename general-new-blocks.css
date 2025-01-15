@@ -348,7 +348,7 @@ gallery-container2 h1 {
 
 @media (max-width: 768px) {
     .content-vid1 {
-        transform: translate(0%, 20%) !important;
+        transform: translate(0%, 40%) !important;
     }
 
 .video-background1 {
