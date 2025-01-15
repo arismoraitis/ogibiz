@@ -509,6 +509,10 @@ section#ogi-banner1 a:hover {
     }
 }
 
+section#ogi-slider-banner1 img {
+    height: 600px !important;
+}
+
 /* END OGI Slider Banner 1 */
 
 
