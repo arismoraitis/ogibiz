@@ -501,6 +501,18 @@ section#ogi-banner1 a:hover {
 
 /* END OGI Banner 1 */
 
+/* OGI Slider Banner 1 */
+
+@media (min-width: 809px) {
+    #ogi-slider-banner1 .col-lg-8 {
+        width: 50% !important;
+    }
+}
+
+/* END OGI Slider Banner 1 */
+
+
+
 /* OGI About 3 */
 
 @media (min-width: 1200px) {
