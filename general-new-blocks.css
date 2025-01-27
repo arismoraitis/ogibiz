@@ -278,7 +278,7 @@ gallery-container2 h1 {
 /* END Gallery 3 */
 
 /* OGI Video Banner 1 */
-/*
+
 .videoWrapper {
     position: relative !important;
     padding-bottom: 56.25% !important;
@@ -345,7 +345,7 @@ gallery-container2 h1 {
     top: 0% !important;
     transform: translate(0%, 30%) !important;
 }
-
+/*
 @media (max-width: 808px) {
     .content-vid1 {
         transform: translate(0%, 40%) !important;
