@@ -303,7 +303,7 @@ gallery-container2 h1 {
 }
 
 .video-background1 {
-    background: #000 !important;
+    background: transparent !important;
     position: relative !important;
     width: 100% !important;
     height: 800px !important;
