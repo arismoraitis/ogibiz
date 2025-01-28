@@ -530,12 +530,19 @@ section#ogi-banner1 a:hover {
     #ogi-slider-banner1 .white-box {
         width: 100% !important;
     }
+	#ogi-slider-banner1 img {
+	max-height: 500px !important;
+        height: 500px !important;
+	min-height: fit-content !important;
+
+}
 }
 
 #ogi-slider-banner1 img {
-	max-height: 800px !important;
-        min-height: fit-content !important;
-        height: 800px !important;
+	max-height: 600px !important;
+        height: 600px !important;
+	min-height: fit-content !important;
+
 }
 
 /* END OGI Slider Banner 1 */
