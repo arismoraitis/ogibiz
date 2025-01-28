@@ -940,4 +940,87 @@ padding-left: 60px;
 }
 /* END OGI Services Carousel */
 
+
+/* OGI Newsletter */
+
+.newsletter-style-01 {
+background-color: white !important;
+}
+
+.newsletter-style-01 form {
+padding: 10px !important;
+border: 0 !important;
+background-color: white !important;
+max-width: 80% !important;
+}
+.newsletter-style-01 .form-control
+{
+padding: 10px !important;
+border: 0 !important;
+    box-shadow: none !important;
+}
+
+.newsletter-style-01 select {
+    box-shadow: none !important;
+    border: 0 !important;
+    color: white !important;
+}
+
+.newsletter-style-01 input::placeholder  {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.newsletter-style-01 input  {
+overflow: hidden !important;
+}
+
+@media (min-width: 1200px) {
+#ogi-sub-form .col-lg-8 {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1199px) {
+#ogi-sub-form .col-lg-8 {
+        width: 90% !important;
+    }
+
+.newsletter-style-01 form {
+max-width: 50% !important;
+}
+}
+
+/* END OGI Newsletter */
+
+
+
+/* OGI Popup */
+
+input#email {
+    height: 50px !important;
+}
+
+@media (min-width: 809px) {
+ #subscribe-popup .col-md-10 {
+padding: 0 !important;
+}
+}
+
+ #subscribe-popup .container {
+max-width: 80% !important;
+}
+
+ #subscribe-popup .btn.btn-dark-gray:hover,  #subscribe-popup .btn.btn-dark-gray:active, #subscribe-popup .btn.btn-dark-gray:focus {
+color: var(--white) !important;
+}
+
+#subscribe-popup .col-lg-6, #subscribe-popup .col-md-6 {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+
+/* END OGI Popup */
+
+
 /* END NEW BLOCKS */
