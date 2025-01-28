@@ -1016,8 +1016,8 @@ color: var(--white) !important;
 }
 
 #subscribe-popup .col-lg-6, #subscribe-popup .col-md-6 {
-padding-left: 0 !important;
-padding-right: 0 !important;
+padding-left: 0;
+padding-right: 0;
 }
 
 /* END OGI Popup */
