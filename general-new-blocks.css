@@ -430,11 +430,12 @@ span.fa-solid.icon-small.fa-angle-right {
 /* END OGI About 1 */
 
 /* OGI About 2 */
-
+@media (min-width: 769px) {
 section#ogi-about2 .col-lg-5 {
     padding-top: 5% !important;
-    padding-left: 7% !important;
+    padding-left: 3% !important;
     padding-bottom: 5% !important;
+}
 }
 
 section#ogi-about2 .col-lg-7 {
