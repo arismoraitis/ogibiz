@@ -545,6 +545,11 @@ section#ogi-banner1 a:hover {
     min-height: 384px !important;
 }
 
+#ogi-about3 .col-lg-6, #ogi-about3 .col-md-6 {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+
 /* END OGI About 3 */
 
 
