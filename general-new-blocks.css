@@ -432,14 +432,14 @@ span.fa-solid.icon-small.fa-angle-right {
 /* OGI About 2 */
 @media (min-width: 769px) {
 section#ogi-about2 .col-lg-5 {
-    padding-top: 5% !important;
+    padding-top: 1% !important;
     padding-left: 3% !important;
-    padding-bottom: 5% !important;
+    padding-bottom: 1% !important;
 }
 }
 
 section#ogi-about2 .col-lg-7 {
-    padding-top: 5% !important;
+    padding-top: 1% !important;
 }
 
 #ogi-about2 .btn.btn-link {
