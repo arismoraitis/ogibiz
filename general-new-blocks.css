@@ -1015,7 +1015,7 @@ max-width: 80% !important;
 color: var(--white) !important;
 }
 
-#subscribe-popup .col-lg-6, #subscribe-popup .col-md-6 {
+#subscribe-popup .col-lg-6, #subscribe-popup .col-md-6, #subscribe-popup .col-md-10 {
 padding-left: 0;
 padding-right: 0;
 }
