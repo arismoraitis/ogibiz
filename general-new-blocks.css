@@ -478,9 +478,7 @@ section#ogi-about2 .service1 {
 /* OGI Banner 1 */
 
 #ogi-banner1 img {
-        max-height: 800px !important;
-        min-height: 100px !important;
-        height: 800px !important;
+        min-height: 100vh !important;
 }
 
 @media (min-width: 992px) {
@@ -530,18 +528,16 @@ section#ogi-banner1 a:hover {
     #ogi-slider-banner1 .white-box {
         width: 100% !important;
     }
-	#ogi-slider-banner1 img {
-	max-height: 800px !important;
-        height: 400px !important;
-	min-height: 100px !important;
+}
 
+@media (max-width: 768px) {
+	#ogi-slider-banner1 img {
+	min-height: 80vh !important;
 }
 }
 
 #ogi-slider-banner1 img {
-	max-height: 800px !important;
-        height: 800px !important;
-	min-height: 100px !important;
+	min-height: 100vh !important;
 }
 
 /* END OGI Slider Banner 1 */
@@ -1039,10 +1035,6 @@ padding-right: 0;
 
 /* OGI Icons Box */
 
-.blurb__title.heading-6 a:hover {
-    color: white !important;
-}
-
 .unit {
     display: flex;
     flex: 0 1 100%;
@@ -1410,6 +1402,15 @@ padding-right: 0;
         font-size: 44px;
     }
 }
+
+.blurb__title.heading-6 a:hover {
+    color: white !important;
+}
+
+blurb__title heading-6 {
+    color: var(--color1) !important;
+}
+
 /* END OGI Icons Box */
 
 
