@@ -534,8 +534,8 @@ section#ogi-banner1 a:hover {
 
 @media (max-width: 768px) {
 	#ogi-slider-banner1 img {
-	min-height: 80vh !important;
-	height: 80vh !important;
+	min-height: 70vh !important;
+	height: 70vh !important;
 
 }
 }
