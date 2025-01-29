@@ -1021,10 +1021,15 @@ input#email {
  #subscribe-popup .col-md-10 {
 padding: 0 !important;
 }
+#subscribe-popup .container {
+max-width: 80% !important;
+}
 }
 
+@media (max-width: 809px) {
  #subscribe-popup .container {
-max-width: 80% !important;
+max-width: 100% !important;
+}
 }
 
  #subscribe-popup .btn.btn-dark-gray:hover,  #subscribe-popup .btn.btn-dark-gray:active, #subscribe-popup .btn.btn-dark-gray:focus {
@@ -1413,7 +1418,7 @@ padding-right: 0;
     color: white !important;
 }
 
-blurb__title heading-6 {
+blurb__title heading-6, blurb__title heading-6 a {
     color: var(--color1) !important;
 }
 
