@@ -479,6 +479,8 @@ section#ogi-about2 .service1 {
 
 #ogi-banner1 img {
         min-height: 80vh !important;
+	height: 90vh !important;
+
 }
 
 @media (min-width: 992px) {
@@ -533,11 +535,15 @@ section#ogi-banner1 a:hover {
 @media (max-width: 768px) {
 	#ogi-slider-banner1 img {
 	min-height: 80vh !important;
+	height: 80vh !important;
+
 }
 }
 
 #ogi-slider-banner1 img {
 	min-height: 80vh !important;
+	height: 80vh !important;
+
 }
 
 /* END OGI Slider Banner 1 */
