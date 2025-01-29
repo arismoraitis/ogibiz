@@ -1418,7 +1418,7 @@ padding-right: 0;
     color: white !important;
 }
 
-blurb__title heading-6, blurb__title heading-6 a {
+blurb__title.heading-6, blurb__title.heading-6 a {
     color: var(--color1) !important;
 }
 
