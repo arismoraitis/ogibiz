@@ -429,50 +429,7 @@ span.fa-solid.icon-small.fa-angle-right {
 }
 /* END OGI About 1 */
 
-/* OGI About 2 */
-@media (min-width: 769px) {
-section#ogi-about2 .col-lg-5 {
-    padding-top: 1% !important;
-    padding-left: 3% !important;
-    padding-bottom: 3% !important;
-    width: 50% !important;
 
-}
-
-  #ogi-about2 .col-lg-7 {
-    width: 50% !important;
-    }
-}
-}
-
-section#ogi-about2 .col-lg-7 {
-    padding-top: 1% !important;
-}
-
-#ogi-about2 .btn.btn-link {
-    padding: 20px 0px 20px 15px !important;
-}
-
-#ogi-about2 p {
-    line-height: 30px !important;
-}
-
-#ogi-about2 .col-lg-5,
-#ogi-about2 .col-lg-7 {
-    box-sizing: border-box !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-#ogi-about2 .row > * {
-    padding-left: 0 !important;
-}
-
-section#ogi-about2 .service1 {
-    padding-top: 15% !important;
-}
-
-/* END OGI About 2 */
 
 
 /* OGI Banner 1 */
