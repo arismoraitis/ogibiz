@@ -568,7 +568,7 @@ padding-bottom: 2% !important;
 }
 
 #ogi-about-resp .col-12 a, #ogi-about-resp .about-up-title, .resp-btn {
-    font-size: clamp(10px, 2vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+    font-size: clamp(10px, 2vh, 150px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
 }
 
 #ogi-about-resp .col-12 img {
