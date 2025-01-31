@@ -514,7 +514,7 @@ section#ogi-banner1 a:hover {
         width: 33.3333333% !important;
     }
 }
-#ogi-about3 .col-lg-6, #ogi-about4 .col-lg-6 {
+#ogi-about3 .col-lg-6, #ogi-about-resp .col-lg-6 {
     min-height: 384px !important;
 }
 
@@ -526,23 +526,61 @@ padding-right: 0 !important;
 /* END OGI About 3 */
 
 
-/* OGI About 4 */
+/* OGI About Resp */
 
-section#ogi-about4 {
+section#ogi-about-resp {
     margin-top: -10px !important;
 }
 
-#ogi-about4 .col-lg-6, #ogi-about4 .col-lg-8 {
+#ogi-about-resp .col-lg-6, #ogi-about-resp .col-lg-8 {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
 
-#ogi-about4 img {
+#ogi-about-resp img {
     object-fit: cover !important;
     object-position: center !important;
 }
 
-/* END OGI About 4 */
+#ogi-about-resp .row {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+#ogi-about-resp .col-12 {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+#ogi-about-resp .col-12 p, #ogi-about-resp .col-12 h5 {
+    display: flex !important;
+    flex: 1 !important;
+    margin: 0 !important; /* Αφαίρεση περιθωρίων για καλύτερη ευθυγράμμιση */
+    padding: 0 !important; /* Αφαίρεση padding για να γεμίσει σωστά το ύψος */
+    font-size: clamp(16px, 3vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+}
+
+#ogi-about-resp .col-12 li, #ogi-about-resp .col-12 li::before {
+    font-size: clamp(14px, 2.6vh, 90px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+}
+
+#ogi-about-resp .col-12 p, #ogi-about-resp .col-12 li, #ogi-about-resp .col-12 li::before {
+padding-top: 2% !important;
+padding-bottom: 2% !important;
+}
+
+#ogi-about-resp .col-12 a, #ogi-about-resp .up-title {
+    font-size: clamp(10px, 2vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+}
+
+#ogi-about-resp .col-12 img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+/* END OGI About Resp */
 
 
 /* OGI Testimonials 1 */
