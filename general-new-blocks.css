@@ -555,11 +555,10 @@ padding-right: 0 !important;
     flex: 1 !important;
     margin: 0 !important; /* Αφαίρεση περιθωρίων για καλύτερη ευθυγράμμιση */
     padding: 0 !important; /* Αφαίρεση padding για να γεμίσει σωστά το ύψος */
-    font-size: clamp(16px, 3vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
 }
 
 #ogi-about-resp .col-12 li, #ogi-about-resp .col-12 li::before, .resp-text {
-    font-size: clamp(14px, 2.6vh, 90px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+    font-size: var(--resp-text-main); /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
 }
 
 #ogi-about-resp .col-12 p, #ogi-about-resp .col-12 li, #ogi-about-resp .col-12 li::before {
