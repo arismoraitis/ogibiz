@@ -557,10 +557,6 @@ padding-right: 0 !important;
     padding: 0 !important; /* Αφαίρεση padding για να γεμίσει σωστά το ύψος */
 }
 
-#ogi-about-resp .col-12 li, #ogi-about-resp .col-12 li::before, .resp-text {
-    font-size: var(--resp-text-main); /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
-}
-
 #ogi-about-resp .col-12 p, #ogi-about-resp .col-12 li, #ogi-about-resp .col-12 li::before {
 padding-top: 2% !important;
 padding-bottom: 2% !important;
