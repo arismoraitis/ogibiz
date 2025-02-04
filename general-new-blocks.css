@@ -96,85 +96,6 @@ b, strong {
 
 /* END Font custom */
 
-/* Gallery 2 */
-
-.container.gallery-container2 {
-    background-color: #fff !important;
-    color: #35373a !important;
-    min-height: 100vh !important;
-    padding: 30px 50px !important;
-}
-
-gallery-container2 h1 {
-    text-align: center !important;
-    margin-top: 50px !important;
-    font-family: 'Droid Sans', sans-serif !important;
-    font-weight: bold !important;
-}
-
-.gallery-container2 p.page-description {
-    text-align: center !important;
-    margin: 25px auto !important;
-    font-size: 18px !important;
-    color: #999 !important;
-}
-
-.tz-gallery {
-    padding: 40px !important;
-}
-
-.tz-gallery .row > div {
-    padding: 2px !important;
-}
-
-.tz-gallery .lightbox img {
-    width: 100% !important;
-    border-radius: 0 !important;
-    position: relative !important;
-}
-
-.tz-gallery .lightbox:before {
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    margin-top: -13px !important;
-    margin-left: -13px !important;
-    opacity: 0 !important;
-    color: #fff !important;
-    font-size: 26px !important;
-    font-family: 'Glyphicons Halflings' !important;
-    content: '\e003' !important;
-    pointer-events: none !important;
-    z-index: 9000 !important;
-    transition: 0.4s !important;
-}
-
-.tz-gallery .lightbox:after {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    opacity: 0 !important;
-    background-color: rgba(46, 132, 206, 0.7) !important;
-    content: '' !important;
-    transition: 0.4s !important;
-}
-
-.tz-gallery .lightbox:hover:after,
-.tz-gallery .lightbox:hover:before {
-    opacity: 1 !important;
-}
-
-.baguetteBox-button {
-    background-color: transparent !important;
-}
-
-.tz-gallery .row {
-    display: initial !important;
-}
-
-/* END Gallery 2 */
 
 /* Gallery 3 */
 
@@ -275,6 +196,18 @@ gallery-container2 h1 {
     }
 }
 
+.w-full img {
+    width: 100% !important;
+    max-height: 400px !important;
+    height: 400px !important;
+    justify-self: center !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+}
+
+.w-full img:hover {
+opacity: 0.85 !important;
+}
 /* END Gallery 3 */
 
 /* OGI Video Banner 1 */
@@ -345,17 +278,67 @@ gallery-container2 h1 {
     top: 0% !important;
     transform: translate(0%, 30%) !important;
 }
-/*
-@media (max-width: 808px) {
-    .content-vid1 {
-        transform: translate(0%, 40%) !important;
+
+  .video-background1 {
+    position: relative !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important; /* Κεντράρισμα οριζόντια */
+    align-items: center !important; /* Κεντράρισμα κάθετα */
+    height: 100vh !important;
+  }
+
+  .video-foreground1 iframe {
+    position: absolute !important;
+    top: -2.5% !important; /* Κεντράρισμα λόγω του +5% ύψους */
+    left: 0 !important;
+    width: 100% !important; /* Πλάτος πάντα 100% */
+    height: calc(100% + 5%) !important; /* 5% μεγαλύτερο ύψος από το container */
+    pointer-events: none !important; /* Αποφυγή αλληλεπίδρασης */
+  }
+
+  #white-box-vid {
+    position: absolute !important;
+    z-index: 2 !important; /* Το box πάνω από το βίντεο */
+    width: 100% !important; /* Καταλαμβάνει όλο το διαθέσιμο πλάτος */
+    overflow: hidden !important; /* Αποφυγή του υπερβάλλοντος περιεχομένου */
+    top: 50% !important; /* Τοποθέτηση από το κέντρο του iframe */
+    transform: translateY(-50%) !important; /* Μεταφορά για να είναι ακριβώς στο κέντρο */
+    display: flex !important; /* Κεντράρισμα περιεχομένου */
+    justify-content: center !important; /* Κεντράρισμα οριζόντια */
+    align-items: center !important; /* Κεντράρισμα κάθετα */
+  }
+
+  /* Για μικρότερες οθόνες */
+  @media (max-width: 768px) {
+    .video-background1 {
+      justify-content: center !important; /* Κεντράρισμα οριζόντια */
     }
 
-.video-background1 {
-    width: 200% !important;
-}
-}
-*/
+    #white-box-vid {
+      width: 100% !important; /* Το box να έχει το φυσικό του πλάτος */
+    }
+  }
+
+  @media (min-width: 809px) {
+    .video-background1 {
+      justify-content: flex-start !important; /* Στοιχιση αριστερά */
+    }
+
+    #white-box-vid {
+      width: 40% !important; /* Το box να έχει το φυσικό του πλάτος */
+      left: 4% !important;
+    }
+  }
+
+@media (min-width: 769px) and (max-width: 808px) {
+    #white-box-vid {
+height: 80vh !important;
+padding: 5% !important;
+width: 100% !important; /* Το box να έχει το φυσικό του πλάτος */
+    }
+  }
 /* END OGI Video Banner 1 */
 
 /* OGI About 5 */
@@ -504,6 +487,93 @@ section#ogi-banner1 a:hover {
 }
 
 /* END OGI Slider Banner 1 */
+
+
+/* OGI HSD-HERO Banner */
+
+.hsd-hero {
+  width: 100%;
+  height: 100%;
+  padding: 10vw;
+  position: relative;
+  overflow: hidden; /* Αποτρέπει την εικόνα από το να βγει έξω */
+}
+
+.hsd-hero-img, .hsd-hero iframe{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Διατηρεί την αναλογία και γεμίζει το container */
+  position: absolute; /* Κάνει την εικόνα να καλύψει το παρασκήνιο */
+  top: 0;
+  left: 0;
+}
+
+.hsd-contentWrap {
+max-width:1440px;
+margin: 0;
+padding: 0;
+position: relative; /* Διατηρεί το περιεχόμενο πάνω από την εικόνα */
+}
+
+.hsd-heroContent {
+color: var(--hsd-hero-text-color);
+font-size:var(--hero-hero-text-size);
+max-width: 35vw;
+}
+
+@media screen and (min-width: 809px) {
+.hsd-heroContent {
+max-width: 35vw;
+width: 35vw;
+min-width: min-content;
+}
+}
+
+.hsd-heroContent h1 {
+    color: var(--hsd-hero-text-color);
+    font-size: var(--hsd-hero-h1-size) !important;
+    line-height: 1.2;
+    margin: 18px 0px;
+    margin-bottom: 1.5rem;
+}
+.hsd-heroContent h1 span {
+    display: block;
+    font-size: 24px;
+    margin: 18px 0px;
+}
+@media screen and (max-width: 808px) {
+  .hsd-contentWrap {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.hsd-heroContent {
+    color: white;
+    font-size: 1.2rem;
+    max-width: 100%;
+    text-align: center;
+    padding: 10% !important;
+}
+.hsd-heroContent h1 span {
+    display: block;
+    font-size: 1.2rem;
+    margin: 18px 0px;
+}
+.hsd-heroContent h1 {
+    color: #fff !important;
+    font-size: 2rem !important;
+    line-height: 1.2;
+}
+  .hsd-hero {
+height: auto;
+width:100%;
+padding: 5vw;
+background-size: cover;
+  }
+}
+
+/* OGI HSD-HERO Banner */
 
 
 
