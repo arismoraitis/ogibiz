@@ -341,17 +341,15 @@ width: 100% !important; /* Το box να έχει το φυσικό του πλ�
   }
 /* END OGI Video Banner 1 */
 
-/* OGI About 5 */
+/* OGI About 4 */
 
-#ogi-about5 img {
-    transition: transform 0.3s ease !important;
+@media screen and (min-width: 577px) and (max-width: 1199px) {
+#ogi-about4 .col-12 {
+        width: 100% !important;
+}
 }
 
-#ogi-about5 img:hover {
-    transform: scale(1.1) !important;
-}
-
-/* END OGI About 5 */
+/* END OGI About 4 */
 
 @media (min-width: 1200px) {
     #ogihero3 .col-lg-10, #ogihero4 .col-lg-10 {
@@ -573,6 +571,12 @@ background-size: cover;
   }
 }
 
+@media screen and (min-width: 3000px) {
+    .hsd-heroContent {
+padding:15% !important;
+}
+}
+
 /* OGI HSD-HERO Banner */
 
 
@@ -591,6 +595,12 @@ background-size: cover;
 #ogi-about3 .col-lg-6, #ogi-about3 .col-md-6 {
 padding-left: 0 !important;
 padding-right: 0 !important;
+}
+
+@media (max-width: 1199px) {
+    #ogi-about3 .col-lg-6{
+        width: 100% !important;
+    }
 }
 
 /* END OGI About 3 */
@@ -1011,118 +1021,6 @@ padding-left: 60px;
 /* END OGI Services Carousel */
 
 
-/* OGI Newsletter */
-
-.newsletter-style-01 {
-background-color: white !important;
-}
-
-.newsletter-style-01 form {
-padding: 10px !important;
-border: 0 !important;
-background-color: white !important;
-max-width: 80% !important;
-}
-.newsletter-style-01 .form-control
-{
-padding: 10px !important;
-border: 0 !important;
-    box-shadow: none !important;
-}
-
-.newsletter-style-01 select {
-    box-shadow: none !important;
-    border: 0 !important;
-    color: white !important;
-}
-
-.newsletter-style-01 input::placeholder  {
-    box-shadow: none !important;
-    border: 0 !important;
-}
-
-.newsletter-style-01 input  {
-overflow: hidden !important;
-}
-
-@media (min-width: 1200px) {
-#ogi-sub-form .col-lg-8 {
-        width: 50% !important;
-    }
-}
-
-@media (max-width: 1199px) {
-#ogi-sub-form .col-lg-8 {
-        width: 90% !important;
-    }
-
-.newsletter-style-01 form {
-max-width: 50% !important;
-}
-}
-
-/* END OGI Newsletter */
-
-
-
-/* OGI Popup */
-
-input#email {
-    height: 50px !important;
-}
-
-@media (min-width: 809px) {
- #subscribe-popup .col-md-10 {
-padding: 0 !important;
-}
-#subscribe-popup .container {
-max-width: 80% !important;
-}
-}
-
-@media (max-width: 809px) {
- #subscribe-popup .container {
-max-width: 100% !important;
-}
-}
-
- #subscribe-popup .btn.btn-dark-gray:hover,  #subscribe-popup .btn.btn-dark-gray:active, #subscribe-popup .btn.btn-dark-gray:focus {
-color: var(--white) !important;
-}
-
-#subscribe-popup .col-lg-6, #subscribe-popup .col-md-6, #subscribe-popup .col-md-10 {
-padding-left: 0;
-padding-right: 0;
-}
-
-@media (min-width: 1600px) {
-input[type="checkbox"]
-{
-padding:10px !important;
-width: 15px !important;
-height: 15px !important;
-}
-}
-
-@media (min-width: 2000px) {
-input[type="checkbox"]
-{
-width: 20px !important;
-height: 20px !important;
-}
-}
-
-@media (min-width: 3000px) {
-input[type="checkbox"]
-{
-width: 40px !important;
-height: 40px !important;
-}
-}
-
-/* END OGI Popup */
-
-
 /* OGI Lists */
 
 .list-style-one{
@@ -1359,5 +1257,213 @@ margin-bottom: 0 !important;
 /* END OGI Team Classic */
 
 
+/* OGI Services Half Image */
+
+@media screen and (min-width: 1px) and (max-width: 1199px) {
+  .ogi-services-half .col-sm-6  {
+        width: 100% !important;
+    }
+}
+
+/* END OGI Services Half Image */
+
+
+/* OGI Icons Style 01 */
+
+.icon-with-text-style-05:hover * {
+color: white !important;
+}
+
+.feature-box.feature-box-left-icon .feature-box-icon {
+margin-right: 0 !important;
+}
+
+.row.icon-with-text-style-01 {
+padding: 5% !important;
+}
+
+.icon-with-text-style-01 {
+padding: 7% !important;
+}
+
+
+.icon-with-text-style-01 em {
+color: var|(--color1) !important;
+}
+
+.icon-with-text-style-01:hover {
+background-color: var(--color1) !important;
+border-radius: 25px !important;
+}
+
+.icon-with-text-style-01:hover *{
+color: white !important;
+}
+
+/* END OGI Icons Style 01 */
+
+
+/* OGI Icons Style 05 */
+
+.icon-with-text-style-05:hover * {
+color: white !important;
+}
+
+/* END OGI Icons Style 05 */
+
+
+/* OGI Newsletter */
+
+.newsletter-style-01 {
+background-color: white !important;
+}
+
+.newsletter-style-01 form {
+padding: 10px !important;
+border: 0 !important;
+background-color: white !important;
+max-width: 80% !important;
+}
+.newsletter-style-01 .form-control
+{
+padding: 10px !important;
+border: 0 !important;
+    box-shadow: none !important;
+}
+
+.newsletter-style-01 select {
+    box-shadow: none !important;
+    border: 0 !important;
+    color: white !important;
+}
+
+.newsletter-style-01 input::placeholder  {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.newsletter-style-01 input  {
+overflow: hidden !important;
+}
+
+@media (min-width: 1200px) {
+#ogi-sub-form .col-lg-8 {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1199px) {
+#ogi-sub-form .col-lg-8 {
+        width: 90% !important;
+    }
+
+.newsletter-style-01 form {
+max-width: 50% !important;
+}
+}
+
+/* END OGI Newsletter */
+
+
+
+/* OGI Popup */
+
+input#email {
+    height: 50px !important;
+}
+
+@media (min-width: 809px) {
+ #subscribe-popup .col-md-10 {
+padding: 0 !important;
+}
+#subscribe-popup .container {
+max-width: 80% !important;
+}
+}
+
+@media (max-width: 809px) {
+ #subscribe-popup .container {
+max-width: 100% !important;
+}
+}
+
+ #subscribe-popup .btn.btn-dark-gray:hover,  #subscribe-popup .btn.btn-dark-gray:active, #subscribe-popup .btn.btn-dark-gray:focus {
+color: var(--white) !important;
+}
+
+#subscribe-popup .col-lg-6, #subscribe-popup .col-md-6, #subscribe-popup .col-md-10 {
+padding-left: 0;
+padding-right: 0;
+}
+
+@media (min-width: 1600px) {
+input[type="checkbox"]
+{
+padding:10px !important;
+width: 15px !important;
+height: 15px !important;
+}
+}
+
+@media (min-width: 2000px) {
+input[type="checkbox"]
+{
+width: 20px !important;
+height: 20px !important;
+}
+}
+
+@media (min-width: 3000px) {
+input[type="checkbox"]
+{
+width: 40px !important;
+height: 40px !important;
+}
+}
+
+.newsletter-popup {
+padding-left: 5% !important;
+padding-right: 5% !important;
+}
+
+.resp-text, .resp-popup {
+padding-top: 2% !important;
+padding-bottom: 2% !important;
+}
+
+.resp-input, button.resp-popup.mfp-close::before {
+padding: 4% !important;
+}
+/* END OGI Popup */
+
+
+/* Important General - Always Last */
+
+@media screen and (min-width: 500px) and (max-width: 1199px) {
+
+.col-md-3 {
+        width: 50% !important;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+.col-md-4 {
+        width: 50% !important;
+}
+}
+
+p, span, li {
+line-height: 1.5 !important;
+}
+
+.resp-text {
+    display: flex !important;
+    flex: 1 !important;
+    margin: 0 !important; /* Αφαίρεση περιθωρίων για καλύτερη ευθυγράμμιση */
+    padding: 0 !important; /* Αφαίρεση padding για να γεμίσει σωστά το ύψος */
+    font-size: clamp(16px, 3vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+}
+
+/* END Important General - Always Last */
 
 /* END NEW BLOCKS */
