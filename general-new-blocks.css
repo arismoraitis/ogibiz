@@ -198,8 +198,7 @@ b, strong {
 
 .w-full img {
     width: 100% !important;
-    max-height: 400px !important;
-    height: 400px !important;
+    height: auto !important;
     justify-self: center !important;
     background-size: cover !important;
     object-fit: cover !important;
