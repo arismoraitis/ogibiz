@@ -267,7 +267,7 @@ opacity: 0.85 !important;
   }
 
   /* Για μικρότερες οθόνες */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .video-background1 {
       justify-content: center !important; /* Κεντράρισμα οριζόντια */
     }
@@ -277,7 +277,7 @@ opacity: 0.85 !important;
     }
   }
 
-  @media (min-width: 809px) {
+  @media (min-width: 1025px) {
     .video-background1 {
       justify-content: flex-start !important; /* Στοιχιση αριστερά */
     }
@@ -288,7 +288,7 @@ opacity: 0.85 !important;
     }
   }
 
-@media (min-width: 769px) and (max-width: 808px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     #white-box-vid {
 height: 80vh !important;
 padding: 5% !important;
