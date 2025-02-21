@@ -377,9 +377,15 @@ span.fa-solid.icon-small.fa-angle-right {
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     #ogi-banner1 .col-lg-8 {
         width: 50% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #ogi-banner1 .col-lg-8 {
+        width: 75% !important;
     }
 }
 
