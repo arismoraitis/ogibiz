@@ -507,14 +507,27 @@ min-width: min-content;
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
-.hsd-heroContent {
-    color: white;
+
+  .hsd-hero-img {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .hsd-heroContent {
     font-size: 1.2rem;
-    max-width: 100%;
     text-align: center;
-    padding: 10% !important;
-}
+    position: static;
+    background: white;
+    color: black;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
 .hsd-heroContent h1 span {
     display: block;
     font-size: 1.2rem;
