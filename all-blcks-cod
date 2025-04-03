@@ -1,0 +1,2282 @@
+BANNER 1
+<section id="ogi-banner1" class="desktop-display p-0">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 p-0">
+<div class="swiper position-relative text-slider-style-03">
+<div class="swiper-wrapper"><span style="font-family: 'Open Sans';"><!-- start text slider item --></span>
+<div class="swiper-slide position-relative p-0"><span style="font-family: 'Open Sans';"><img class="w-100 h-auto object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/banner-dance-fitness%20%281%29.jpg" alt="Bowtech Banner" width="100%" height="auto" /></span>
+<div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+<div class="container position-relative swiper-slide-content">
+<div class="row justify-content-start">
+<div class="col-12 col-xl-6 col-lg-8 col-md-12">
+<div class="white-box bg-white border-radius-6px p-8 lg-p-15 md-p-8">
+<h3 class="resp-title-3 white-box-text text-dark-gray fw-100 ls-minus-2px mb-20px"><span style="font-family: 'Open Sans';">Lorem Ipsum is simply dummy text of the printing industry.</span><br /><br /></h3>
+<a class="text-white btn btn-large btn-rounded bg-base-color btn-hover-animation-switch" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span style="font-family: 'Open Sans';"><!-- end text slider item --></span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<p><span style="font-family: 'Open Sans';"><!-- start section --></span></p>
+<section id="ogi-phone-banner1" class="phone-display p-0">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 p-0">
+<div class="swiper position-relative text-slider-style-03">
+<div class="swiper-wrapper"><span style="font-family: 'Open Sans';"><!-- start text slider item --></span>
+<div class="swiper-slide position-relative p-0"><span style="font-family: 'Open Sans';"><img class="w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/banner-phone-dance-fitness.jpg" alt="" width="100%" height="NaN" /></span>
+<div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+<div class="container position-relative swiper-slide-content">
+<div id="white-box-phone" class="row justify-content-start">
+<div class="col-12 col-xl-6 col-lg-8 col-md-12">
+<div class="bg-white border-radius-6px p-14 lg-p-15 md-p-10">
+<h3 class="resp-title-5 white-box-text text-dark-gray fw-600 ls-minus-2px mb-20px"><span style="font-family: 'Open Sans';">Lorem Ipsum is simply dummy text of the printing industry.</span><br /><br /></h3>
+<span style="font-family: 'Open Sans';"><a class="text-white btn btn-large btn-rounded bg-base-color btn-hover-animation-switch" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end text slider item --></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+BANNER 2
+<div class="hsd-hero bg-white"><img class="hsd-hero-img" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/IMG-20201212-WA0000.jpg" alt="Background Image" width="100%" height="100%" />
+    <div class="hsd-contentWrap">
+    <div class="hsd-heroContent bg-white p-7 opacity-9 border-radius-6px" style="text-align: center;">
+    <h3 class="resp-title-3 text-base-color fw-700 ls-minus-1px mb-0" style="text-align: center;">Lorem Ipsum</h3>
+    <p class="resp-text-main" style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /><br /></p>
+    <a class="text-white btn btn-large btn-rounded bg-base-color btn-hover-animation-switch" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    </div>
+
+
+
+
+BANNER FORM
+<div class="hsd-hero bg-white"><img class="hsd-hero-img" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/IMG-20201212-WA0000.jpg" alt="Background Image" width="100%" height="100%" />
+    <div class="hsd-contentWrap">
+    <div class="hsd-heroContent bg-white p-7 opacity-9 border-radius-6px" style="text-align: center;">
+    <h3 class="resp-title-4 text-base-color fw-700 ls-minus-1px mb-0" style="text-align: center;">Lorem ipsum is simply dummy of the printing typesetting industry!<br /><br /></h3>
+    <form id="cont_form" class="cont_form">
+    <div class="pt-2 pb-2"><input id="fullname" class="form-control resp-subtitle h-50px" name="&Omicron;&nu;&omicron;&mu;&alpha;&tau;&epsilon;&pi;ώ&nu;&upsilon;&mu;&omicron;" required="" type="text" placeholder="&Omicron;&nu;&omicron;&mu;&alpha;&tau;&epsilon;&pi;ώ&nu;&upsilon;&mu;&omicron;" /></div>
+    <div class="pt-2 pb-2"><input id="cont-email" class="form-control resp-subtitle h-50px" name="Email" required="" type="email" placeholder="Email" /></div>
+    <div class="pt-2 pb-4"><input id="phone" class="form-control resp-subtitle h-50px" name="&Tau;&eta;&lambda;έ&phi;&omega;&nu;&omicron;" required="" type="tel" placeholder="&Tau;&eta;&lambda;έ&phi;&omega;&nu;&omicron; &epsilon;&pi;&iota;&kappa;&omicron;&iota;&nu;&omega;&nu;ί&alpha;&sigmaf;" /></div>
+    <input name="destEmail" type="hidden" value="arismoraitis98@gmail.com" />
+    <div class="text-right"><button id="contactSubmit" class="btn btn-primary contSubmit resp-btn" style="font-size: 18px; background-color: var(--color1); color: #fff;" type="submit">&Alpha;&Pi;&Omicron;&Sigma;&Tau;&Omicron;&Lambda;&Eta;</button></div>
+    </form><!-- Περιοχή για εμφάνιση μηνυμάτων -->
+    <div id="response-message">&nbsp;</div>
+    </div>
+    </div>
+    </div>
+
+BANNER VIDEO (YOUTUBE)
+
+    <div id="ogi-banner-vid" class="video-background1">
+        <div class="video-foreground1">
+        <div id="player">&nbsp;</div>
+        <!-- YouTube player container --></div>
+        <div id="white-box-vid" class="col-12 col-xl-6 col-lg-8 col-md-12">
+        <div class="bg-white opacity-9 border-radius-6px p-10 lg-p-10" style="text-align: center;">
+        <h3 class="resp-title-6 text-base-color fw-700 ls-minus-1px mb-0" style="text-align: center;">Lorem ipsum is simply dummy of the printing typesetting industry lorem ipsum has the industry standard dummy text ever since lorem text.<br />&nbsp;</h3>
+        <a class="text-white btn btn-large btn-rounded bg-base-color btn-hover-animation-switch" href="#"><span class="resp-btn btn-text">Get in Touch</span>&nbsp;<span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+        </div>
+        </div>
+        <!-- YouTube API Script -->
+        <script>// <![CDATA[
+        var tag = document.createElement('script');
+          tag.src = "https://www.youtube.com/iframe_api";
+          var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        
+          var player;
+          function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+              height: '150',
+              width: '300',
+              videoId: 'nnIhUI2VFT4', // Μόνο το ID, χωρίς "?si=..."
+              playerVars: {
+                autoplay: 1, // Αυτόματη εκκίνηση
+                mute: 1, // Σίγαση για να παίξει αυτόματα
+                controls: 0, // Απόκρυψη controls
+                modestbranding: 1, // Αφαίρεση YouTube logo
+                showinfo: 0, 
+                loop: 1, // Ενεργοποίηση loop
+                playlist: 'nnIhUI2VFT4', // Για να λειτουργεί το loop
+                disablekb: 1, // Απενεργοποίηση keyboard shortcuts
+                fs: 0, // Απόκρυψη fullscreen button
+                rel: 0 // Απόκρυψη σχετικών βίντεο
+              },
+              events: {
+                onReady: function(event) {
+                  event.target.playVideo(); // Αυτόματη αναπαραγωγή όταν φορτώσει
+                }
+              }
+            });
+          }
+        // ]]></script>
+        <!-- Ρύθμιση ύψους του box σε σχέση με το iframe -->
+        <script>// <![CDATA[
+        function adjustBoxHeight() {
+          const iframe = document.getElementById('player');
+          const box = document.getElementById('white-box-vid');
+          if (!iframe || !box) return;
+        
+          // Μόνο για desktop:
+          if (window.innerWidth > 768) {
+            const iframeHeight = iframe.offsetHeight;
+            box.style.height = (iframeHeight * 0.95) + 'px';
+          } else {
+            // Σε mobile, άστο auto
+            box.style.height = 'auto';
+          }
+        }
+        // ]]></script>
+
+
+BANNER SLIDER
+<!-- start section -->
+<section id="ogi-slider-banner1" class="p-0">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-12 p-0">
+    <div class="swiper position-relative text-slider-style-03" data-slider-options="{ &quot;autoHeight&quot;: true, &quot;loop&quot;: true, &quot;allowTouchMove&quot;: true, &quot;autoplay&quot;: { &quot;delay&quot;: 5000, &quot;disableOnInteraction&quot;: false }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.swiper-button-next-01&quot;, &quot;prevEl&quot;: &quot;.swiper-button-prev-01&quot; }, &quot;effect&quot;: &quot;fade&quot; }">
+    <div class="swiper-wrapper"><!-- start text slider item -->
+    <div class="swiper-slide position-relative p-0"><img class="w-100 h-auto object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/1banner.jpg" alt="Banner" width="NaN" height="auto" />
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+    <div class="container position-relative swiper-slide-content">
+    <div class="row justify-content-start">
+    <div class="col-12 col-xl-6 col-lg-8 col-md-12">
+    <div class="white-box bg-white border-radius-6px p-8 lg-p-15 md-p-8">
+    <h3 class="resp-title-3 white-box-text text-dark-gray fw-600 ls-minus-2px mb-20px">1. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /><br /></h3>
+    <a class="text-white btn btn-large btn-rounded bg-base-color btn-hover-animation-switch" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- end text slider item --> <!-- start text slider item -->
+    <div class="swiper-slide position-relative p-0"><img class="w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/2banner.jpg" alt="Banner" width="100%" height="auto" />
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+    <div class="container position-relative swiper-slide-content">
+    <div class="row justify-content-start">
+    <div class="col-12 col-xl-6 col-lg-8 col-md-12">
+    <div class="white-box bg-white border-radius-6px p-8 lg-p-15 md-p-8">
+    <h3 class="resp-title-3 white-box-text text-dark-gray fw-600 ls-minus-2px mb-20px">2. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /><br /></h3>
+    <a class="text-white btn btn-large btn-rounded bg-base-color btn-hover-animation-switch" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- end text slider item --> <!-- start text slider item -->
+    <div class="swiper-slide position-relative p-0"><img class="w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/3banner.jpg" alt="Banner" width="100%" height="auto" />
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+    <div class="container position-relative swiper-slide-content">
+    <div class="row justify-content-start">
+    <div class="col-12 col-xl-6 col-lg-8 col-md-12">
+    <div class="white-box bg-white border-radius-6px p-8 lg-p-15 md-p-8">
+    <h3 class="resp-title-3 white-box-text text-dark-gray fw-600 ls-minus-2px mb-20px">3. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /><br /></h3>
+    <a class="text-white btn btn-large btn-rounded bg-base-color btn-hover-animation-switch" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="swiper-button-prev swiper-button-prev-01"><em class="fa-solid fa-chevron-left text-black p-20">&nbsp;</em></div>
+    <div class="swiper-button-next swiper-button-next-01"><em class="fa-solid fa-chevron-right text-black p-20">&nbsp;</em></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+
+
+DOUBLE COLOR TITLE
+<div class="row justify-content-center pt-5">
+    <div class="col-12 col-lg-10 text-center">
+    <h2 class="resp-title-2 fs-70 text-dark-gray fw-700 ls-minus-2px">Some of <span class="resp-title-2 text-base-color">our clients</span></h2>
+    </div>
+    </div>
+
+
+
+LOGOS CAROUSEL
+<div class="thecolabs-slider">
+    <div class="thecolabs-slide-track">
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%281%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%282%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%283%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%284%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%285%29.jpg" alt="" width="350" height="350" /></div>
+    <div>&nbsp;</div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%286%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%287%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%288%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%289%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%2813%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%2811%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%2812%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%2810%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%2814%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%2815%29.jpg" alt="" width="350" height="350" /></div>
+    <div class="thecolabs-slide"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/197495/clients-logos%20%2816%29.jpg" alt="" width="350" height="350" /></div>
+    </div>
+    </div>
+
+NEWSLETTER BANNER
+<!-- start section -->
+<section id="ogi-sub-form" class="cover-background" style="background-image: url('https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/demo-subscribe-bg-01.jpeg');">
+    <div class="container"><!-- start subscribe item -->
+    <div class="row justify-content-center">
+    <div class="col-12 col-xl-7 col-lg-8 col-md-10 text-center">
+    <h2 class="resp-title-2 fs-70 text-dark-gray fw-700 ls-minus-2px">&Kappa;ά&nu;&tau;&epsilon; &tau;&eta;&nu; &epsilon;&gamma;&gamma;&rho;&alpha;&phi;ή &sigma;&alpha;&sigmaf;&nbsp;<span class="resp-title-2 text-base-color">&sigma;&tau;&omicron; Newsletter!</span></h2>
+    <div class="resp-popup d-inline-block w-100 newsletter-style-05 position-relative mb-20px"><form id="subscription-form" class="resp-popup form_sec" method="post"><input name="data[returnType]" type="hidden" value="json" /> <input name="data[Guest][addlist]" type="hidden" value="27989" /> <input name="data[Guest][reg_form]" type="hidden" value="960" /> <input name="data[email_notification]" type="hidden" value="1" /> <input id="email" class="resp-input input-medium w-100 border-radius-4px form-control required mb-15px" name="data[Guest][email]" type="email" placeholder="Enter your email address" /> <button class="resp-btn btn btn-medium btn-round-edge btn-dark-gray btn-box-shadow w-100 subregform" type="button">Subscribe now!</button>
+    <div id="error-message" class="text-danger mt-2 d-none">&nbsp;</div>
+    <div id="success-message" class="text-success mt-2 d-none">&nbsp;</div>
+    </form></div>
+    <p class="resp-text-2 fs-14 lh-24 w-70 sm-w-100 mx-auto">&Delta;&epsilon;&sigma;&mu;&epsilon;&upsilon;ό&mu;&alpha;&sigma;&tau;&epsilon; &nu;&alpha; &pi;&rho;&omicron;&sigma;&tau;&alpha;&tau;&epsilon;ύ&omicron;&upsilon;&mu;&epsilon; &tau;&eta;&nu; &iota;&delta;&iota;&omega;&tau;&iota;&kappa;ό&tau;&eta;&tau;ά &sigma;&alpha;&sigmaf;. &Delta;&epsilon;&nu; &theta;&alpha; &sigma;&upsilon;&lambda;&lambda;έ&xi;&omicron;&upsilon;&mu;&epsilon; &pi;&omicron;&tau;έ &pi;&lambda;&eta;&rho;&omicron;&phi;&omicron;&rho;ί&epsilon;&sigmaf; &gamma;&iota;&alpha; &epsilon;&sigma;ά&sigmaf; &chi;&omega;&rho;ί&sigmaf; &tau;&eta; &rho;&eta;&tau;ή &sigma;&upsilon;&gamma;&kappa;&alpha;&tau;ά&theta;&epsilon;&sigma;ή &sigma;&alpha;&sigmaf;.</p>
+    </div>
+    </div>
+    <!-- end subscribe item --></div>
+    </section>
+
+
+
+POPUP BLOCK
+<!-- start subscription popup -->
+<div id="subscribe-popup" class="mfp-hide subscribe-popup">
+    <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-xl-9 col-md-10 bg-white">
+    <div class="row position-relative box-shadow-quadruple-large">
+    <div class="col-lg-6 md-h-400px xs-h-300px"><img class="w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/newsletter-popup-img-01.jpg" alt="Newsletter image" /></div>
+    <div class="col-lg-6 newsletter-popup p-8 pt-10 pb-10 lg-p-5 md-p-6 xs-p-8 position-relative">
+    <h4 class="resp-title-4 d-inline-block alt-font ls-minus-1px fw-700 text-dark-gray mb-15px">Subscribe to the latest updates!</h4>
+    <p class="resp-text">Subscribe to our newsletters and get the latest business updates.</p>
+    <div class="resp-popup d-inline-block w-100 newsletter-style-05 position-relative mb-20px"><form id="subscription-form" class="resp-popup form_sec" method="post"><input name="data[returnType]" type="hidden" value="json" /> <input name="data[Guest][addlist]" type="hidden" value="27989" /> <input name="data[Guest][reg_form]" type="hidden" value="960" /> <input name="data[email_notification]" type="hidden" value="1" /> <input id="email" class="resp-input input-medium w-100 border-radius-4px form-control required mb-15px" name="data[Guest][email]" type="email" placeholder="Enter your email address" /> <button class="resp-btn btn btn-medium btn-round-edge btn-dark-gray btn-box-shadow w-100 subregform" type="button">Subscribe now!</button>
+    <div id="error-message" class="text-danger mt-2 d-none">&nbsp;</div>
+    <div id="success-message" class="text-success mt-2 d-none">&nbsp;</div>
+    </form></div>
+    <label class="resp-popup fs-15" for="newsletter-off"><input id="newsletter-off" class="resp-popup w-auto me-10px position-relative top-1px p-0" name="newsletter-off" type="checkbox" />Don't show this popup again</label></div>
+    <button class="resp-popup mfp-close text-dark-gray" title="Close (Esc)" type="button"></button></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- end subscription popup -->
+
+
+FOOTER
+CONTACT INFO
+<p style="text-align: center;"><span style="color: #ffffff; font-family: 'Open Sans'; font-size: 14pt;"><strong><br />&Sigma;&tau;&omicron;&iota;&chi;&epsilon;ί&alpha; &Delta;&iota;&epsilon;ύ&theta;&upsilon;&nu;&sigma;&eta;&sigmaf;</strong></span></p>
+<hr />
+<table style="margin-left: auto; margin-right: auto; height: 137px;" width="380" cellspacing="3" cellpadding="3">
+<tbody>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-family: 'Open Sans'; font-size: 14pt;">&nbsp;Ό&nu;&omicron;&mu;&alpha; &Epsilon;&pi;&iota;&chi;&epsilon;&iota;&rho;&eta;&mu;&alpha;&tau;ί&alpha;</span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="font-family: 'Open Sans'; font-size: 14pt; color: #ffffff;">&nbsp;&Epsilon;&iota;&delta;&iota;&kappa;ό&tau;&eta;&tau;&alpha; &Epsilon;&pi;&iota;&chi;&epsilon;&iota;&rho;&eta;&mu;&alpha;&tau;ί&alpha;</span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-size: 14pt;">&nbsp;</span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-size: 14pt; font-family: 'Open Sans';"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/179474/icons8-call-100.png" alt="" width="30" height="auto" />&nbsp;&nbsp;<a style="color: #ffffff;" href="tel:+306999999999" target="_blank">+30 6999 999 999</a></span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-size: 14pt;">&nbsp;</span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-family: 'Open Sans'; font-size: 14pt;"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/icons8-email-sign-50.png" alt="" width="35" height="35" />&nbsp;&nbsp;<a style="color: #ffffff;" href="mailto:info@newsites.com" target="_blank">info@newsites.com</a></span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-size: 14pt;">&nbsp;</span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-family: 'Open Sans'; font-size: 14pt;">&nbsp;<img src="https://www.ourglobalidea.com/rep/app/webroot/files/smeeshop/183706/icons8-address-100.png" alt="" width="30" height="30" />&nbsp;<a style="color: #ffffff;" href="https://maps.app.goo.gl/GGzseqFdxNLjNXYA7" target="_blank">&Delta;&iota;&epsilon;ύ&theta;&upsilon;&nu;&sigma;&eta; &Epsilon;&pi;&iota;&chi;&epsilon;ί&rho;&eta;&sigma;&eta;&sigmaf;, &Pi;ό&lambda;&eta;, &Tau;&Kappa;</a></span></td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff;">&nbsp;</span></td>
+<td style="text-align: left; vertical-align: middle;"><span style="color: #ffffff; font-size: 14pt;">&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+
+SOCIAL MEDIA
+<p style="text-align: center;"><span style="font-family: 'Open Sans';"><strong><span style="font-size: 14pt; color: #ffffff;"><br />Social Media</span></strong></span></p>
+<hr />
+<p style="text-align: center;"><span style="font-family: 'Open Sans';"><a href="https://www.facebook.com/" target="_blank"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/184074/icons8-facebook-30.png" alt="" width="35" height="35" /></a>&nbsp;</span></p>
+<p><button id="scrollToTopBtn" style="background-color: #23d5ae; border: none; border-radius: 50%; color: white; cursor: pointer; font-size: 10px; line-height: 48px; width: 48px; position: fixed; bottom: 0px; right: 0px; margin: 20px;">TOP</button></p>
+<script>// <![CDATA[
+//Get the button
+
+document.getElementById("scrollToTopBtn").addEventListener("click", topFunction);
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+        window.scrollBy(0, -50);
+        requestAnimationFrame(topFunction);
+    }
+}
+// ]]></script>
+<script>// <![CDATA[
+document.getElementById('cont_form').addEventListener('submit', function(e) {
+      e.preventDefault(); // Αποφυγή παραδοσιακής υποβολής της φόρμας
+
+      var form = this;
+      var responseDiv = document.getElementById('response-message');
+
+      // Έλεγχος εγκυρότητας (με χρήση HTML5 validation)
+      if (!form.checkValidity()) {
+        responseDiv.innerHTML = "<p style='color:red;'>Παρακαλώ συμπληρώστε όλα τα απαιτούμενα πεδία.</p>";
+        return;
+      }
+
+      // Δημιουργία αντικειμένου FormData για αποστολή των δεδομένων
+      var formData = new FormData(form);
+
+      // Αντικαταστήστε το παρακάτω URL με το δικό σας Google Apps Script URL
+      var scriptURL = "https://script.google.com/macros/s/AKfycbyugTrAxzuyv7RsTGrONxdy-IHfmbFlp7iaKSSg_WactQi8e2n5tRuhd6q-AGkvtjid/exec";
+
+      // Αποστολή των δεδομένων με fetch
+      fetch(scriptURL, {
+        method: 'POST',
+        mode: 'no-cors',  // Χρήση no-cors για αποφυγή CORS προβλημάτων
+        body: formData
+      })
+      .then(function() {
+        responseDiv.innerHTML = "<p style='color:green;'>Η φόρμα εστάλη επιτυχώς.</p>";
+        form.reset();  // Επαναφορά φόρμας μετά την επιτυχή αποστολή
+      })
+      .catch(function(error) {
+        responseDiv.innerHTML = "<p style='color:red;'>Παρουσιάστηκε σφάλμα. Παρακαλώ προσπαθήστε ξανά.</p>";
+        console.error('Error!', error.message);
+      });
+    });
+// ]]></script>
+<script>// <![CDATA[
+$(document).ready(function () {
+        function showError(message) {
+            $('#error-message').text(message).removeClass('d-none').addClass('d-block');
+            $('#success-message').removeClass('d-block').addClass('d-none');
+        }
+
+        function showSuccess(message) {
+            $('#success-message').text(message).removeClass('d-none').addClass('d-block');
+            $('#error-message').removeClass('d-block').addClass('d-none');
+        }
+
+        $(".subregform").click(function (e) {
+            e.preventDefault();
+
+            // Validation
+            var email = $("#email").val().trim();
+            var emailRegex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+            if (!email || !emailRegex.test(email)) {
+                showError("Please enter a valid email address.");
+                return;
+            }
+
+            // Data preparation
+            var formData = $("#subscription-form").serialize();
+
+            // AJAX Request
+            $.ajax({
+                type: "POST",
+                url: "https://ogimarketingsystem.com/contactlists/addguestfromother",
+                data: formData,
+                dataType: "json",
+                success: function (response) {
+                    if (response.status) {
+                        showSuccess(response.message || "Subscription successful!");
+                        $("#subscription-form")[0].reset();
+                        setTimeout(function () {
+                            window.location.href = "https://newsite.ogibiz.com/";
+                        }, 1000);
+                    } else {
+                        showError(response.message || "Subscription failed. Please try again.");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error("AJAX Error:", error);
+                    console.error("Response:", xhr.responseText);
+                    showError("An error occurred while processing your request.");
+                }
+            });
+        });
+    });
+// ]]></script>
+<script>// <![CDATA[
+document.addEventListener('DOMContentLoaded', function () {
+        var accordionItems = document.querySelectorAll('.accordion-item');
+
+        accordionItems.forEach(function (item) {
+            var collapseElement = item.querySelector('.accordion-collapse');
+            var header = item.querySelector('.accordion-header');
+            var icon = header.querySelector('.fa-angle-right, .fa-angle-down');
+
+            // Listen for the Bootstrap collapse events to toggle arrows
+            collapseElement.addEventListener('show.bs.collapse', function () {
+                // When opening, change to down arrow
+                icon.classList.remove('fa-angle-right');
+                icon.classList.add('fa-angle-down');
+            });
+
+            collapseElement.addEventListener('hide.bs.collapse', function () {
+                // When closing, change to right arrow
+                icon.classList.remove('fa-angle-down');
+                icon.classList.add('fa-angle-right');
+            });
+
+            // Set initial state for the first accordion (it should be open initially)
+            if (collapseElement.classList.contains('show')) {
+                icon.classList.remove('fa-angle-right');
+                icon.classList.add('fa-angle-down');
+            }
+        });
+    });
+// ]]></script>
+<script src="https://arismoraitis.github.io/ogibiz/vendors.min1.js" type="text/javascript"></script>
+<script src="https://arismoraitis.github.io/ogibiz/main1.js" type="text/javascript"></script>
+
+
+
+
+
+CSS
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Gentium+Plus&display=swap" rel="stylesheet">
+  
+  <!-- Third-Party CSS Libraries -->
+    <link rel="stylesheet" href="https://arismoraitis.github.io/petrascharalabos/phonemenu.css">
+    <link rel="stylesheet" href="https://arismoraitis.github.io/petrascharalabos/animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
+  <!-- Your Custom CSS (should follow all libraries to allow overrides) -->
+  <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/vendors.min1.css">
+  <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/icon.min1.css">
+  <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/style1.css">
+  <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/general-ogibiz.css">
+  <link rel="stylesheet" href="https://arismoraitis.github.io/ogibiz/general-new-blocks.css">
+  <link rel="stylesheet" href="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/css/spotlight.min.css">
+  
+  
+  <!-- JavaScript Libraries -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="https://arismoraitis.github.io/petrascharalabos/device.js"></script>
+  <script type="text/javascript" src="https://arismoraitis.github.io/ogibiz/reveal-fade.js"></script>
+  <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/js/spotlight.min.js"></script>
+    <style>
+  
+  /* ------------------------START MAIN EDITING-------------------- */
+  
+  /* ta colors eine metavlites pou xrisimopoiounte parakato */
+  :root {
+    --color1: #d39121;
+    --base-color: #d39121;
+    --primary-font: 'Didact Gothic', sans-serif;
+    --color2: #23d5ae;
+    --color3: #f8f8f8;
+    --color4: white;
+    --color5: black; 
+    --hsd-hero-h1-size: 54px !important;
+    --hsd-hero-text-color: white;
+    --hero-hero-text-size: 16px;
+    --white: #ffffff;
+    --black: #000000;
+    --red: #dc3131;
+    --light-red: #feedec;
+    --green: #2ebb79;
+    --crusoe-green: #d39121;
+    --yellow: #ffea23;
+    --dark-gray: #232323;
+    --medium-gray: #717580;
+    --extra-medium-gray: #e4e4e4;
+    --light-gray: #a8a8a8;
+    --very-light-gray: #f7f7f7;
+    --light-medium-gray: #eaeaeb;
+    --charcoal-blue: #202329;
+    --slate-blue: #262b35;
+    --medium-slate-blue: #374162;
+    --extra-medium-slate-blue: #23262d;
+    --dark-slate-blue: #1f232c;
+    --extra-dark-slate-blue: #121418;
+    --extra-very-slate-blue: #161620;
+    --tussock-yellow: #BC8947;
+    --aluminium-grey:#80858F;
+    --solitude-blue:#f0f4fd;
+    --golden-yellow:#fd961e;
+    --selago:#eaedff;
+    --white-ice:#d8f5ef;
+    --cornflower-blue:#445fed;
+    --jade:#00AF6B;
+    --orange: #ef991f;
+    --majorelle-blue: #724ade;
+    --light-majorelle-blue: #f2edfe;
+    --spring-wood: #f9f6f3;
+    --tropical-blue: #1ea3b1;
+    --camarone: #20642b;
+    --seal-brown: #0e0708;
+    --Wasabi: #8ea63a;
+  }
+  
+  body {
+    font-family: var(--primary-font) !important;
+    line-height: 30px !important;
+    font-weight: 400 !important;
+    color: var(--medium-gray) !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    word-break: break-word !important;
+    -webkit-font-smoothing: antialiased !important;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6, li, a, input, input::placeholder {
+    font-family: var(--primary-font) !important;
+  }
+  
+  /* ΓΕΝΙΚΟ ΧΡΩΜΑ GRADIENT ΓΙΑ BACKGROUNDS */
+  
+  .bg-base-gradient {
+  background-image: linear-gradient(to right, color-mix(in srgb, var(--color1) 50%, #fff 50%), #fff);
+      color: white !important; 
+  }
+  
+  .base-color-text {
+  color: var(--base-color);
+  }
+  
+  .bg-base-color:hover {
+  background-color: var(--base-color);
+  }
+  
+  /* ΜΕΓΕΘΟΣ ΓΡΑΜΜΑΤΟΣΕΙΡΑΣ ΜΕΝΟΥ */
+  ul.nav.navbar-nav.navbar-right.custom-menu a {
+      font-size: clamp(18px, 2vh + 0.5vw, 250px) !important;
+      line-height: clamp(24px, 2.5vh + 0.5vw, 280px) !important;
+    }
+  
+  /* ΓΡΑΜΜΑΤΟΣΕΙΡΑ ΜΕΝΟΥ */
+    ul.nav.navbar-nav.navbar-right.custom-menu a {
+      font-family: var(--primary-font) !important; 
+  }
+  
+  /* Heading */
+  
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 30px !important;
+    letter-spacing: -0.5px !important;
+    font-weight: inherit !important;
+  }
+  h1, .h1 {
+    font-size: 4.375rem !important;
+    line-height: 4.375rem !important;
+  }
+  h2, .h2 {
+    font-size: 3.638rem !important;
+    line-height: 3.638rem !important;
+  }
+  h3, .h3 {
+    font-size: 2.813rem !important;
+    line-height: 3.125rem !important;
+  }
+  h4 {
+    font-size: 2.375rem !important;
+    line-height: 2.7rem !important;
+  }
+  h5 {
+    font-size: 2rem !important;
+    line-height: 2.2rem !important;
+  }
+  h6 {
+    font-size: 1.75rem !important;
+    line-height: 1.95rem !important;
+  }
+  
+  @media (max-width: 768px) {
+  h1, .h1 {
+      font-size: 3.375rem !important;
+      line-height: 3.375rem !important;
+  }
+  
+  h2, .h2 {
+    font-size: 2.838rem !important;
+    line-height: 3.238rem !important;
+  }
+  h3, .h3 {
+    font-size: 2.413rem !important;
+    line-height: 3.125rem !important;
+  }
+  }
+  
+  /* END Heading */
+  
+      /* Παραμετροποιούνται ανάλογα το site */
+  
+     section {
+          padding-bottom: 100px !important;
+          padding-top: 100px !important;
+      }
+      
+    
+  .phone-number {
+        color: #ffffff !important; /* Χρωμα αριθμού τηλεφώνου για footer */
+    }
+  
+  button#contactSubmit:hover {
+      background-color: var(--color5) !important;
+  }
+  
+  
+  /* Main Banner White Box */
+  
+  @media (min-width: 1025px) {
+  .white-box {
+          max-height: fit-content !important;
+          min-height: fit-content !important;
+          max-width: 35vw !important;
+          width: 35vw !important;
+          min-width: min-content !important;
+          margin-left: 10%;
+          height: fit-content;
+  }
+  }
+  
+  
+  
+  @media (max-width: 1024x) {
+  span#white-box-top {
+      display: none !important;
+  }
+  }
+  
+  #white-box-phone {
+  width: 100% !important;
+  transform: translate(0%, 30%) !important;
+  padding: 1% !important;
+  }
+  
+  /* END Main Banner White Box */
+    
+        /* END Παραμετροποιούνται ανάλογα το site */
+  
+  /* ------------------------END MAIN EDITING-------------------- */
+  
+  
+  
+  /* ------------------------START CUSTOM EDITING-------------------- */
+  
+  
+  .resp-text-main, .resp-text-main p {
+      --main-font-size: clamp(18px, 1.7vh + 0.5vw, 210px) !important;
+      font-size: var(--main-font-size) !important;
+      line-height: clamp(24px, 2.5vh + 0.5vw, 280px) !important;
+  
+      padding-top: 3% !important;
+      padding-bottom: 3% !important;
+  }
+  
+  .resp-text-main li {
+      font-size: calc(var(--main-font-size) - 0.05vh) !important; 
+  }
+  
+  .home-service-section li {
+    list-style: none !important;
+  }
+  
+  .home-service-section ul li:before {
+    content: '\f058 ';
+  color: var(--color1);
+      font-family: "Font Awesome 5 Free";
+      font-weight: 600;
+  }
+  
+  .resp-subtitle {
+      font-size: clamp(16px, 1.2vh + 0.5vw, 150px) !important;
+      line-height: clamp(22px, 2vh + 0.5vw, 2000px) !important;
+  }
+  
+  .resp-input, .resp-popup, button.resp-popup.mfp-close::before {
+      font-size: clamp(14px, 2.6vh, 90px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  }
+  
+  .resp-text-1 {
+      font-size: clamp(14px, 1vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  }
+  
+  .resp-text-1-5 {
+  font-size: clamp(14px, 1.5vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  }
+  
+  .resp-text-2 {
+      font-size: clamp(14px, 2vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+     line-height: clamp(20px, 2vh, 180px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+  }
+  
+  .resp-text-2-5 {
+      font-size: clamp(14px, 2.5vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+     line-height: clamp(25px, 2.5vh, 200px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+  }
+  
+  .resp-text-3 {
+      font-size: clamp(16px, 3vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+     line-height: clamp(30px, 3vh, 200px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  padding-top: 3% !important;
+  padding-bottom: 5% !important;
+  }
+  
+  .resp-text-4 {
+      font-size: clamp(20px, 4vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+     line-height: clamp(40px, 4vh, 200px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  }
+  
+  .resp-title-1 { 
+      font-size: clamp(28px, 3vw, 80px) !important;
+      line-height: clamp(36px, 4vw, 110px) !important;
+  }
+  
+  .resp-title-2 {
+      font-size: clamp(24px, 2.5vw, 70px) !important;
+      line-height: clamp(32px, 3.5vw, 100px) !important;
+  }
+  
+  .resp-title-3 {
+      font-size: clamp(22px, 2.2vw, 60px) !important;
+      line-height: clamp(30px, 3vw, 90px) !important;
+  }
+  
+  .resp-title-4 {
+      font-size: clamp(20px, 2vw, 50px) !important;
+      line-height: clamp(28px, 2.5vw, 80px) !important;
+  }
+  
+  .resp-title-5 {
+      font-size: clamp(18px, 1.7vw, 40px) !important;
+      line-height: clamp(26px, 2vw, 70px) !important;
+  }
+  
+  .resp-title-6 {
+      font-size: clamp(16px, 1.5vw, 35px) !important;
+      line-height: clamp(24px, 1.8vw, 60px) !important;
+  }
+  
+  .resp-title-7 {
+      font-size: clamp(14px, 1.2vw, 30px) !important;
+      line-height: clamp(22px, 1.5vw, 50px) !important;
+  }
+  
+  /* Προσαρμογή για κινητά */
+  @media (max-width: 768px) {
+      .resp-title-1 { 
+          font-size: 44px !important;
+          line-height: 1.1 !important;
+      }
+      .resp-title-2 { 
+          font-size: 38px !important;
+          line-height: 1.2 !important;
+      }
+      .resp-title-3 { 
+          font-size: 32px !important;
+          line-height: 1.3 !important;
+      }
+      .resp-title-4 { 
+          font-size: 28px !important;
+          line-height: 1.3 !important;
+      }
+      .resp-title-5 { 
+          font-size: 26px !important;
+          line-height: 1.4 !important;
+      }
+      .resp-title-6 { 
+          font-size: 18px !important;
+          line-height: 1.4 !important;
+      }
+      .resp-title-7 { 
+          font-size: 14px !important;
+          line-height: 1.5 !important;
+      }
+  }
+  
+  .up-title {
+      font-size: clamp(25px, 3vh, 100px) !important; /* Ρύθμιση γραμματοσειράς με βάση το ύψος της οθόνης */
+  }
+  
+  @media (max-width: 991px) {
+      /* Ακυρώνει το absolute positioning ώστε το container να γίνεται block element */
+      #ogi-slider-banner1 .swiper-slide .position-absolute {
+          position: static !important;
+          top: auto !important;
+          left: auto !important;
+          width: 100% !important;
+          height: auto !important;
+          display: block !important;
+          padding: 0 !important;
+      }
+      
+      /* Εξασφαλίζει ότι η εικόνα εμφανίζεται ως block element */
+      #ogi-slider-banner1 .swiper-slide img {
+          display: block !important;
+          width: 100% !important;
+          height: auto !important;
+          min-height: auto !important;
+      }
+      
+      /* Προσθέτει απόσταση πάνω από το white box αν χρειάζεται */
+      #ogi-slider-banner1 .white-box {
+          margin-top: 20px !important;
+          width: 100% !important;
+          position: static !important;
+      }
+  }
+  
+  @media (max-width: 991px) {
+      /* Βεβαιωνόμαστε ότι το swiper container έχει relative θέση */
+      #ogi-slider-banner1 .swiper {
+           position: relative !important;
+      }
+      
+      /* Τοποθετούμε τα βελάκια πάνω στο white box */
+      #ogi-slider-banner1 .swiper-button-prev-01,
+      #ogi-slider-banner1 .swiper-button-next-01 {
+           position: absolute !important;
+           top: 80% !important;  /* Ρύθμισε το ποσοστό ώστε να ευθυγραμμιστούν με το white box */
+           transform: translateY(-50%) !important;
+           z-index: 100 !important;
+           padding: 10px !important;
+           border-radius: 50% !important;
+      }
+      
+      /* Τοποθετούμε το αριστερό βελάκι μέσα από το slider container */
+      #ogi-slider-banner1 .swiper-button-prev-01 {
+           left: 20px !important;
+      }
+      
+      /* Τοποθετούμε το δεξί βελάκι μέσα από το slider container */
+      #ogi-slider-banner1 .swiper-button-next-01 {
+           right: 20px !important;
+      }
+  }
+  
+  /* White box “πάνω” από το βίντεο (για desktop) */
+  #white-box-vid {
+    position: absolute !important;
+    z-index: 2 !important;       /* πάνω από το βίντεο */
+    width: 40% !important;       /* π.χ. 40% στο desktop */
+    left: 4% !important;         /* ό,τι χρειάζεσαι */
+    top: 50% !important;         /* κάθετη στο μέσο */
+    transform: translateY(-50%) !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  /* Ενδεικτικά styling στο εσωτερικό του box */
+  #white-box-vid .bg-white {
+    background-color: #fff;      /* ή όπως το είχες */
+    opacity: 0.9;                /* ημιδιάφανο */
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* ========== OVERRIDES ΓΙΑ MOBILE ========== */
+  @media (max-width: 768px) {
+    /* 1) Το container σε φυσική ροή, αντί για 800px ύψος */
+    .video-background1 {
+      display: block !important;
+      position: relative !important;
+      width: 100% !important;
+      height: auto !important; /* αφήνουμε το ύψος να μεγαλώνει όσο χρειάζεται */
+      overflow: hidden !important;
+      margin: 0 !important;    /* αν θες να αφαιρέσεις margin */
+    }
+  
+    /* 2) Διατηρούμε αναλογία 16:9 */
+    .video-foreground1 {
+      position: relative !important;
+      width: 100% !important;
+      height: 100% !important;
+      padding-bottom: 56.25% !important; /* 16:9 */
+      margin: 0 auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    }
+  
+    /* 3) Το iframe γεμίζει το .video-foreground1 */
+    .video-foreground1 iframe {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      pointer-events: none !important;
+    }
+  
+    /* 4) Το white box να “φεύγει” από την absolute θέση */
+    #white-box-vid {
+      position: static !important;   /* ακυρώνουμε το absolute */
+      width: auto !important;        /* ακυρώνουμε το 40% */
+      left: auto !important;
+      top: auto !important;
+      transform: none !important;
+      display: block !important;     /* block για να μπει σε φυσική ροή */
+      margin: 20px auto !important;  /* κεντραρισμένο, με απόσταση από το βίντεο */
+      z-index: auto !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+  }
+  
+  
+  
+  /* ------------------------END CUSTOM EDITING-------------------- */
+  
+    </style>
+    </head>
+
+
+
+
+ABOUT 1
+<section id="ogi-about-resp" class="p-0">
+    <div class="container-fluid">
+    <div class="row justify-content-center"><!-- ΑΡΧΗ ΚΕΙΜΕΝΟΥ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center">
+    <div class="p-10 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2" style="text-align: left;"><span class="up-title text-base-color fs-16 fw-600 ls-3px text-uppercase mb-10px d-block">ABOUT US</span>
+    <h5 class="resp-title-4 alt-font fw-600 mb-20px"><span style="color: #000000;">Lorem Ipsum<br /></span></h5>
+    <div class="resp-text-main">
+    <p><span style="color: #000000;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /><br /></span></p>
+    <ul class="text-dark-gray fw-500">
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /><br /></li>
+    </ul>
+    <p><span style="color: #000000;">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br /><br /></span></p>
+    </div>
+    <a class="text-white btn btn-large bg-base-color btn-hover-animation-switch" href="#"> <span class="btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    <!-- ΤΕΛΟΣ ΚΕΙΜΕΝΟΥ --><!-- ΑΡΧΗ ΕΙΚΟΝΑΣ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px">
+    <div class="atropos" data-atropos-perspective="4000">
+    <div class="atropos-scale">
+    <div class="atropos-rotate">
+    <div class="atropos-inner" data-atropos-offset="10"><img class="border-radius-6px w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/-min.jpg" alt="" width="100%" height="auto" data-no-retina="" /></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ΕΙΚΟΝΑΣ --></div>
+    </div>
+    </section>
+    <!-- end section -->
+
+
+ABOUT 2
+<section id="ogi-about-resp" class="p-0">
+    <div class="container-fluid">
+    <div class="row justify-content-center"><!-- ΑΡΧΗ ΕΙΚΟΝΑΣ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px">
+    <div class="atropos" data-atropos="" data-atropos-perspective="2450">
+    <div class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+    <div class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+    <div class="atropos-inner"><img class="border-radius-6px w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/-min.jpg" alt="" width="100%" height="auto" data-no-retina="" /></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ΕΙΚΟΝΑΣ --><!-- ΑΡΧΗ ΚΕΙΜΕΝΟΥ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center">
+    <div class="p-10 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2" style="text-align: left;"><span class="up-title text-base-color fs-16 fw-600 ls-3px text-uppercase mb-10px d-block">ABOUT US</span>
+    <h5 class="resp-title-4 alt-font fw-600 mb-20px"><span style="color: #000000;">Lorem Ipsum<br /></span></h5>
+    <div class="resp-text-main">
+    <p><span style="color: #000000;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /><br /></span></p>
+    <ul class="text-dark-gray fw-500">
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /><br /></li>
+    </ul>
+    <p><span style="color: #000000;">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br /><br /></span></p>
+    </div>
+    <a class="text-white btn btn-large bg-base-color btn-hover-animation-switch" href="#"> <span class="btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    <!-- ΤΕΛΟΣ ΚΕΙΜΕΝΟΥ --></div>
+    </div>
+    </section>
+    <!-- end section -->
+
+
+
+ABOUT 3
+<!-- start section -->
+<section id="ogi-about-resp" class="p-0">
+    <div class="container-fluid">
+    <div class="row justify-content-center"><!-- ΑΡΧΗ ΚΕΙΜΕΝΟΥ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center">
+    <div class="p-10 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2" style="text-align: left;"><span class="up-title text-base-color fs-16 fw-600 ls-3px text-uppercase mb-10px d-block">ABOUT US</span>
+    <h5 class="resp-title-5 alt-font fw-600 mb-20px"><span style="color: #000000;">Lorem Ipsum<br /></span></h5>
+    <div class="resp-text-main">
+    <p><span style="color: #000000;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /><br /></span></p>
+    <ul class="text-dark-gray fw-500">
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+    <li style="text-align: left;">&nbsp; Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /><br /></li>
+    </ul>
+    <p><span style="color: #000000;">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br /><br /></span></p>
+    </div>
+    <a class="text-white btn btn-large bg-base-color btn-hover-animation-switch" href="#"> <span class="btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    <!-- ΤΕΛΟΣ ΚΕΙΜΕΝΟΥ --> <!-- ΑΡΧΗ ΕΙΚΟΝΩΝ -->
+    <div class="pt-5 col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px">
+    <div class="offset-xl-1 position-relative mb-20 md-mb-50px"><!-- ΑΡΧΗ ΕΙΚΟΝΑΣ 1 -->
+    <div class="text-end w-100 md-w-90 ms-auto" data-animation-delay="500" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)"><img class="border-radius-5px" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/demo-business-company-02.jpg" alt="750x800" /></div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ΕΙΚΟΝΩΝ --></div>
+    </div>
+    </section>
+    <!-- end section -->
+
+
+
+
+ABOUT 4
+<!-- start section -->
+<section id="ogi-about-resp" class="p-0">
+    <div class="container-fluid">
+    <div class="row justify-content-center"><!-- ΑΡΧΗ ΚΕΙΜΕΝΟΥ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center bg-base-gradient">
+    <div class="p-10 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2" style="text-align: left;"><span class="up-title text-base-color fs-16 fw-600 ls-3px text-uppercase mb-10px d-block">ABOUT US</span>
+    <h5 class="resp-title-4 alt-font fw-600 mb-20px"><span style="color: #000000;">Lorem Ipsum</span></h5>
+    <div class="resp-text-main">
+    <p><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span></p>
+    <p><span style="color: #000000;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
+    <p><span style="color: #000000;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    <p><span style="color: #000000;">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br /><br /></span></p>
+    </div>
+    <a class="text-white btn btn-large bg-base-color btn-hover-animation-switch" href="#"> <span class="btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    <!-- ΤΕΛΟΣ ΚΕΙΜΕΝΟΥ --> <!-- ΑΡΧΗ ΕΙΚΟΝΑΣ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px"><img class="w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/demo-business-company-02.jpg" alt="Description of image" width="100%" height="auto" /></div>
+    <!-- ΤΕΛΟΣ ΕΙΚΟΝΑΣ --></div>
+    </div>
+    </section>
+    <!-- end section -->
+
+
+ABOUT 5
+<!-- start section -->
+<section id="ogi-about3" class="p-0">
+    <div class="ogi-about-resp">
+    <div class="container-fluid">
+    <div class="row justify-content-center"><!-- ΑΡΧΗ ΚΕΙΜΕΝΟΥ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center bg-base-gradient">
+    <div class="p-15 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2">
+    <h5 class="resp-title-4 alt-font fw-600 mb-20px"><span style="color: #000000;">Lorem Ipsum</span></h5>
+    <p class="resp-text-main"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
+    <p class="resp-text-main"><span style="color: #000000;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ΚΕΙΜΕΝΟΥ --> <!-- ΑΡΧΗ ΕΙΚΟΝΑΣ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px"><img class="w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/demo-business-company-02.jpg" alt="Description of image" width="100%" height="auto" /></div>
+    <!-- ΤΕΛΟΣ ΕΙΚΟΝΑΣ --> <!-- ΑΡΧΗ ΚΕΙΜΕΝΟΥ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center bg-base-gradient">
+    <div class="p-15 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2">
+    <p class="resp-text-main"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
+    <p class="resp-text-main"><span style="color: #000000;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    <p><span style="font-size: 14pt;">&nbsp;</span></p>
+    <a class="text-white btn btn-large bg-base-color btn-hover-animation-switch" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="resp-btn text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ΚΕΙΜΕΝΟΥ --></div>
+    </div>
+    </section>
+    <!-- end section -->
+
+
+
+ABOUT 6
+<!-- start section -->
+<section id="ogi-about-resp" class="p-0">
+    <div class="container-fluid">
+    <div class="row justify-content-center"><!-- ΑΡΧΗ ΚΕΙΜΕΝΟΥ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center">
+    <div class="p-10 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2" style="text-align: left;"><span class="up-title text-base-color fs-16 fw-600 ls-3px text-uppercase mb-10px d-block">ABOUT US</span>
+    <h5 class="resp-title-4 alt-font fw-600 mb-20px"><span style="color: #000000;">Lorem Ipsum<br /></span></h5>
+    <div class="resp-text-main">
+    <p><span style="color: #000000;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /><br /></span></p>
+    </div>
+    <!-- ΤΕΛΟΣ ΚΕΙΜΕΝΟΥ --> <!-- ΑΡΧΗ ACCORDION BLOCK -->
+    <div id="accordion-style-03" class="accordion accordion-style-01" data-active-icon="fa-angle-down" data-inactive-icon="fa-angle-right"><span style="color: #000000;"><!-- start accordion item --></span>
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><span style="color: #000000;"><a style="color: #000000;" href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-01" data-bs-parent="#accordion-style-01"><span class="resp-text-2-5 accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0">Lorem Ipsum&nbsp;<span class="resp-text-2-5 fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></span></div>
+    <div id="accordion-style-01-01" class="accordion-collapse collapse" data-bs-parent="#accordion-style-03">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-text-2-5" style="text-align: left;"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 1 --> <!-- ΑΡΧΗ ACCORDION 2 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header" style="text-align: left;"><span style="color: #000000;"><a style="color: #000000;" href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-03" data-bs-parent="#accordion-style-01"><span class="resp-text-2-5 accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0">Lorem Ipsum&nbsp;<span class="resp-text-2-5 fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></span></div>
+    <div id="accordion-style-01-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-03">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-text-2-5"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 2 --> <!-- ΑΡΧΗ ACCORDION 3 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header" style="text-align: left;"><span style="color: #000000;"><a style="color: #000000;" href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-04" data-bs-parent="#accordion-style-03"><span class="resp-text-2-5 accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0">Lorem Ipsum&nbsp;<span class="resp-text-2-5 fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></span></div>
+    <div id="accordion-style-01-04" class="accordion-collapse collapse" data-bs-parent="#accordion-style-03">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-text-2-5"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 3 --> <!-- ΤΕΛΟΣ ACCORDION BLOCK -->
+    <div>&nbsp;</div>
+    <!-- ΑΡΧΗ ΚΟΥΜΠΙ --> <a class="text-white btn btn-large bg-base-color btn-hover-animation-switch" href="#"> <span class="btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="text-white fa-solid fa-arrow-right">&nbsp;</span></span></a> <!-- ΤΕΛΟΣ ΚΟΥΜΠΙ --></div>
+    </div>
+    </div>
+    <!-- ΑΡΧΗ ΕΙΚΟΝΑΣ -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px">
+    <div class="atropos" data-atropos="" data-atropos-perspective="2450">
+    <div class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+    <div class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+    <div class="atropos-inner"><img class="border-radius-6px w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/-min.jpg" alt="" width="100%" height="auto" data-no-retina="" /></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ΕΙΚΟΝΑΣ --></div>
+    </div>
+    </section>
+    <!-- end section -->
+
+
+
+
+    SERVICES 1
+    <!-- Start Service Item -->
+<div class="col mb-20px">
+    <div class="services-box-style-01 hover-box">
+    <div class="position-relative box-image overflow-hidden"><a href="#"> <img class="img-fluid" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/196680/dentpapakosta-services%20%283%29.jpg" alt="" width="100%" height="auto" /> </a></div>
+    <div class="bg-base-color p-3 last-paragraph-no-margin text-center"><span class="resp-text-main fs-20 text-white fw-600">Lorem Ipsum Lorem Ipsum<br /></span></div>
+    </div>
+    </div>
+    <!-- Repeat ends -->
+
+
+    UPTITLE TITLE
+    <div class="row justify-content-center mt-3">
+        <div class="col-lg-7 text-center p-1" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }"><span class="up-title fs-20 text-base-color">Services</span>
+        <h3 class="resp-title-3 alt-font fw-500 text-dark-gray ls-minus-1px">Lorem&nbsp;<span class="fw-700 text-decoration-line-bottom-medium">Ipsum</span></h3>
+        </div>
+        </div>
+
+
+    SERVICES 2
+    <div class="reveal fade-left"><!-- Team Classic-->
+        <article class="team-classic team-classic-lg"><span style="font-family: 'Open Sans';"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/196427/logotexnima-service%20%281%29.jpg" alt="" width="100%" height="auto" /></span>
+        <div class="team-classic-caption">
+        <h4 class="resp-text-main team-classic-name"><span style="font-family: 'Open Sans';"><a href="#">Lorem Ipsum Lorem</a></span></h4>
+        </div>
+        </article>
+        </div>
+
+
+    SERVICES 3
+    <!-- start services box style -->
+<div class="box-shadow-quadruple-large box-shadow-quadruple-large-hover services-box-style-03 hover-box last-paragraph-no-margin border-radius-4px overflow-hidden">
+    <div class="position-relative" style="text-align: justify;"><a href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/600-245.jpg" alt="600x425" /></a> <a class="btn btn-large btn-rounded btn-white text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px" href="#">Category</a></div>
+    <div class="bg-white">
+    <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center progress-bar-style-01"><a class="resp-text-main d-inline-block fs-20 fw-600 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px" href="#">Lorem Ipsum Lorem</a>
+    <p class="resp-subtitle">Lorem ipsum dolor consectetur adipiscing eiusmod tempor&nbsp;adipiscing eiusmod tempor.</p>
+    </div>
+    <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center"><a class="btn btn-link btn-large text-dark-gray fw-700" href="#"> <span class="resp-btn btn-text">Explore more</span></a></div>
+    </div>
+    </div>
+    <!-- end services box style -->
+
+
+    SERVICES CAROUSEL
+
+    <section class="overflow-hidden bg-very-light-gray position-relative">
+        <div class="container">
+        <div class="row align-items-center" data-anime="{ &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;:0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+        <div class="col-12">
+        <div class="outside-box-right-0 sm-outside-box-right-0">
+        <div class="swiper slider-one-slide" data-slider-options="{ &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 30, &quot;loop&quot;: true, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.slider-one-slide-next-1&quot;, &quot;prevEl&quot;: &quot;.slider-one-slide-prev-1&quot; }, &quot;autoplay&quot;: { &quot;delay&quot;: 4000, &quot;disableOnInteraction&quot;: false }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;breakpoints&quot;: { &quot;1200&quot;: { &quot;slidesPerView&quot;: 4 }, &quot;992&quot;: { &quot;slidesPerView&quot;: 3 }, &quot;768&quot;: { &quot;slidesPerView&quot;: 2 }, &quot;320&quot;: { &quot;slidesPerView&quot;: 1 } }, &quot;effect&quot;: &quot;slide&quot; }">
+        <div class="swiper-wrapper"><!-- ΑΡΧΗ ΥΠΗΡΕΣΙΑΣ 1 -->
+        <div class="swiper-slide"><!-- start services box style -->
+        <div class="services-box-style-03 hover-box last-paragraph-no-margin border-radius-6px overflow-hidden">
+        <div class="position-relative"><a href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/600-245.jpg" alt="" /></a></div>
+        <div class="bg-white">
+        <div class="ps-65px pe-65px pt-30px pb-30px text-center"><a class="resp-text-main d-inline-block fs-18 fw-600 text-dark-gray mb-5px" href="#">Lorem Ipsum</a>
+        <p class="resp-subtitle"><span style="color: #000000;">Lorem ipsum simply dummy text of amet consectetur.</span></p>
+        </div>
+        <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center"><a class="btn btn-link btn-medium fw-700 text-dark-gray text-uppercase" href="#"> <span class="resp-btn btn-text">Explore services</span></a></div>
+        </div>
+        </div>
+        <!-- end services box style --></div>
+        <!-- ΤΕΛΟΣ ΥΠΗΡΕΣΙΑΣ 1 --> <!-- ΑΡΧΗ ΥΠΗΡΕΣΙΑΣ 2 --> <!-- start slider item -->
+        <div class="swiper-slide"><!-- start services box style -->
+        <div class="services-box-style-03 hover-box last-paragraph-no-margin border-radius-6px overflow-hidden">
+        <div class="position-relative"><a href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/600-245.jpg" alt="" /></a></div>
+        <div class="bg-white">
+        <div class="ps-65px pe-65px pt-30px pb-30px text-center"><a class="resp-text-main d-inline-block fs-18 fw-600 text-dark-gray mb-5px" href="#">Lorem Ipsum</a>
+        <p class="resp-subtitle"><span style="color: #000000;">Lorem ipsum simply dummy text of amet consectetur.</span></p>
+        </div>
+        <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center"><a class="btn btn-link btn-medium fw-700 text-dark-gray text-uppercase" href="#"> <span class="resp-btn btn-text">Explore services</span></a></div>
+        </div>
+        </div>
+        <!-- end services box style --></div>
+        <!-- end slider item --> <!-- ΤΕΛΟΣ ΥΠΗΡΕΣΙΑΣ 2 --> <!-- ΑΡΧΗ ΥΠΗΡΕΣΙΑΣ 3 --> <!-- start slider item -->
+        <div class="swiper-slide"><!-- start services box style -->
+        <div class="services-box-style-03 hover-box last-paragraph-no-margin border-radius-6px overflow-hidden">
+        <div class="position-relative"><a href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/600-245.jpg" alt="" /></a></div>
+        <div class="bg-white">
+        <div class="ps-65px pe-65px pt-30px pb-30px text-center"><a class="resp-text-main d-inline-block fs-18 fw-600 text-dark-gray mb-5px" href="#">Lorem Ipsum</a>
+        <p class="resp-subtitle"><span style="color: #000000;">Lorem ipsum simply dummy text of amet consectetur.</span></p>
+        </div>
+        <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center"><a class="btn btn-link btn-medium fw-700 text-dark-gray text-uppercase" href="#"> <span class="resp-btn btn-text">Explore services</span></a></div>
+        </div>
+        </div>
+        <!-- end services box style --></div>
+        <!-- end slider item --> <!-- ΤΕΛΟΣ ΥΠΗΡΕΣΙΑΣ 3 --> <!-- ΑΡΧΗ ΥΠΗΡΕΣΙΑΣ 4 --> <!-- start slider item -->
+        <div class="swiper-slide"><!-- start services box style -->
+        <div class="services-box-style-03 hover-box last-paragraph-no-margin border-radius-6px overflow-hidden">
+        <div class="position-relative"><a href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/600-245.jpg" alt="" /></a></div>
+        <div class="bg-white">
+        <div class="ps-65px pe-65px pt-30px pb-30px text-center progress-bar-style-01"><a class="resp-text-main d-inline-block fs-18 fw-600 text-dark-gray mb-5px" href="#">Lorem Ipsum</a>
+        <p class="resp-subtitle"><span style="color: #000000;">Lorem ipsum simply dummy text of amet consectetur.</span></p>
+        </div>
+        <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center"><a class="btn btn-link btn-medium fw-700 text-dark-gray text-uppercase" href="#"> <span class="resp-btn btn-text">Explore services</span></a></div>
+        </div>
+        </div>
+        <!-- end services box style --></div>
+        <!-- end slider item --> <!-- ΤΕΛΟΣ ΥΠΗΡΕΣΙΑΣ 4 --> <!-- ΑΡΧΗ ΥΠΗΡΕΣΙΑΣ 5 --> <!-- start slider item -->
+        <div class="swiper-slide"><!-- start services box style -->
+        <div class="services-box-style-03 hover-box last-paragraph-no-margin border-radius-4px overflow-hidden">
+        <div class="position-relative"><a href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/600-245.jpg" alt="" /></a></div>
+        <div class="bg-white">
+        <div class="ps-65px pe-65px pt-30px pb-30px text-center progress-bar-style-01"><a class="resp-text-main d-inline-block fs-18 fw-600 text-dark-gray mb-5px" href="#">Lorem Ipsum</a>
+        <p class="resp-subtitle"><span style="color: #000000;">Lorem ipsum simply dummy text of amet consectetur.</span></p>
+        </div>
+        <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center"><a class="btn btn-link btn-medium fw-700 text-dark-gray text-uppercase" href="#"> <span class="resp-btn btn-text">Explore services</span></a></div>
+        </div>
+        </div>
+        <!-- end services box style --></div>
+        <!-- end slider item --> <!-- ΤΕΛΟΣ ΥΠΗΡΕΣΙΑΣ 5 --> <!-- ΑΡΧΗ ΥΠΗΡΕΣΙΑΣ 6 --> <!-- start slider item -->
+        <div class="swiper-slide"><!-- start services box style -->
+        <div class="services-box-style-03 hover-box last-paragraph-no-margin border-radius-6px overflow-hidden">
+        <div class="position-relative"><a href="#"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/600-245.jpg" alt="" /></a></div>
+        <div class="bg-white">
+        <div class="ps-65px pe-65px pt-30px pb-30px text-center progress-bar-style-01"><a class="resp-text-main d-inline-block fs-18 fw-600 text-dark-gray mb-5px" href="#">Lorem Ipsum</a>
+        <p class="resp-subtitle"><span style="color: #000000;">Lorem ipsum simply dummy text of amet consectetur.</span></p>
+        </div>
+        <div class="d-flex justify-content-center border-top border-color-extra-medium-gray pt-20px pb-20px ps-50px pe-50px position-relative text-center"><a class="btn btn-link btn-medium fw-700 text-dark-gray text-uppercase" href="#"> <span class="resp-btn btn-text">Explore services</span></a></div>
+        </div>
+        </div>
+        <!-- end services box style --></div>
+        <!-- end slider item --> <!-- ΤΕΛΟΣ ΥΠΗΡΕΣΙΑΣ 6 --></div>
+        </div>
+        </div>
+        </div>
+        <!-- start slider navigation -->
+        <div class="slider-one-slide-prev-1 icon-small text-dark-gray swiper-button-prev slider-navigation-style-04 bg-white box-shadow-large">&nbsp;<em class="fa-solid fa-arrow-left">&nbsp;</em></div>
+        <div class="slider-one-slide-next-1 icon-small text-dark-gray swiper-button-next slider-navigation-style-04 bg-white box-shadow-large">&nbsp;<em class="fa-solid fa-arrow-right">&nbsp;</em></div>
+        <!-- end slider navigation --></div>
+        </div>
+        </section>
+        <!-- end section -->
+
+
+
+        SERVICES DOUBLE
+        <div class="ogi-services-half">
+            <div class="row g-0 services-box-style-02 border-radius-6px overflow-hidden">
+            <div class="col-sm-6 services-box bg-white p-10 xxl-p-8 xl-p-6">
+            <div class="services-box-icon">&nbsp;</div>
+            <div class="services-box-content" style="text-align: center;"><a class="resp-text-main d-inline-block alt-font text-dark-gray text-dark-gray-hover fs-19 fw-600" href="#">Lorem Ipsum</a>
+            <p class="resp-subtitle sm-mb-15px">Lorem ipsum consetetur adipicing elit eiusmod tempor incididunt. Lorem ipsum consetetur adipicing elit eiusmod tempor incididunt.<br /><br /></p>
+            <a class="text-white btn btn-small btn-rounded bg-base-color pt-5 pb-5 btn-box-shadow" href="#"> <span class="resp-btn btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span></a></div>
+            </div>
+            <div class="col-sm-6 services-box-img xs-h-300px hover-box">
+            <div class="h-100"><img class="w-100 h-100 object-fit-cover hover-box" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/196680/prosthetiki-ipiresies.jpg" alt="Description of image" /></div>
+            </div>
+            </div>
+            </div>
+
+
+
+        SERVICES ROTATE BOX
+        <!-- start rotate box item -->
+<div class="ogi-img-rotate col rotate-box-style-02 mb-30px">
+    <div class="w-100 min-h-400px text-center rotate-box to-left" style="height: 30vh;"><!-- start front side -->
+    <div class="w-100 h-100 overflow-hidden front-side border-radius-6px box-shadow-quadruple-large"><img class="w-100 h-100 position-absolute top-0 start-0 border-radius-6px" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/%CE%91%CE%BD%CF%8E%CE%BD%CF%85%CE%BC%CE%BF%20%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF.jpg" alt="600-520" width="100%" height="auto" />
+    <div class="opacity-4 bg-charcoal-blue position-absolute top-0 start-0 w-100 h-100" style="z-index: 1;">&nbsp;</div>
+    <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-front p-30px position-relative"><span class="resp-text-main text-white alt-font fw-500 fs-19 mb-5px">Lorem Ipsum</span>
+    <p class="resp-subtitle text-white">Quis autem velo eum iure suam nihil molestiae.</p>
+    </div>
+    </div>
+     <!-- start back side -->
+    <div class="w-100 h-100 overflow-hidden z-index-1 back-side bg-white border-radius-6px box-shadow-quadruple-large">
+    <div class="rotate-content-back z-index-2 p-30px">
+    <div class="resp-text-main fs-19 text-dark-gray alt-font fw-600 mb-5px">Lorem Ipsum</div>
+    <p class="resp-subtitle text-black pb-5">Quis autem velo eum iure suam nihil molestiae.</p>
+    <a class="resp-btn btn btn-small btn-rounded btn-black btn-box-shadow" href="#">Learn more</a></div>
+    </div>
+    <!-- end back side --></div>
+    </div>
+    <!-- end rotate box item -->
+
+
+    CSS EXTRA GIA SERVICES
+    /* Σιγουρευόμαστε ότι το slider container έχει τη σωστή θέση */
+.swiper.slider-one-slide {
+    position: relative !important;
+    overflow: visible !important;
+}
+
+/* Στυλ για τα navigation buttons */
+.slider-one-slide-prev-1,
+.slider-one-slide-next-1 {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 10 !important;
+    background-color: white !important; /* Για να φαίνονται καλά */
+    border-radius: 50% !important; /* Για να έχουν στρογγυλή εμφάνιση */
+    padding: 10px !important; /* Ρύθμιση μεγέθους */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; /* Ελαφρύ shadow */
+}
+
+/* Αριστερά το prev */
+.slider-one-slide-prev-1 {
+    left: 1% !important; /* Αφήνουμε λίγο κενό από την αριστερή άκρη */
+}
+
+/* Δεξιά το next */
+.slider-one-slide-next-1 {
+    left: 95% !important; /* Αφήνουμε λίγο κενό από τη δεξιά άκρη */
+}
+
+/* Responsive Adjustments - Σε μικρές οθόνες */
+@media (max-width: 768px) {
+    .slider-one-slide-prev-1,
+    .slider-one-slide-next-1 {
+        padding: 8px !important; /* Λιγότερο padding σε μικρότερες οθόνες */
+    }
+.slider-one-slide-next-1 {
+    left: 80% !important; /* Αφήνουμε λίγο κενό από τη δεξιά άκρη */
+}
+.slider-one-slide-prev-1 {
+    left: 5% !important; /* Αφήνουμε λίγο κενό από την αριστερή άκρη */
+}
+}
+
+
+
+
+ICONS 1
+<div class="ogi-icons-1 reveal fade-left"><!-- start features box item -->
+    <div class="col icon-with-text-style-01 mb-50px sm-mb-40px">
+    <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
+    <div class="feature-box-icon"><em class="resp-title-2 bi bi-quote icon-large text-base-color">&nbsp;</em></div>
+    <div class="feature-box-content"><span class="resp-text-main d-inline-block text-base-color fw-600 mb-5px">Lorem Ipsum Lorem</span>
+    <p class="resp-text-main text-black">Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been text.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- end features box item -->
+
+ICONS 2
+<div class="ogi-icons-1 reveal fade-left"><!-- start features box item -->
+    <div class="col icon-with-text-style-01 mb-20px sm-mb-20px bg-base-color" style="border-radius: 25px;">
+    <div class="feature-box feature-box-left-icon last-paragraph-no-margin">
+    <div class="feature-box-icon text-white"><em class="resp-title-2 bi bi-truck icon-large text-white">&nbsp;</em></div>
+    <div class="feature-box-content"><span class="resp-text-main d-inline-block text-white fw-600 mb-5px">Lorem Ipsum Lorem</span>
+    <p class="resp-text-main text-white">Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been text.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- end features box item -->
+
+ICONS 3
+<div class="ogi-icons-2 reveal fade-left"><!-- start features box item -->
+    <div class="col icon-with-text-style-05 transition-inner-all">
+    <div class="feature-box hover-box dark-hover border-end border-color-extra-medium-gray last-paragraph-no-margin xs-border-end-0 lg-border-bottom">
+    <div class="content-slide-up content-scale pt-10 pb-10 ps-5 pe-5 sm-p-12 sm-w-100">
+    <div class="feature-box-icon"><em class="resp-title-2 bi bi-quote icon-extra-large text-base-color mb-25px justify-content-center">&nbsp;</em></div>
+    <div class="feature-box-content"><span class="resp-text-main d-inline-block alt-font text-dark-gray fs-18 fw-600 mb-5px">Lorem Ipsum Lorem</span>
+    <p class="resp-text-main text-visible text-light-opacity w-80 mx-auto md-w-90">Lorem ipsum is simply dummy text the printing</p>
+    </div>
+    <div class="feature-box-overlay bg-base-color">&nbsp;</div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- end features box item -->
+
+
+
+ICONS ROTATE
+<!-- start rotate box item -->
+<div class="ogi-icons-rotate col rotate-box-style-02 mb-30px">
+    <div class="w-100 min-h-300px text-center rotate-box to-left" style="height: 30vh;"><!-- start front side -->
+    <div class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
+    <div class="rotate-content-front z-index-2 p-30px"><em class="resp-title-2 bi bi-quote icon-extra-large text-base-color mb-10px justify-content-center">&nbsp;</em>
+    <div class="resp-text-main fs-19 text-dark-gray alt-font fw-600 mb-5px">Lorem Ipsum</div>
+    <span class="resp-subtitle">Quis autem velo eum iure suam nihil molestiae.</span></div>
+    </div>
+    <!-- end front side -->
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <!-- start back side -->
+    <div class="w-100 h-100 overflow-hidden z-index-1 back-side bg-base-color border-radius-6px box-shadow-quadruple-large">
+    <div class="d-flex flex-column align-items-center justify-content-center h-100 z-index-2 rotate-content-back p-30px position-relative"><span class="resp-text-main text-white alt-font fw-500 fs-19 mb-5px">Lorem Ipsum</span>
+    <p class="resp-text-main text-white">Quis autem velo eum iure suam nihil molestiae.</p>
+    <a class="resp-btn btn btn-small btn-rounded btn-white btn-box-shadow" href="#">Learn more</a></div>
+    </div>
+    <!-- end back side --></div>
+    </div>
+    <!-- end rotate box item -->
+
+
+
+TESTIMONIALS 1
+
+    <!-- start section -->
+<div id="testimonials1">
+    <div class="container">
+    <div class="row justify-content-center md-mb-4">
+    <div class="testimonials1-border row m-0 align-items-center justify-content-center border border-color-extra-medium-gray md-border-radius-6px ps-10px pe-10px box-shadow-quadruple-large" data-anime="{ &quot;scale&quot;: [1.1, 1], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 800, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+    <div class="col-md-10">
+    <div class="swiper slider-one-slide testimonials-style-09" data-slider-options="{ &quot;slidesPerView&quot;: 1, &quot;loop&quot;: true, &quot;autoplay&quot;: { &quot;delay&quot;: 4000, &quot;disableOnInteraction&quot;: false }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.slider-one-slide-next-1&quot;, &quot;prevEl&quot;: &quot;.slider-one-slide-prev-1&quot; }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;effect&quot;: &quot;slide&quot; }">
+    <div class="swiper-wrapper"><!-- start text slider item --> <!-- ΑΡΧΗ TESTIMONIAL 1 -->
+    <div class="swiper-slide">
+    <div class="row align-items-center pt-25px pb-25px">
+    <div class="col-lg-8 d-lg-flex align-items-center text-center text-lg-start"><img class="rounded-circle w-100px h-100px md-mb-35px" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/avtar-29.png" alt="" /><em class="bi bi-quote position-absolute rounded-circle text-center top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto">&nbsp;</em><span class="testimonials1-text d-block md-ps-0 md-mx-auto position-relative resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></div>
+    <div class="col-lg-1 d-none d-lg-inline-block">&nbsp;</div>
+    <div class="col-lg-3 text-center text-lg-start md-mt-15px"><span class="resp-text-main fs-19 ls-minus-05px fw-600 text-dark-gray d-block lh-28">Lorem Ipsum</span>
+    <div class="resp-subtitle">Digital Marketer</div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 1 --> <!--ΑΡΧΗ TESTIMONIAL 2 -->
+    <div class="swiper-slide">
+    <div class="row align-items-center pt-25px pb-25px">
+    <div class="col-lg-8 d-lg-flex align-items-center text-center text-lg-start"><img class="rounded-circle w-100px h-100px md-mb-35px" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/avtar-29.png" alt="" /><em class="bi bi-quote position-absolute rounded-circle text-center top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto">&nbsp;</em><span class="testimonials1-text d-block md-ps-0 md-mx-auto position-relative resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></div>
+    <div class="col-lg-1 d-none d-lg-inline-block">&nbsp;</div>
+    <div class="col-lg-3 text-center text-lg-start md-mt-15px"><span class="fs-19 ls-minus-05px fw-600 text-dark-gray d-block lh-28 resp-text-main">Lorem Ipsum</span>
+    <div class="resp-subtitle">Digital Marketer</div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 2 --> <!-- ΑΡΧΗ TESTIMONIAL 3 -->
+    <div class="swiper-slide">
+    <div class="row align-items-center pt-25px pb-25px">
+    <div class="col-lg-8 d-lg-flex align-items-center text-center text-lg-start"><img class="rounded-circle w-100px h-100px md-mb-35px" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/avtar-29.png" alt="" /><em class="bi bi-quote position-absolute rounded-circle text-center top-minus-15px lg-top-minus-5px md-top-minus-50px w-40px md-left-0px md-right-0px md-mx-auto">&nbsp;</em><span class="testimonials1-text d-block md-ps-0 md-mx-auto position-relative resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></div>
+    <div class="col-lg-1 d-none d-lg-inline-block">&nbsp;</div>
+    <div class="col-lg-3 text-center text-lg-start md-mt-15px"><span class="fs-19 ls-minus-05px fw-600 text-dark-gray d-block lh-28 resp-text-main">Lorem Ipsum</span>
+    <div class="resp-subtitle">Digital Marketer</div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 3 --></div>
+    </div>
+    </div>
+    <div class="col-lg-2 md-mb-25px">
+    <div class="d-flex justify-content-center"><!-- start slider navigation -->
+    <div class="slider-one-slide-prev-1 swiper-button-prev slider-navigation-style-04 bg-very-light-gray" tabindex="0">&nbsp;
+    <div class="slider-icon-left">&larr;</div>
+    </div>
+    <div class="slider-one-slide-next-1 swiper-button-next slider-navigation-style-04 bg-very-light-gray" tabindex="0">&nbsp;
+    <div class="slider-icon-right">&rarr;</div>
+    </div>
+    <!-- end slider navigation --></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+TESTIMONIALS 2
+<!-- TESTIMONIALS -->
+<div class="testimonials2">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+    <div id="customers-testimonials2" class="owl-carousel"><!-- ΑΡΧΗ TESTIMONIAL 1 -->
+    <div class="item">
+    <div class="shadow-effect-testimonials2"><img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    <div class="testimonials2-name resp-text-main">Lorem Ipsum</div>
+    </div>
+    <!--ΤΕΛΟΣ TESTIMONIAL 1 --> <!-- ΑΡΧΗ TESTIMONIAL 2 -->
+    <div class="item">
+    <div class="shadow-effect-testimonials2"><img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    <div class="testimonials2-name resp-text-main">Lorem Ipsum</div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 2 --> <!-- ΑΡΧΗ TESTIMONIAL 3 -->
+    <div class="item">
+    <div class="shadow-effect-testimonials2"><img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    <div class="testimonials2-name resp-text-main">Lorem Ipsum</div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 3 --> <!-- ΑΡΧΗ TESTIMONIAL 4 -->
+    <div class="item">
+    <div class="shadow-effect-testimonials2"><img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    <div class="testimonials2-name resp-text-main">Lorem Ipsum</div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 4 --> <!-- ΑΡΧΗ TESTIMONIAL 5 -->
+    <div class="item">
+    <div class="shadow-effect-testimonials2"><img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="" />
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    <div class="testimonials2-name resp-text-main">Lorem Ipsum</div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 5 --></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIALS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js" crossorigin="anonymous"></script>
+    <script>// <![CDATA[
+    jQuery(document).ready(function($) {
+                    "use strict";
+                    //  TESTIMONIALS CAROUSEL HOOK
+                    $('#customers-testimonials2').owlCarousel({
+                        loop: true,
+                        center: true,
+                        items: 3,
+                        margin: 0,
+                        autoplay: true,
+                        dots:true,
+                        autoplayTimeout: 3500,
+                        smartSpeed: 450,
+                        responsive: {
+                          0: {
+                            items: 1
+                          },
+                          768: {
+                            items: 2
+                          },
+                          1170: {
+                            items: 3
+                          }
+                        }
+                    });
+                });
+    // ]]></script>
+
+
+
+
+TESTIMONIALS 3
+<section id="ogi-testimonials4 text-center">
+    <div class="ogi-test-heading4 ogi-test-white-heading4">Testimonial 3</div>
+    <div id="ogi-test4" class="carousel slide ogi-test4_indicators ogi-test4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="3000" data-duration="1000">
+    <div class="carousel-inner"><!-- ΑΡΧΗ TESTIMONIAL 1 -->
+    <div class="carousel-item active">
+    <div class="ogi-test4_slide"><img class="img-circle img-responsive" src="https://i.ibb.co/8x9xK4H/team.jpg" alt="" />
+    <p class="resp-title-7">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <h4 class="resp-title-6">Client 1</h4>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 1 --> <!-- ΑΡΧΗ TESTIMONIAL 2 -->
+    <div class="carousel-item">
+    <div class="ogi-test4_slide"><img class="img-circle img-responsive" src="https://i.ibb.co/8x9xK4H/team.jpg" alt="" />
+    <p class="resp-title-7">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <h4 class="resp-title-6">Client 2</h4>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 2 --> <!-- ΑΡΧΗ TESTIMONIAL 3 -->
+    <div class="carousel-item">
+    <div class="ogi-test4_slide"><img class="img-circle img-responsive" src="https://i.ibb.co/8x9xK4H/team.jpg" alt="" />
+    <p class="resp-title-7">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <h4 class="resp-title-6">Client 3</h4>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ TESTIMONIAL 3 --></div>
+    </div>
+    </section>
+    <script>// <![CDATA[
+    document.addEventListener("DOMContentLoaded", function () {
+        var carousel = document.getElementById("ogi-test4");
+        
+        var prevArrow = document.createElement("a");
+        prevArrow.classList.add("carousel-control-prev");
+        prevArrow.setAttribute("href", "#ogi-test4");
+        prevArrow.setAttribute("data-slide", "prev");
+        
+        var prevIcon = document.createElement("span");
+        prevIcon.classList.add("carousel-control-prev-icon");
+        prevArrow.appendChild(prevIcon);
+        
+        var nextArrow = document.createElement("a");
+        nextArrow.classList.add("carousel-control-next");
+        nextArrow.setAttribute("href", "#ogi-test4");
+        nextArrow.setAttribute("data-slide", "next");
+        
+        var nextIcon = document.createElement("span");
+        nextIcon.classList.add("carousel-control-next-icon");
+        nextArrow.appendChild(nextIcon);
+        
+        carousel.appendChild(prevArrow);
+        carousel.appendChild(nextArrow);
+      });
+    // ]]></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+
+    CSS TESTIMONIALS
+    .vercontentblock h1, h2, h3, h4, h5, h6 {
+        margin-top: 0px !important;
+    }
+
+
+    ACCORDIONS 1
+    <!-- start section -->
+<div id="ogi-accordion1" class="big-section bg-very-light-gray">
+    <div class="container"><!-- ΑΡΧΗ ACCORDION BLOCK -->
+    <div id="accordion-style-01" class="row justify-content-center align-items-center">
+    <div class="col-lg-6 col-md-10 position-relative md-mb-50px md-mb-30px">
+    <div class="accordion accordion-style-01" data-active-icon="fa-angle-right" data-inactive-icon="fa-angle-right"><!-- ΑΡΧΗ ACCORDION 1 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-01" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">1. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-01" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 1 --> <!-- ΑΡΧΗ ACCORDION 2 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-02" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">2. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-02" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 2 --> <!-- ΑΡΧΗ ACCORDION 3 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-03" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">3. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 3 --> <!-- ΑΡΧΗ ACCORDION 4 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-04" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">4. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-04" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 4 --></div>
+    <div class="col-12 col-xl-5 col-lg-6 col-md-10 offset-xl-1">
+    <div id="accordion-style-01" class="accordion accordion-style-01" data-active-icon="fa-angle-right" data-inactive-icon="fa-angle-down"><!-- ΑΡΧΗ ACCORDION 5 -->
+    <div id="accordion-gap" class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-05" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">5. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-05" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 5 --> <!-- ΑΡΧΗ ACCORDION 6 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-06" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">6. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-06" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 6 --> <!-- ΑΡΧΗ ACCORDION 7 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-07" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">7. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-07" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 7 --> <!-- ΑΡΧΗ ACCORDION 8 -->
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-08" data-bs-parent="#accordion-style-01"><span class="accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0 resp-subtitle">8. Lorem Ipsum Lorem Ipsum&nbsp;<span class="fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></div>
+    <div id="accordion-style-01-08" class="accordion-collapse collapse" data-bs-parent="#accordion-style-01">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 8 --></div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION BLOCK --></div>
+    </div>
+    <!-- end section -->
+
+
+
+    ACCORDIONS 2
+    <!-- start section -->
+<section id="ogi-about-resp" class="p-0">
+    <div class="container-fluid">
+    <div class="row justify-content-center">
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center">
+    <div class="p-10 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2" style="text-align: left;"><span class="up-title text-base-color fs-16 fw-600 ls-3px text-uppercase mb-10px d-block">FAQs</span>
+    <h5 class="resp-title-4 alt-font fw-600 mb-20px"><span style="color: #000000;">&Sigma;&upsilon;&chi;&nu;έ&sigmaf; &Epsilon;&rho;&omega;&tau;ή&sigma;&epsilon;&iota;&sigmaf;<br /></span></h5>
+    <div class="resp-text-main">
+    <p><span style="color: #000000;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br /><br /></span></p>
+    </div>
+    <!-- ΑΡΧΗ ACCORDION BLOCK -->
+    <div id="accordion-style-03" class="accordion accordion-style-01" data-active-icon="fa-angle-down" data-inactive-icon="fa-angle-right"><span style="color: #000000;"> <!-- ΑΡΧΗ ACCORDION 1 --></span>
+    <div class="accordion-item bg-white">
+    <div class="accordion-header"><span style="color: #000000;"><a style="color: #000000;" href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-01" data-bs-parent="#accordion-style-01"><span class="resp-text-2-5 accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0">Lorem Ipsum&nbsp;<span class="resp-text-2-5 fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></span></div>
+    <div id="accordion-style-01-01" class="accordion-collapse collapse" data-bs-parent="#accordion-style-03">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-text-2-5" style="text-align: left;"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    </div>
+    </div>
+    </div>
+    <span style="color: #000000;"><!-- ΤΕΛΟΣ ACCORDION 1 --> <!-- ΑΡΧΗ ACCORDION 2 --></span>
+    <div class="accordion-item bg-white">
+    <div class="accordion-header" style="text-align: left;"><span style="color: #000000;"><a style="color: #000000;" href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-03" data-bs-parent="#accordion-style-01"><span class="resp-text-2-5 accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0">Lorem Ipsum&nbsp;<span class="resp-text-2-5 fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></span></div>
+    <div id="accordion-style-01-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-03">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-text-2-5"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    </div>
+    </div>
+    </div>
+    <span style="color: #000000;"><!-- ΤΕΛΟΣ ACCORDION 2 --> <!-- ΑΡΧΗ ACCORDION 3 --></span>
+    <div class="accordion-item bg-white">
+    <div class="accordion-header" style="text-align: left;"><span style="color: #000000;"><a style="color: #000000;" href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-01-04" data-bs-parent="#accordion-style-03"><span class="resp-text-2-5 accordion-title position-relative fs-18 d-flex align-items-center pe-20px text-dark-gray fw-600 alt-font mb-0">Lorem Ipsum&nbsp;<span class="resp-text-2-5 fa-solid fa-angle-right icon-small">&nbsp;</span> </span> </a></span></div>
+    <div id="accordion-style-01-04" class="accordion-collapse collapse" data-bs-parent="#accordion-style-03">
+    <div class="accordion-body last-paragraph-no-margin">
+    <p class="resp-text-2-5"><span style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+    </div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION 3 -->
+    <div>&nbsp;</div>
+    <a class="text-white btn btn-large bg-base-color btn-hover-animation-switch" href="#"> <span class="btn-text">&Kappa;&Lambda;&Epsilon;&Iota;&Sigma;&Tau;&Epsilon; &Rho;&Alpha;&Nu;&Tau;&Epsilon;&Beta;&Omicron;&Upsilon;</span> <span class="btn-icon"><span class="text-white fa-solid fa-arrow-right">&nbsp;</span></span></a></div>
+    </div>
+    </div>
+    <!-- ΤΕΛΟΣ ACCORDION BLOCK -->
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px">
+    <div class="atropos" data-atropos="" data-atropos-perspective="2450">
+    <div class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+    <div class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+    <div class="atropos-inner"><img class="border-radius-6px w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/-min.jpg" alt="" width="100%" height="auto" data-no-retina="" /></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- end section -->
+
+    
+
+GALLERY 1
+<div class="w-full p-2"><a class="spotlight" href="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/pexels-photo-39811.jpeg"> <img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/pexels-photo-39811.jpeg" alt="" width="100%" height="500" /> </a></div>
+<div class="w-full p-2 rounded sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4"><a class="spotlight" href="https://images.pexels.com/photos/5969/wood-nature-forest-bridge.jpg?w=1260&amp;h=750&amp;dpr=2&amp;auto=compress&amp;cs=tinysrgb"> <img src="https://images.pexels.com/photos/5969/wood-nature-forest-bridge.jpg?w=1260&amp;h=750&amp;dpr=2&amp;auto=compress&amp;cs=tinysrgb" alt="" width="100%" height="500" /> </a></div>
+
+
+GALLERY 2
+<div id="ogi-gallery3">
+    <div class="gallery3-container">
+    <div class="gallery3-item" data-index="1"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%281%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="2"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%282%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="4"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%284%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="5"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%285%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="6"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%286%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="7"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%287%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="8"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%288%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="9"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%289%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="10"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%2810%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="11"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%2811%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="12"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%2812%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="13"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%2814%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="14"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%2813%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="15"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%2815%29.webp" alt="" width="100%" height="auto" /></div>
+    <div class="gallery3-item" data-index="16"><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/197395/matchbox%20%2816%29.webp" alt="" width="100%" height="auto" /></div>
+    </div>
+    </div>
+    <script>// <![CDATA[
+    const galleryItem = document.getElementsByClassName("gallery3-item");
+    const lightBoxContainer = document.createElement("div");
+    const lightBoxContent = document.createElement("div");
+    const lightBoxImg = document.createElement("img");
+    const lightBoxPrev = document.createElement("div");
+    const lightBoxNext = document.createElement("div");
+    const lightBoxClose = document.createElement("div"); // Νέο στοιχείο για το X
+    
+    // Πρόσθεση κλάσεων
+    lightBoxContainer.classList.add("lightbox");
+    lightBoxContent.classList.add("lightbox-content");
+    lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
+    lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
+    lightBoxClose.classList.add("fa", "fa-times", "lightbox-close"); // X για κλείσιμο
+    
+    // Σύνθεση DOM
+    lightBoxContainer.appendChild(lightBoxContent);
+    lightBoxContent.appendChild(lightBoxImg);
+    lightBoxContent.appendChild(lightBoxPrev);
+    lightBoxContent.appendChild(lightBoxNext);
+    lightBoxContent.appendChild(lightBoxClose); // Επισύναψη του X στο περιεχόμενο
+    
+    document.body.appendChild(lightBoxContainer);
+    
+    let index = 1;
+    
+    function showLightBox(n) {
+        if (n > galleryItem.length) {
+            index = 1;
+        } else if (n < 1) {
+            index = galleryItem.length;
+        }
+        let imageLocation = galleryItem[index - 1].children[0].getAttribute("src");
+        lightBoxImg.setAttribute("src", imageLocation);
+    }
+    
+    function currentImage() {
+        lightBoxContainer.style.display = "block";
+        let imageIndex = parseInt(this.getAttribute("data-index"));
+        showLightBox(index = imageIndex);
+    }
+    
+    for (let i = 0; i < galleryItem.length; i++) {
+        galleryItem[i].addEventListener("click", currentImage);
+    }
+    
+    function slideImage(n) {
+        showLightBox(index += n);
+    }
+    function prevImage() {
+        slideImage(-1);
+    }
+    function nextImage() {
+        slideImage(1);
+    }
+    lightBoxPrev.addEventListener("click", prevImage);
+    lightBoxNext.addEventListener("click", nextImage);
+    
+    // Κλείσιμο του lightbox όταν κάνεις κλικ στο container
+    function closeLightBox() {
+        if (this === event.target) {
+            lightBoxContainer.style.display = "none";
+        }
+    }
+    lightBoxContainer.addEventListener("click", closeLightBox);
+    
+    // Εξαίρεση για το κλικ στο X
+    lightBoxClose.addEventListener("click", function(event) {
+        event.stopPropagation(); // Μην κλείνει και το container αν πατήσει το X
+        lightBoxContainer.style.display = "none";
+    });
+    
+    // Αποφυγή default συμπεριφοράς στα navigation buttons
+    lightBoxPrev.addEventListener("mousedown", function(event) {
+        event.preventDefault();
+    });
+    lightBoxNext.addEventListener("mousedown", function(event) {
+        event.preventDefault();
+    });
+    // ]]></script>
+
+CSS GALLERY
+.gallery3-container {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important; /* Responsive grid */
+    gap: 6px !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3) !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+}
+
+.gallery3-item {
+    display: flex !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    cursor: pointer !important;
+}
+
+.gallery3-item img {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 300px !important;
+    object-fit: contain !important; /* Διατηρεί την αναλογία */
+}
+/* ------------------------END CUSTOM EDITING-------------------- */
+
+
+.gallery3-item {
+  position: relative !important;
+  display: block !important;
+}
+
+.gallery3-item img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  transition: transform 0.3s ease !important;
+}
+
+.gallery3-item:hover img {
+  transform: scale(1.05) !important; /* Ζουμ στην εικόνα */
+}
+
+/* Δημιουργία του overlay */
+.gallery3-item::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(255, 255, 255, 0) !important; /* Αρχικά διαφανές */
+  transition: background-color 0.3s ease !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
+
+/* Όταν κάνεις hover, το overlay γίνεται λευκό με διαφάνεια */
+.gallery3-item:hover::before {
+  background-color: rgba(255, 255, 255, 0.5) !important; /* Λευκό overlay με 50% opacity */
+}
+
+
+
+
+
+
+
+.spotlight img {
+  transition: transform 0.9s ease !important;
+}
+
+.spotlight:hover img {
+  transform: scale(1.05) !important; /* Ζουμ στην εικόνα */
+}
+
+/* Κεντραρισμένο icon στο κέντρο της εικόνας */
+.spotlight::after {
+  content: "\f002" !important;  /* Unicode για το fa-search */
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;  /* Απαραίτητο για να εμφανιστεί σωστά το icon στη free έκδοση */
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  font-size: 40px !important;
+  color: #fff !important;  /* Λευκό χρώμα για το icon */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7) !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s ease !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+.spotlight:hover::after {
+  opacity: 1 !important;
+}
+
+/* Styling για το κουμπί κλεισίματος (X) */
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  background: var(--color1) !important;
+  border-radius: 25%;
+  padding: 10px;
+  z-index: 10;
+}
+
+
+.lightbox-prev,
+.lightbox-next {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  font-size: 3rem !important;       /* Μεγαλύτερα βελάκια */
+  color: white !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  background: var(--color1) !important;
+  border-radius: 25% !important;
+  z-index: 11 !important;
+}
+
+.lightbox-prev {
+  left: 10vw !important;  /* Πιο κοντά στην αριστερή πλευρά */
+}
+
+.lightbox-next {
+  right: 10vw !important; /* Πιο κοντά στη δεξιά πλευρά */
+}
+
+@media (max-width: 768px) {
+.lightbox-prev {
+  left: 1vw !important;  /* Πιο κοντά στην αριστερή πλευρά */
+}
+
+.lightbox-next {
+  right: 1vw !important; /* Πιο κοντά στη δεξιά πλευρά */
+}
+
+.lightbox-close {
+  right: 0px;
+}
+}
+
+
+
+
+
+
+
+CONTACT 1
+<!-- start section -->
+<section id="ogi-about-resp" class="p-0" style="margin-bottom: -1vh;">
+    <div class="container-fluid">
+    <div class="row justify-content-center">
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 text-center bg-gradient-color">
+    <div class="p-10 xl-ps-8 xl-pe-8 md-ps-2 md-pe-2" style="text-align: left;">
+    <h5 class="resp-title-4 fw-600 mb-20px" style="text-align: center;"><span style="color: #000000;">&Sigma;&upsilon;&mu;&pi;&lambda;&eta;&rho;ώ&sigma;&tau;&epsilon; &tau;&eta;&nu; &pi;&alpha;&rho;&alpha;&kappa;ά&tau;&omega; &phi;ό&rho;&mu;&alpha; &gamma;&iota;&alpha; &nu;&alpha; έ&rho;&theta;&omicron;&upsilon;&mu;&epsilon; &sigma;&epsilon; &epsilon;&pi;&iota;&kappa;&omicron;&iota;&nu;&omega;&nu;ί&alpha;!<br /></span></h5>
+    <div>&nbsp;</div>
+    <form id="cont_form" class="contact_form" accept-charset="utf-8">
+    <div class="pt-2 pb-2"><input id="fullname" class="form-control resp-subtitle h-50px" name="&Omicron;&nu;&omicron;&mu;&alpha;&tau;&epsilon;&pi;ώ&nu;&upsilon;&mu;&omicron;" required="" type="text" placeholder="&Omicron;&nu;&omicron;&mu;&alpha;&tau;&epsilon;&pi;ώ&nu;&upsilon;&mu;&omicron;" /></div>
+    <div class="pt-2 pb-2"><input id="cont-email" class="form-control resp-subtitle h-50px" name="Email" required="" type="email" placeholder="Email" /></div>
+    <div class="pt-2 pb-4"><input id="phone" class="form-control resp-subtitle h-50px" name="&Tau;&eta;&lambda;έ&phi;&omega;&nu;&omicron;" required="" type="tel" placeholder="&Tau;&eta;&lambda;έ&phi;&omega;&nu;&omicron; &epsilon;&pi;&iota;&kappa;&omicron;&iota;&nu;&omega;&nu;ί&alpha;&sigmaf;" /></div>
+    <input name="destEmail" type="hidden" value="arismoraitis98@gmail.com" />
+    <div class="text-right"><button id="contactSubmit" class="btn btn-primary contSubmit resp-btn" style="font-size: 18px; background-color: var(--color1); color: #fff;" type="submit">&Alpha;&Pi;&Omicron;&Sigma;&Tau;&Omicron;&Lambda;&Eta;</button></div>
+    </form><!-- Περιοχή για εμφάνιση μηνυμάτων -->
+    <div id="response-message">&nbsp;</div>
+    </div>
+    </div>
+    <div class="col-12 col-xl-4 col-lg-6 col-md-6 sm-h-450px">
+    <div class="atropos" data-atropos="" data-atropos-perspective="2450">
+    <div class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+    <div class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+    <div class="atropos-inner"><img class="border-radius-6px w-100 h-100 object-fit-cover" src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/demo-business-company-01.jpg" alt="" width="NaN" height="auto" data-no-retina="" /></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- end section -->
+    <script>// <![CDATA[
+    document.getElementById('cont_form').addEventListener('submit', function(e) {
+          e.preventDefault(); // Αποφυγή παραδοσιακής υποβολής της φόρμας
+    
+          var form = this;
+          var responseDiv = document.getElementById('response-message');
+    
+          // Έλεγχος εγκυρότητας (με χρήση HTML5 validation)
+          if (!form.checkValidity()) {
+            responseDiv.innerHTML = "<p style='color:red;'>Παρακαλώ συμπληρώστε όλα τα απαιτούμενα πεδία.</p>";
+            return;
+          }
+    
+          // Δημιουργία αντικειμένου FormData για αποστολή των δεδομένων
+          var formData = new FormData(form);
+    
+          // Αντικαταστήστε το παρακάτω URL με το δικό σας Google Apps Script URL
+          var scriptURL = "https://script.google.com/macros/s/AKfycbyugTrAxzuyv7RsTGrONxdy-IHfmbFlp7iaKSSg_WactQi8e2n5tRuhd6q-AGkvtjid/exec";
+    
+          // Αποστολή των δεδομένων με fetch
+          fetch(scriptURL, {
+            method: 'POST',
+            mode: 'no-cors',  // Χρήση no-cors για αποφυγή CORS προβλημάτων
+            body: formData
+          })
+          .then(function() {
+            responseDiv.innerHTML = "<p style='color:green;'>Η φόρμα εστάλη επιτυχώς.</p>";
+            form.reset();  // Επαναφορά φόρμας μετά την επιτυχή αποστολή
+          })
+          .catch(function(error) {
+            responseDiv.innerHTML = "<p style='color:red;'>Παρουσιάστηκε σφάλμα. Παρακαλώ προσπαθήστε ξανά.</p>";
+            console.error('Error!', error.message);
+          });
+        });
+    // ]]></script>
+
+
+
+CONTACT 2
+<section class="p-0">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-12 p-0">
+    <div class="content-wrapper">
+    <div class="hero-contact-box-container bg-white">
+    <div class="hero-contact-box bg-white p-14 lg-p-15 md-p-2" style="text-align: center;">
+    <div><img src="https://www.ourglobalidea.com/rep/app/webroot/files/smewebsites/123850/pinterest.png" alt="" width="200" height="200" /></div>
+    <p class="mb-35px sm-mb-25px resp-subtitle" style="text-align: center;"><span style="font-family: 'Source Sans Pro'; font-size: 14pt; color: #000000;"><br />&Kappa;&alpha;&lambda;έ&sigma;&tau;&epsilon; &mu;&alpha;&sigmaf;: <a style="color: #000000;" href="tel:30210999999" target="_blank">+30 210 999 999</a><br /></span></p>
+    <p class="mb-35px sm-mb-25px resp-subtitle" style="text-align: center;"><span style="font-family: 'Source Sans Pro'; font-size: 14pt; color: #000000;">Email: <a style="color: #000000;" href="mailto:info@example.com" target="_blank">info@example.com</a><br /></span></p>
+    <p class="mb-35px sm-mb-25px resp-subtitle" style="text-align: center;"><span style="font-family: 'Source Sans Pro'; font-size: 14pt; color: #000000;">&Omega;&rho;ά&rho;&iota;&omicron; &Lambda;&epsilon;&iota;&tau;&omicron;&upsilon;&rho;&gamma;ί&alpha;&sigmaf;: .......</span><span style="font-size: 12pt; color: #000000;"><br /></span></p>
+    <a class="btn btn-large btn-rounded btn-box-shadow resp-btn" style="color: white; background-color: var(--color1);" href="https://maps.app.goo.gl/1vgCDNo9qmBGsAsA6" target="_blank">&Beta;&Rho;&Epsilon;&Iota;&Tau;&Epsilon; &Tau;&Eta;&Nu; &Tau;&Omicron;&Pi;&Omicron;&Theta;&Epsilon;&Sigma;&Iota;&Alpha;</a></div>
+    </div>
+    <div class="maps-container"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6435741.731771823!2d19.036288021813945!3d38.03655273392652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b4ac711716c63%3A0x363a1775dc9a2d1d!2zzpXOu867zqzOtM6x!5e0!3m2!1sel!2sgr!4v1737348679178!5m2!1sel!2sgr" width="100%" height="100%" allowfullscreen="allowfullscreen">
+                </iframe></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+    /* ONLY FOR CONTACT PAGE*/
+
+
+button#contactSubmit:hover {
+    background-color: var(--color5) !important;
+}
+
+/* Wrapper styles */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+section#ogi-sub-form {
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+/* Hero box */
+.hero1-box-container {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+
+.hero-contact-box-container {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  background: var(--color1);
+}
+
+/* Map container */
+.maps-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Default height for mobile */
+  order: 1;
+}
+
+/* Responsive styles */
+@media (min-width: 769px) {
+  .content-wrapper {
+    flex-direction: row; /* Row layout on larger screens */
+  }
+  .maps-container {
+    height: 140vh; /* Full height on larger screens */
+    order: 2; /* Map comes second */
+  }
+  .hero1-box-container {
+    position: absolute; /* Overlay on larger screens */
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 35%; /* Adjust width for overlay */
+  }
+  .hero-contact-box-container {
+    position: absolute; /* Overlay on larger screens */
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 35%; /* Adjust width for overlay */
+  }
+}
+
+@media (max-width: 768px) {
+  .maps-container {
+    height: 200vh; /* Full height on larger screens */
+  }
+}
+
+    #response-message p {
+      font-size: 16px;
+      padding: 10px;
+    }
+
+/* END ONLY FOR CONTACT PAGE*/
