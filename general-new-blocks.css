@@ -676,6 +676,12 @@ border-radius: 0 !important;
 }
 }
 
+.swiper-button-prev, .swiper-button-next
+Specificity: (0,1,0)
+ {
+    font-size: 18pt !important;
+ }
+
 /* END OGI Testimonials 1 */
 
 /* OGI Testimonials 2 */
