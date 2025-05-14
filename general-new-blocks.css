@@ -772,6 +772,16 @@ border-radius: 0 !important;
     padding: 5px 10px 12px !important;
 }
 
+@media (max-width: 768px) {
+.testimonials2 .owl-nav {
+    transform: translateY(-50%) !important;
+    transform: translateX(10%) !important;
+    width: 85% !important;
+    top: 15% !important;
+
+}
+}
+
 
 /* END OGI Testimonials 2 */
 
