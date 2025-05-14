@@ -509,6 +509,114 @@ width: 100% !important; /* Το box να έχει το φυσικό του πλ�
 }
 /* END OGI Video Banner 1 */
 
+/*  OGI Video Banner 2 White box inside */
+
+.video-background2 {
+    background: transparent !important;
+    position: relative !important;
+    width: 100% !important;
+    height: 800px !important;
+    margin: 0 auto !important;
+    z-index: 1 !important;
+    overflow: hidden !important;
+}
+
+.video-foreground2,
+.video-background2 iframe {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    pointer-events: none !important;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground2 {
+        height: 300% !important;
+        top: -100% !important;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground2 {
+        width: 300% !important;
+        left: -100% !important;
+    }
+}
+
+.content-vid2 {
+    padding: 0 25px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 0% !important;
+    transform: translate(0%, 30%) !important;
+}
+
+  .video-background2 {
+    position: relative !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important; /* Κεντράρισμα οριζόντια */
+    align-items: center !important; /* Κεντράρισμα κάθετα */
+    height: 100vh !important;
+  }
+
+  .video-foreground2 iframe {
+    position: absolute !important;
+    top: -2.5% !important; /* Κεντράρισμα λόγω του +5% ύψους */
+    left: 0 !important;
+    width: 100% !important; /* Πλάτος πάντα 100% */
+    height: calc(100% + 5%) !important; /* 5% μεγαλύτερο ύψος από το container */
+    pointer-events: none !important; /* Αποφυγή αλληλεπίδρασης */
+  }
+
+  #white-box-vid2 {
+    position: absolute !important;
+    z-index: 2 !important; /* Το box πάνω από το βίντεο */
+    width: 100% !important; /* Καταλαμβάνει όλο το διαθέσιμο πλάτος */
+    overflow: hidden !important; /* Αποφυγή του υπερβάλλοντος περιεχομένου */
+    top: 50% !important; /* Τοποθέτηση από το κέντρο του iframe */
+    transform: translateY(-50%) !important; /* Μεταφορά για να είναι ακριβώς στο κέντρο */
+    display: flex !important; /* Κεντράρισμα περιεχομένου */
+    justify-content: center !important; /* Κεντράρισμα οριζόντια */
+    align-items: center !important; /* Κεντράρισμα κάθετα */
+  }
+
+  /* Για μικρότερες οθόνες */
+  @media (max-width: 992px) {
+    .video-background2 {
+      justify-content: center !important; /* Κεντράρισμα οριζόντια */
+    }
+
+    #white-box-vid2 {
+      width: 100% !important; /* Το box να έχει το φυσικό του πλάτος */
+    }
+  }
+
+  @media (min-width: 993px) {
+    .video-background2 {
+      justify-content: flex-start !important; /* Στοιχιση αριστερά */
+    }
+
+    #white-box-vid2 {
+      width: 40% !important; /* Το box να έχει το φυσικό του πλάτος */
+      left: 4% !important;
+    }
+  }
+
+@media (min-width: 769px) and (max-width: 993px) {
+    #white-box-vid2 {
+height: 80vh !important;
+padding: 5% !important;
+width: 100% !important; /* Το box να έχει το φυσικό του πλάτος */
+    }
+  }
+/*  END OGI Video Banner 2 White box inside */
+
 /* OGI About 4 */
 
 @media screen and (min-width: 577px) and (max-width: 1199px) {
