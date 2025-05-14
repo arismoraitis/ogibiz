@@ -711,8 +711,8 @@ border-radius: 0 !important;
 }
 #customers-testimonials2 .item {
     text-align: center !important;
-    padding: 50px !important;
-    margin-bottom: 80px !important;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
     opacity: .2 !important;
     -webkit-transform: scale3d(0.8, 0.8, 1) !important;
     transform: scale3d(0.8, 0.8, 1) !important;
@@ -760,7 +760,7 @@ border-radius: 0 !important;
     width: 100% !important;
     display: flex !important;
     justify-content: space-between !important;
-    transform: translateY(-50%) !important;
+    transform: translateY(-100%) !important;
 }
 .testimonials2 .owl-next, .testimonials2 .owl-prev {
     font-size: 36px !important;
