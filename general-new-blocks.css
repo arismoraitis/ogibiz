@@ -436,6 +436,7 @@ width: 100% !important; /* Το box να έχει το φυσικό του πλ�
     }
   }
 
+/* ΑΛΛΑΓΗ ΓΙΑ WHITE BOX ΚΑΤΩ ΑΠΟ ΤΟ ΒΙΝΤΕΟ ΣΤΟ ΚΙΝΗΤΟ */
 /* White box “πάνω” από το βίντεο (για desktop) */
 #white-box-vid {
   position: absolute !important;
@@ -894,6 +895,16 @@ padding-right: 0 !important;
     height: 100% !important;
     object-fit: cover !important;
 }
+
+    .atropos-inner {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Glow effect */
+        transition: transform 0.9s ease !important;;
+        position: relative !important;;
+    }
+
+    .atropos:hover .atropos-inner {
+        transform: scale(1.05) !important; /* Hover Zoom-in */
+    }
 
 /* END OGI About Resp */
 
