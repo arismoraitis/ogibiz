@@ -753,6 +753,26 @@ border-radius: 0 !important;
     transition: all 250ms ease-out 0s !important;
     width: 20px !important;
 }
+
+.testimonials2 .owl-nav {
+    position: absolute !important;
+    top: 50% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    transform: translateY(-50%) !important;
+}
+.testimonials2 .owl-next, .testimonials2 .owl-prev {
+    font-size: 36px !important;
+    color: #fff !important;
+    background: var(--base-color) !important;
+    border-radius: 25% !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15) !important;
+    cursor: pointer !important;
+    padding: 5px 10px 12px !important;
+}
+
+
 /* END OGI Testimonials 2 */
 
 
