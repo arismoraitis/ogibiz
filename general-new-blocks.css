@@ -96,149 +96,9 @@ b, strong {
 
 /* END Font custom */
 
+
 /* Gallery 3 */
 
-#ogi-gallery3 .gallery3-container {
-  display: grid;
-  gap: 0;
-}
-
-#ogi-gallery3 .gallery3-item {
-  /* για να κρύβουμε τυχόν υπερχείλιση, αν χρειαστεί */
-  overflow: hidden;
-}
-
-#ogi-gallery3 .gallery3-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;    /* γεμίζει όλο το κουτί */
-  object-position: center center;
-  display: block;
-}
-
-.gallery3-item {
-    display: flex !important;
-    justify-content: center !important;
-    overflow: hidden !important;
-    cursor: pointer !important;
-}
-
-
-.gallery3-item {
-  position: relative !important;
-  display: block !important;
-}
-
-.gallery3-item img {
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  transition: transform 0.3s ease !important;
-}
-
-.gallery3-item:hover img {
-  transform: scale(1.05) !important; /* Ζουμ στην εικόνα */
-}
-
-/* Δημιουργία του overlay */
-.gallery3-item::before {
-    content: "" !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    background-color: rgba(255, 255, 255, 0) !important;
-    transition: background-color 0.3s ease !important;
-    pointer-events: none !important;
-    z-index: 1 !important;
-}
-
-/* Όταν κάνεις hover, το overlay γίνεται λευκό με διαφάνεια */
-.gallery3-item:hover::before {
-  background-color: rgba(255, 255, 255, 0.5) !important; /* Λευκό overlay με 50% opacity */
-}
-
-.spotlight img {
-  transition: transform 0.9s ease !important;
-}
-
-.spotlight:hover img {
-  transform: scale(1.05) !important; /* Ζουμ στην εικόνα */
-}
-
-/* Κεντραρισμένο icon στο κέντρο της εικόνας */
-.spotlight::after {
-  content: "\f002" !important;  /* Unicode για το fa-search */
-  font-family: "Font Awesome 5 Free" !important;
-  font-weight: 900 !important;  /* Απαραίτητο για να εμφανιστεί σωστά το icon στη free έκδοση */
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  font-size: 40px !important;
-  color: #fff !important;  /* Λευκό χρώμα για το icon */
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7) !important;
-  opacity: 0 !important;
-  transition: opacity 0.3s ease !important;
-  pointer-events: none !important;
-  z-index: 2 !important;
-}
-
-.spotlight:hover::after {
-  opacity: 1 !important;
-}
-
-/* Styling για το κουμπί κλεισίματος (X) */
-.lightbox-close {
-  position: absolute;
-  top: -40px;
-  right: -40px;
-  font-size: 2rem;
-  color: #fff;
-  cursor: pointer;
-  background: var(--color1) !important;
-  border-radius: 25%;
-  padding: 10px;
-  z-index: 10;
-}
-
-
-.lightbox-prev,
-.lightbox-next {
-  position: absolute !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  font-size: 3rem !important;       /* Μεγαλύτερα βελάκια */
-  color: white !important;
-  cursor: pointer !important;
-  padding: 10px !important;
-  background: var(--color1) !important;
-  border-radius: 25% !important;
-  z-index: 11 !important;
-}
-
-.lightbox-prev {
-  left: 10vw !important;  /* Πιο κοντά στην αριστερή πλευρά */
-}
-
-.lightbox-next {
-  right: 10vw !important; /* Πιο κοντά στη δεξιά πλευρά */
-}
-
-@media (max-width: 768px) {
-.lightbox-prev {
-  left: 1vw !important;  /* Πιο κοντά στην αριστερή πλευρά */
-}
-
-.lightbox-next {
-  right: 1vw !important; /* Πιο κοντά στη δεξιά πλευρά */
-}
-
-.lightbox-close {
-  right: 0px;
-}
-}
 
 .lightbox {
     position: fixed;
@@ -435,187 +295,7 @@ padding: 5% !important;
 width: 100% !important; /* Το box να έχει το φυσικό του πλάτος */
     }
   }
-
-/* ΑΛΛΑΓΗ ΓΙΑ WHITE BOX ΚΑΤΩ ΑΠΟ ΤΟ ΒΙΝΤΕΟ ΣΤΟ ΚΙΝΗΤΟ */
-/* White box “πάνω” από το βίντεο (για desktop) */
-#white-box-vid {
-  position: absolute !important;
-  z-index: 2 !important;       /* πάνω από το βίντεο */
-  width: 40% !important;       /* π.χ. 40% στο desktop */
-  left: 4% !important;         /* ό,τι χρειάζεσαι */
-  top: 50% !important;         /* κάθετη στο μέσο */
-  transform: translateY(-50%) !important;
-  overflow: hidden !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-/* Ενδεικτικά styling στο εσωτερικό του box */
-#white-box-vid .bg-white {
-  background-color: #fff;      /* ή όπως το είχες */
-  opacity: 0.9;                /* ημιδιάφανο */
-  border-radius: 6px;
-  padding: 10px;
-  text-align: center;
-}
-
-/* ========== OVERRIDES ΓΙΑ MOBILE ========== */
-@media (max-width: 768px) {
-  /* 1) Το container σε φυσική ροή, αντί για 800px ύψος */
-  .video-background1 {
-    display: block !important;
-    position: relative !important;
-    width: 100% !important;
-    height: auto !important; /* αφήνουμε το ύψος να μεγαλώνει όσο χρειάζεται */
-    overflow: hidden !important;
-    margin: 0 !important;    /* αν θες να αφαιρέσεις margin */
-  }
-
-  /* 2) Διατηρούμε αναλογία 16:9 */
-  .video-foreground1 {
-    position: relative !important;
-    width: 100% !important;
-    height: 100% !important;
-    padding-bottom: 56.25% !important; /* 16:9 */
-    margin: 0 auto !important;
-  top: 0 !important;
-  left: 0 !important;
-  }
-
-  /* 3) Το iframe γεμίζει το .video-foreground1 */
-  .video-foreground1 iframe {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    pointer-events: none !important;
-  }
-
-  /* 4) Το white box να “φεύγει” από την absolute θέση */
-  #white-box-vid {
-    position: static !important;   /* ακυρώνουμε το absolute */
-    width: auto !important;        /* ακυρώνουμε το 40% */
-    left: auto !important;
-    top: auto !important;
-    transform: none !important;
-    display: block !important;     /* block για να μπει σε φυσική ροή */
-    margin: 20px auto !important;  /* κεντραρισμένο, με απόσταση από το βίντεο */
-    z-index: auto !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-}
 /* END OGI Video Banner 1 */
-
-/*  OGI Video Banner 2 White box inside */
-
-.video-background2 {
-    background: transparent !important;
-    position: relative !important;
-    width: 100% !important;
-    height: 800px !important;
-    margin: 0 auto !important;
-    z-index: 1 !important;
-    overflow: hidden !important;
-}
-
-.video-foreground2,
-.video-background2 iframe {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    pointer-events: none !important;
-}
-
-@media (min-aspect-ratio: 16/9) {
-    .video-foreground2 {
-        height: 300% !important;
-        top: -100% !important;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    .video-foreground2 {
-        width: 300% !important;
-        left: -100% !important;
-    }
-}
-
-.content-vid2 {
-    padding: 0 25px !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    position: absolute !important;
-    z-index: 2 !important;
-    top: 0% !important;
-    transform: translate(0%, 30%) !important;
-}
-
-  .video-background2 {
-    position: relative !important;
-    width: 100% !important;
-    overflow: hidden !important;
-    display: flex !important;
-    justify-content: center !important; /* Κεντράρισμα οριζόντια */
-    align-items: center !important; /* Κεντράρισμα κάθετα */
-    height: 100vh !important;
-  }
-
-  .video-foreground2 iframe {
-    position: absolute !important;
-    top: -2.5% !important; /* Κεντράρισμα λόγω του +5% ύψους */
-    left: 0 !important;
-    width: 100% !important; /* Πλάτος πάντα 100% */
-    height: calc(100% + 5%) !important; /* 5% μεγαλύτερο ύψος από το container */
-    pointer-events: none !important; /* Αποφυγή αλληλεπίδρασης */
-  }
-
-  #white-box-vid2 {
-    position: absolute !important;
-    z-index: 2 !important; /* Το box πάνω από το βίντεο */
-    width: 100% !important; /* Καταλαμβάνει όλο το διαθέσιμο πλάτος */
-    overflow: hidden !important; /* Αποφυγή του υπερβάλλοντος περιεχομένου */
-    top: 50% !important; /* Τοποθέτηση από το κέντρο του iframe */
-    transform: translateY(-50%) !important; /* Μεταφορά για να είναι ακριβώς στο κέντρο */
-    display: flex !important; /* Κεντράρισμα περιεχομένου */
-    justify-content: center !important; /* Κεντράρισμα οριζόντια */
-    align-items: center !important; /* Κεντράρισμα κάθετα */
-  }
-
-  /* Για μικρότερες οθόνες */
-  @media (max-width: 992px) {
-    .video-background2 {
-      justify-content: center !important; /* Κεντράρισμα οριζόντια */
-    }
-
-    #white-box-vid2 {
-      width: 100% !important; /* Το box να έχει το φυσικό του πλάτος */
-    }
-  }
-
-  @media (min-width: 993px) {
-    .video-background2 {
-      justify-content: flex-start !important; /* Στοιχιση αριστερά */
-    }
-
-    #white-box-vid2 {
-      width: 40% !important; /* Το box να έχει το φυσικό του πλάτος */
-      left: 4% !important;
-    }
-  }
-
-@media (min-width: 769px) and (max-width: 993px) {
-    #white-box-vid2 {
-height: 80vh !important;
-padding: 5% !important;
-width: 100% !important; /* Το box να έχει το φυσικό του πλάτος */
-    }
-  }
-/*  END OGI Video Banner 2 White box inside */
 
 /* OGI About 4 */
 
@@ -764,62 +444,6 @@ section#ogi-banner1 a:hover {
 	min-height: 90vh !important;
 	height: 90vh !important;
 
-}
-
-@media (max-width: 991px) {
-    /* Ακυρώνει το absolute positioning ώστε το container να γίνεται block element */
-    #ogi-slider-banner1 .swiper-slide .position-absolute {
-        position: static !important;
-        top: auto !important;
-        left: auto !important;
-        width: 100% !important;
-        height: auto !important;
-        display: block !important;
-        padding: 0 !important;
-    }
-    
-    /* Εξασφαλίζει ότι η εικόνα εμφανίζεται ως block element */
-    #ogi-slider-banner1 .swiper-slide img {
-        display: block !important;
-        width: 100% !important;
-        height: auto !important;
-        min-height: auto !important;
-    }
-    
-    /* Προσθέτει απόσταση πάνω από το white box αν χρειάζεται */
-    #ogi-slider-banner1 .white-box {
-        margin-top: 20px !important;
-        width: 100% !important;
-        position: static !important;
-    }
-}
-
-@media (max-width: 991px) {
-    /* Βεβαιωνόμαστε ότι το swiper container έχει relative θέση */
-    #ogi-slider-banner1 .swiper {
-         position: relative !important;
-    }
-    
-    /* Τοποθετούμε τα βελάκια πάνω στο white box */
-    #ogi-slider-banner1 .swiper-button-prev-01,
-    #ogi-slider-banner1 .swiper-button-next-01 {
-         position: absolute !important;
-         top: 80% !important;  /* Ρύθμισε το ποσοστό ώστε να ευθυγραμμιστούν με το white box */
-         transform: translateY(-50%) !important;
-         z-index: 100 !important;
-         padding: 10px !important;
-         border-radius: 50% !important;
-    }
-    
-    /* Τοποθετούμε το αριστερό βελάκι μέσα από το slider container */
-    #ogi-slider-banner1 .swiper-button-prev-01 {
-         left: 20px !important;
-    }
-    
-    /* Τοποθετούμε το δεξί βελάκι μέσα από το slider container */
-    #ogi-slider-banner1 .swiper-button-next-01 {
-         right: 20px !important;
-    }
 }
 
 /* END OGI Slider Banner 1 */
@@ -1004,16 +628,6 @@ padding-right: 0 !important;
     object-fit: cover !important;
 }
 
-    .atropos-inner {
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Glow effect */
-        transition: transform 0.9s ease !important;;
-        position: relative !important;;
-    }
-
-    .atropos:hover .atropos-inner {
-        transform: scale(1.05) !important; /* Hover Zoom-in */
-    }
-
 /* END OGI About Resp */
 
 
@@ -1062,11 +676,6 @@ border-radius: 0 !important;
 }
 }
 
-.swiper-button-prev, .swiper-button-next
- {
-    font-size: 18pt !important;
- }
-
 /* END OGI Testimonials 1 */
 
 /* OGI Testimonials 2 */
@@ -1097,8 +706,8 @@ border-radius: 0 !important;
 }
 #customers-testimonials2 .item {
     text-align: center !important;
-    padding: 0px !important;
-    margin-bottom: 0px !important;
+    padding: 50px !important;
+    margin-bottom: 80px !important;
     opacity: .2 !important;
     -webkit-transform: scale3d(0.8, 0.8, 1) !important;
     transform: scale3d(0.8, 0.8, 1) !important;
@@ -1139,36 +748,6 @@ border-radius: 0 !important;
     transition: all 250ms ease-out 0s !important;
     width: 20px !important;
 }
-
-.testimonials2 .owl-nav {
-    position: absolute !important;
-    top: 50% !important;
-    width: 100% !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    transform: translateY(-100%) !important;
-}
-.testimonials2 .owl-next, .testimonials2 .owl-prev {
-    font-size: 36px !important;
-    color: #fff !important;
-    background: var(--base-color) !important;
-    border-radius: 25% !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15) !important;
-    cursor: pointer !important;
-    padding: 5px 10px 12px !important;
-}
-
-@media (max-width: 768px) {
-.testimonials2 .owl-nav {
-    transform: translateY(-50%) !important;
-    transform: translateX(10%) !important;
-    width: 85% !important;
-    top: 15% !important;
-
-}
-}
-
-
 /* END OGI Testimonials 2 */
 
 
