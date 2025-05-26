@@ -546,6 +546,13 @@ background-size: cover;
   }
 }
 
+@media screen and (max-width: 768px) {
+.hsd-hero {
+padding: 0 !important;
+}
+}
+
+
 @media screen and (min-width: 3000px) {
     .hsd-heroContent {
 padding:15% !important;
