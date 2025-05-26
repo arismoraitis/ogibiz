@@ -917,10 +917,17 @@ min-width: min-content;
   .hsd-hero {
 height: auto;
 width:100%;
-padding: 0;
+padding: 5vw;
 background-size: cover;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hsd-hero {
+padding: 0;
+  }
+}
+
 
 @media screen and (min-width: 3000px) {
     .hsd-heroContent {
